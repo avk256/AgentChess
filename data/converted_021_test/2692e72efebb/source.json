@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "sha256": "2692e72efebb0e068ebff3386cfe5f86bc43bb30e1f77c5ccc249fb4bb39f1c3",
+  "filename": "Smyslov_endgame.cdb",
+  "origin_path": "vlasov/middle/Smyslov_endgame.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Тайны ладейного эндшпиля",
+    "info": "Смыслов Василий Васильевич",
+    "gameid": "1"
+  }
+}

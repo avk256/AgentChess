@@ -1,0 +1,13 @@
+{
+  "id": 21,
+  "sha256": "d3691d08dfa96cfcc8f47b1b166a9743c7de1898d71f5a3abcc8eea1c20f7328",
+  "filename": "School.ru.cdb",
+  "origin_path": "vlasov/beginner/School.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Сборник шахматных комбинаций - Том I",
+    "info": "Иващенко Сергей Данилович",
+    "gameid": "1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/Kalinichenko.ru.cdb",
+  "filename": "Kalinichenko.ru.cdb",
+  "sha256": "0b8bbfa31bbbd8eb383d067ade2a679aa5803f02d1b01816eee4b1bae0b78d49",
+  "source_id": 7,
+  "duplicate": false,
+  "games": 1354,
+  "chapters": 32,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 1354
+  },
+  "exported_json": 1354,
+  "exported_fen": 1354,
+  "exported_pgn": 1354,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 181,
+  "records_with_promotions": 139,
+  "exercise_candidates": 102,
+  "ready_exercises": 0,
+  "needs_review": 102,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/0b8bbfa31bbb"
+}

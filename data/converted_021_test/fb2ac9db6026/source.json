@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "sha256": "fb2ac9db602632dae0b948086c051621b218ed1020a4b4d3ae70e794ae461d69",
+  "filename": "ClaudeKabers.ru.cdb",
+  "origin_path": "vlasov/middle/ClaudeKabers.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Тренировочные упражнения по тактике",
+    "info": "Claude Kabers",
+    "gameid": "1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": 22,
+  "sha256": "de1557e5c9523a1bfdde5768b0e8423fa9e4128724cef3198345f4779f0e74a2",
+  "filename": "beginning.ru.cdb",
+  "origin_path": "vlasov/beginner/beginning.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Шахматы для начинающих",
+    "info": "Брюс Пандольфини",
+    "gameid": "1"
+  }
+}

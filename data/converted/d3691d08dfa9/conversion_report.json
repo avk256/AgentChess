@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/School.ru.cdb",
+  "filename": "School.ru.cdb",
+  "sha256": "d3691d08dfa96cfcc8f47b1b166a9743c7de1898d71f5a3abcc8eea1c20f7328",
+  "source_id": 21,
+  "duplicate": false,
+  "games": 1307,
+  "chapters": 38,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 1307
+  },
+  "exported_json": 1307,
+  "exported_fen": 1307,
+  "exported_pgn": 1307,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 60,
+  "records_with_promotions": 54,
+  "exercise_candidates": 449,
+  "ready_exercises": 0,
+  "needs_review": 449,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/d3691d08dfa9"
+}

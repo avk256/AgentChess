@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/double_attack.ru.cdb",
+  "filename": "double_attack.ru.cdb",
+  "sha256": "fcb7c11e01df9f98c27fd9977f42dc39aaba9ae63942e3b8a5a691d8a3cd23e1",
+  "source_id": 33,
+  "duplicate": false,
+  "games": 284,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 284
+  },
+  "exported_json": 284,
+  "exported_fen": 284,
+  "exported_pgn": 284,
+  "elo_records": 284,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 2,
+  "records_with_promotions": 2,
+  "exercise_candidates": 284,
+  "ready_exercises": 0,
+  "needs_review": 284,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/fcb7c11e01df"
+}

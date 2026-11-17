@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/beginner/two_bishops_mate.ru.cdb",
+  "filename": "two_bishops_mate.ru.cdb",
+  "sha256": "99cfc2a57f395a70a942d41536884a3e7ac90a90890d831bde7a2873ffb24994",
+  "source_id": 29,
+  "duplicate": false,
+  "games": 11,
+  "chapters": 0,
+  "parsed_statuses": {
+    "THEORY": 1,
+    "LEGAL_MOVES": 6,
+    "EMPTY_MOVETEXT": 4
+  },
+  "exported_json": 11,
+  "exported_fen": 11,
+  "exported_pgn": 7,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 0,
+  "records_with_promotions": 0,
+  "exercise_candidates": 11,
+  "ready_exercises": 0,
+  "needs_review": 11,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/99cfc2a57f39"
+}

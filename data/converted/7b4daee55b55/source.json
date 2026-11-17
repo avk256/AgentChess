@@ -1,0 +1,13 @@
+{
+  "id": 18,
+  "sha256": "7b4daee55b55a410847cddaa1941d27d633e683feeca6e7d1bf95696a22418f4",
+  "filename": "brilliant.cdb",
+  "origin_path": "vlasov/middle/brilliant.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Партии-бриллианты",
+    "info": "Яссер Сейраван",
+    "gameid": "1"
+  }
+}

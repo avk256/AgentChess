@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/beginner/suetin.cdb",
+  "filename": "suetin.cdb",
+  "sha256": "d6e9db5e544c7c36b3e7f547631ada428ed81a650b6a3a8c80f9f3589eb294b7",
+  "source_id": 30,
+  "duplicate": false,
+  "games": 197,
+  "chapters": 44,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 196,
+    "THEORY": 1
+  },
+  "exported_json": 197,
+  "exported_fen": 197,
+  "exported_pgn": 197,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 3,
+  "records_with_promotions": 2,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/d6e9db5e544c"
+}

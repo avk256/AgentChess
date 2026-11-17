@@ -1,0 +1,102 @@
+{
+  "dry_run": false,
+  "new_exercises": 6492,
+  "sources": {
+    "10_traps.ru.cdb": {
+      "topic": "дебютні пастки",
+      "total_records": 11,
+      "added": 10,
+      "skipped": 1
+    },
+    "303_tactics.ru.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 303,
+      "added": 303,
+      "skipped": 0
+    },
+    "ClaudeKabers.ru.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 768,
+      "added": 767,
+      "skipped": 1
+    },
+    "Romanovsky.cdb": {
+      "topic": "стратегія та план",
+      "total_records": 319,
+      "added": 231,
+      "skipped": 88
+    },
+    "School2.ru.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 1165,
+      "added": 1165,
+      "skipped": 0
+    },
+    "Shumilin.ru.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 680,
+      "added": 680,
+      "skipped": 0
+    },
+    "Sukhin_1000.ru.cdb": {
+      "topic": "історичні комбінації",
+      "total_records": 2054,
+      "added": 2050,
+      "skipped": 4
+    },
+    "beginning.ru.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 300,
+      "added": 300,
+      "skipped": 0
+    },
+    "bondarevsky.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 174,
+      "added": 99,
+      "skipped": 75
+    },
+    "brilliant.cdb": {
+      "topic": "навчальні партії",
+      "total_records": 25,
+      "added": 12,
+      "skipped": 13
+    },
+    "koblents.cdb": {
+      "topic": "тактичні комбінації",
+      "total_records": 163,
+      "added": 79,
+      "skipped": 84
+    },
+    "kotov.cdb": {
+      "topic": "стратегія та план",
+      "total_records": 390,
+      "added": 301,
+      "skipped": 89
+    },
+    "lysenko.cdb": {
+      "topic": "оцінка позиції",
+      "total_records": 111,
+      "added": 44,
+      "skipped": 67
+    },
+    "suetin.cdb": {
+      "topic": "дебютні принципи",
+      "total_records": 197,
+      "added": 141,
+      "skipped": 56
+    },
+    "win_trap.ru.cdb": {
+      "topic": "дебютні пастки",
+      "total_records": 310,
+      "added": 310,
+      "skipped": 0
+    }
+  },
+  "skipped_reasons": {
+    "already_exists": 0,
+    "not_legal": 288,
+    "no_usable_line": 190
+  },
+  "explanation": "Оригінальні записи та наявні вправи залишаються без змін. Нові вправи — проходження авторського варіанта."
+}

@@ -1,0 +1,3600 @@
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/4p3/8/8/4n3/8/8/3Q1K2 w - - 0 1"]
+
+{ +#1  White to move. } 1. Qa4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5k2/4q3/8/2K5/1P3B2/8/8 w - - 0 1"]
+
+{ +#2  White to move. } 1. Bd5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/N2kbK1R/2n5/8/8/8/8/8 w - - 0 1"]
+
+{ +#3  White to move. } 1. Nxc6 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "Q6K/8/8/7k/8/8/8/7b w - - 0 1"]
+
+{ +#4  White to move. } 1. Qxh1+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/8/6k1/Q7/6K1/8/8/8 w - - 0 1"]
+
+{ +#5  White to move. } 1. Qh5+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1b1K4/2p5/1k1P1R2/8/8/8/8 w - - 0 1"]
+
+{ +#6  White to move. } 1. dxc6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/8/5K1p/5N1k w - - 0 1"]
+
+{ +#7  White to move. } 1. Ng3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3n2k1/8/8/8/8/R2K4/8 w - - 0 1"]
+
+{ +#8  White to move. } 1. Ra7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1b5k/8/3n3p/8/5K2/8/7Q w - - 0 1"]
+
+{ +#9  White to move. } 1. Qb1+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/5K1k/8/R7/8/8 w - - 0 1"]
+
+{ +#10  White to move. } 1. Rh3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "B7/8/8/8/8/5K2/8/R5nk w - - 0 1"]
+
+{ +#11 White to move. } 1. Kg3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4Q3/4N3/8/k3q3/4b3/8/8/4K3 w - - 0 1"]
+
+{ +#12  White to move. } 1. Nc6+ { +Fork and Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6p1/8/k1r5/5R1K/8/1P6/8 w - - 0 1"]
+
+{ +#13  White to move. } 1. b4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/K4b2/8/8/8/8/5R2/6R1 w - - 0 1"]
+
+{ +#14  White to move. } 1. Rgf1 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/2q5/8/8/8/6Q1/7K w - - 0 1"]
+
+{ +#15  White to move. } 1. Qxc6+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1k1K1/3p4/4P3/8/6b1/8/8/3Q4 w - - 0 1"]
+
+{ +#16  White to move. } 1. Qxd7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5B2/4K3/3P4/8/5k2/8/3r4 w - - 0 1"]
+
+{ +#17  White to move. } 1. Bh5+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/7n/6B1/6b1/6K1/8/6P1/8 w - - 0 1"]
+
+{ +#18  White to move. } 1. Bxh7+ { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4K3/8/8/2b3k1/8/8/4R3 w - - 0 1"]
+
+{ +#19  White to move. } 1. Re4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2N5/5k2/4n3/8/6K1/1B6/8 w - - 0 1"]
+
+{ +#20  White to move. } 1. Kf4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6k1/5r2/8/3Q4/4B3/8/K7 w - - 0 1"]
+
+{ +#21  White to move. } 1. Bg5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/8/3K4/8/8/8/8/q5Q1 w - - 0 1"]
+
+{ +#22  White to move. } 1. Qg8# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/8/8/2rpr3/8/3K4/3P4/3Q4 w - - 0 1"]
+
+{ +#23  White to move. } 1. Kd4 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r3B/8/3k4/8/3P3n/8/3R4/3K4 w - - 0 1"]
+
+{ +#24  White to move. } 1. Bf6 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1k6/2R5/3B4/4K3/8/8/4n2r w - - 0 1"]
+
+{ +#25  White to move. } 1. Rh6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k3/8/8/8/8/8/8/R3K3 w Qq - 0 1"]
+
+{ +#26  White to move. } 1. Rxa8+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1K1r4/2P5/3k4/8/8/8/8/8 w - - 0 1"]
+
+{ +#27  White to move. } 1. cxd8=Q+ { +Promotion. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6K1/R7/6k1/8/8/8/8/6q1 w - - 0 1"]
+
+{ +#28  White to move. } 1. Rg7+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6rk/R7/6pK/8/8/8/8/8 w - - 0 1"]
+
+{ +#29  White to move. } 1. Rh7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q2k1/6p1/8/6Q1/3r4/8/8/3R2K1 w - - 0 1"]
+
+{ +#30  White to move. } 1. Qxd8+ { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6Q1/8/8/8/r1R5/q7/k5K1/8 w - - 0 1"]
+
+{ +#31  White to move. } 1. Rxa4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/8/8/3b4/8/8/B2P2K1/8 w - - 0 1"]
+
+{ +#32  White to move. } 1. Bxd5+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1B6/8/8/4p3/3kPK2/8/1b6/8 w - - 0 1"]
+
+{ +#33  White to move. } 1. Bxe5+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/3R4/5K2/3r3k w - - 0 1"]
+
+{ +#34  White to move. } 1. Rh3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k1K5/b1n5/1P6/8/8/8/8/8 w - - 0 1"]
+
+{ +#35  White to move. } 1. b7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1k1n2r1/8/8/6b1/8/1KRRB3/8 w - - 0 1"]
+
+{ +#36  White to move. } 1. Bxg4 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/4r3/5Q2/4K3/8/8/8 w - - 0 1"]
+
+{ +#37  White to move. } 1. Kd5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2R5/2b5/2k5/2n5/2K5/2P5/2B5 w - - 0 1"]
+
+{ +#38  White to move. } 1. Rxc6+ { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2n5/8/4k3/8/2N5/1B6/K7 w - - 0 1"]
+
+{ +#39  White to move. } 1. Nb5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5K1k/8/8/8/5NBq/8/8 w - - 0 1"]
+
+{ +#40  White to move. } 1. Ng5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3k3/8/8/1P1N4/2K5/8/8/8 w q - 0 1"]
+
+{ +#41  White to move. } 1. Nc7+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/8/8/8/8/8/8/3Q3K w - - 0 1"]
+
+{ +#42  White to move. } 1. Qg4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/8/8/8/6n1/6P1/2K3B1/8 w - - 0 1"]
+
+{ +#43  White to move. } 1. Bh3 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/6b1/6Q1/7P/8/8/6K1/8 w - - 0 1"]
+
+{ +#44  White to move. } 1. h6 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1Q5K/8/4k3/8/8/8/8/4q3 w - - 0 1"]
+
+{ +#45  White to move. } 1. Qe8+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/4q3/4Q3/8/8/8/8/2R3K1 w - - 0 1"]
+
+{ +#46  White to move. } 1. Rc8# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/6q1/8/8/7B/8/8/K6R w - - 0 1"]
+
+{ +#47  White to move. } 1. Bf6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/8/3K4/4P3/5B2/8/7n w - - 0 1"]
+
+{ +#48  White to move. } 1. Bxh1 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4rkr1/8/5p2/8/8/5Q2/8/5K2 w - - 0 1"]
+
+{ +#49  White to move. } 1. Qxf6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/8/2K1N1rk/8/4R3/8/8/8 w - - 0 1"]
+
+{ +#50  White to move. } 1. Rh4# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/2q5/8/K1R1Q3/8/8/8/2r5 w - - 0 1"]
+
+{ +#51  White to move. } 1. Qxc7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3k1KQ1/8/8/8/3q4 w - - 0 1"]
+
+{ +#51  White to move. } 1. Qd8+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/8/8/4n3/8/8/3R1K2 w - - 0 1"]
+
+{ +#53  White to move. } 1. Re1 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1n5k/8/8/4p3/4P3/8/1K5B w - - 0 1"]
+
+{ +#54  White to move. } 1. Bxe4+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/2RR1rr1/4K3/8/8/8/8/8 w - - 0 1"]
+
+{ +#55  White to move. } 1. Rc8# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k1r2/8/3PPP2/8/8/8/5K2 w - - 0 1"]
+
+{ +#56  White to move. } 1. e6+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/8/3B4/8/1b1R1K2/3b4/3r4 w - - 0 1"]
+
+{ +#57  White to move. } 1. Bxb3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1K1k4/2n5/1N1P4/8/8/8 w - - 0 1"]
+
+{ +#58  White to move. } 1. dxc5+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/8/8/8/8/8/8/K1n2k2 w - - 0 1"]
+
+{ +#59  White to move. } 1. Rh1+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/8/2n5/2b5/2P1K1R1/8/8/8 w - - 0 1"]
+
+{ +#60  White to move. } 1. Kd5 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/7k/8/8/7b/8/Q6K w - - 0 1"]
+
+{ +#61  White to move. } 1. Qh8+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q6Q/8/8/8/8/1K6/8/1k6 w - - 0 1"]
+
+{ +#2  White to move. } 1. Qb2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3Q4/8/8/8/R2r3q/3k4/8/3K4 w - - 0 1"]
+
+{ +#63  White to move. } 1. Qxh4 { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/8/8/8/8/1b6/8/QK6 w - - 0 1"]
+
+{ +#64  White to move. } 1. Qb2 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r3k1/8/4p3/8/8/8/4Q3/4K3 w - - 0 1"]
+
+{ +#65  White to move. } 1. Qxe6+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/6r1/2RQqk2/1K6/8/8/8 w - - 0 1"]
+
+{ +#66  White to move. } 1. Qxe5+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2p1p3/1q3k2/8/1P3K2/2N1Q3/8/8 w - - 0 1"]
+
+{ +#67  White to move. } 1. Nd5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k5r1/8/8/8/4N3/3K1B2/8 w - - 0 1"]
+
+{ +#68  White to move. } 1. Nf5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2k5/6B1/3p4/2n1r3/8/2R3K1/8 w - - 0 1"]
+
+{ +#69  White to move. } 1. Bxe4 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q4/4k3/3r4/4N3/5Q2/4K3/8/8 w - - 0 1"]
+
+{ +#70  White to move. } 1. Qf7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1q6/8/3k3B/8/1P3p2/8/3K4 w - - 0 1"]
+
+{ +#71  White to move. } 1. Bxf3+ { +En Prise and Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/8/5N2/8/8/8/8/2QKnq2 w - - 0 1"]
+
+{ +#72  White to move. } 1. Qh6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k1P1q3/8/8/8/8/2K1P3/8 w - - 0 1"]
+
+{ +#73  White to move. } 1. c8=N+ { +Promotion. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1n6/1p5k/8/8/8/8/8/1R5K w - - 0 1"]
+
+{ +#74  White to move. } 1. Rxb7+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/4q3/8/8/K1k2P1R/8 w - - 0 1"]
+
+{ +#75  White to move. } 1. f4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2p1k3/3n4/2Q5/8/2K1P3/8 w - - 0 1"]
+
+{ +#68  White to move. } 1. e4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/8/8/n6K/8/8/1P6/7B w - - 0 1"]
+
+{ +#77  White to move. } 1. Bd5 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/q3Q3/2K5/k7/8/8/8 w - - 0 1"]
+
+{ +#78  White to move. } 1. Qa2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2kB4/3n4/4K3/5B2/8/8 w - - 0 1"]
+
+{ +#79  White to move. } 1. Ke5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2N5/8/4b1k1/8/4PPK1/8/8 w - - 0 1"]
+
+{ +#80  White to move. } 1. f4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "K7/8/2B5/3N4/8/8/8/1q5k w - - 0 1"]
+
+{ +#81  White to move. } 1. Nc3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/5nn1/5N2/8/5N2/8/8/5K2 w - - 0 1"]
+
+{ +#82  White to move. } 1. Ng6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4K3/2q5/6Q1/4k3/8/8 w - - 0 1"]
+
+{ +#83  White to move. } 1. Qg1+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/R7/8/R4bk1/5pr1/8/5K2/8 w - - 0 1"]
+
+{ +#84  White to move. } 1. Rf7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4n1k1/1Q6/4K3/8/8/8 w - - 0 1"]
+
+{ +#85  White to move. } 1. Qf5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4k3/4p3/3nKnP1/8/8/3B2B1 w - - 0 1"]
+
+{ +#86  White to move. } 1. Bxd4 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1r6/8/1K1n1PRN/8/1k6/8/8 w - - 0 1"]
+
+{ +#87  White to move. } 1. Kc6 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/K5k1/8/8/3n4/3Q4/3b4/8 w - - 0 1"]
+
+{ +#88  White to move. } 1. Qxd4+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3B4/8/7n/R5pk/7r/8/3K4/8 w - - 0 1"]
+
+{ +#89  White to move. } 1. Rxg5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4K3/7R/8/8/4b3/8/8/4k3 w - - 0 1"]
+
+{ +#90  White to move. } 1. Re7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/7R/3K4/7N/6q1/8/8/8 w - - 0 1"]
+
+{ +#91  White to move. } 1. Nf6+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3K4/8/2k1r3/3p4/8/3Q4/8/8 w - - 0 1"]
+
+{ +#92  White to move. } 1. Qa6+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3kq3/R6r/8/8/3KQ3/8/8/8 w - - 0 1"]
+
+{ +#93  White to move. } 1. Qa8# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1q6/2k5/3p4/8/5B2/6Q1/7K/8 w - - 0 1"]
+
+{ +#94  White to move. } 1. Bxd6+ { +En Prise and Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "N7/8/2k5/P2b4/8/K7/n5B1/8 w - - 0 1"]
+
+{ +#95  White to move. } 1. Bxd5+ { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/2n5/1B1p4/K3P3/8/8/8 w - - 0 1"]
+
+{ +#96  White to move. } 1. exd5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5k2/8/7R/6b1/5N2/8/7K w - - 0 1"]
+
+{ +#97  White to move. } 1. Ne5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1r6/8/2K5/4Q3/8/5k2/8 w - - 0 1"]
+
+{ +#98  White to move. } 1. Qxb7 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1R2K2R/8/8/8/r7/k7/r7/8 w - - 0 1"]
+
+{ +#99  White to move. } 1. Rh3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1q5k/6R1/8/1K6/8/8/1B6 w - - 0 1"]
+
+{ +#100  White to move. } 1. Rb6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/K5P1/8/8/8/8/8/b2b2k1 b - - 0 1"]
+
+{ +#101 Black to move. } 1... Bxg7 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3B4/8/3k4/6q1/3K4/8/3b4/3Q4 b - - 0 1"]
+
+{ +#102   Black to move. } 1... Qd5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4K2R/8/8/4b3/8/8/4n2k b - - 0 1"]
+
+{ +#103   Black to move. } 1... Bxh7 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3q4/8/8/8/N2k2P1/8/B5K1 b - - 0 1"]
+
+{ +#104   Black to move. } 1... Qa7+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3p4/8/1Q6/K2k4/5b2 b - - 0 1"]
+
+{ +#105   Black to move. } 1... Bc4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "Q7/8/1k6/8/K7/8/1r6/8 b - - 0 1"]
+
+{ +#106   Black to move. } 1... Ra2+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3N4/8/1r3k1K/8/8/8/8 b - - 0 1"]
+
+{ +#107   Black to move. } 1... Ke6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2p5/8/8/8/8/kNKBr3/8 b - - 0 1"]
+
+{ +#108   Black to move. } 1... Rxd2+ { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "kb4BK/7P/8/8/8/8/8/8 b - - 0 1"]
+
+{ +#109   Black to move. } 1... Be5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1R6/8/3K4/5p2/3k4 b - - 0 1"]
+
+{ +#110   Black to move. } 1... f1=Q+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4q3/4P3/8/1k1N4/8/8/4K3 b - - 0 1"]
+
+{ +#111  Black to move. } 1... Qh4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1b6/3p1p2/4k3/4P3/4K3/6B1 b - - 0 1"]
+
+{ +#112  Black to move. } 1... f4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r7/8/b7/3N4/8/5N2/8/k6K b - - 0 1"]
+
+{ +#113  Black to move. } 1... Bb7 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7r/8/5k2/8/R2K4 b - - 0 1"]
+
+{ +#114  Black to move. } 1... Rh1+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4K3/8/2p3k1/1b1P4/4R3/8 b - - 0 1"]
+
+{ +#115  Black to move. } 1... cxd3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2B1n3/8/3NK3/8/2r1k3/8/8 b - - 0 1"]
+
+{ +#116  Black to move. } 1... Nxd5 { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q4/8/8/8/rR1Q1K1k/8/8/8 b - - 0 1"]
+
+{ +#117  Black to move. } 1... Qxd4+ { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5K2/8/3B4/2Rk2P1/8/q3n3/8/8 b - - 0 1"]
+
+{ +#118  Black to move. } 1... Kxd6 { +En Prise } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1K6/1b2n3/1k6/8/8/8/8/8 b - - 0 1"]
+
+{ +#119  Black to move. } 1... Nc6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4k3/8/4K3/8/8/q3n3 b - - 0 1"]
+
+{ +#120  Black to move. } 1... Qe5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2K5/2n5/2r5/2k5/1R6/q3Q3/3B4/8 b - - 0 1"]
+
+{ +#121  Black to move. } 1... Qxe3 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3b4/3R4/3K4/8/3k4/8/3B2r1 b - - 0 1"]
+
+{ +#122  Black to move. } 1... Rg5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k4K1/8/1p6/8/1B4B1/8/8/3r4 b - - 0 1"]
+
+{ +#123  Black to move. } 1... Rd4 { +Fork. } ( 1... Rg1 { +Pin. } ) *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1K6/8/8/1k2P3/8/8/1b2n2R/8 b - - 0 1"]
+
+{ +#124  Black to move. } 1... Bxe5+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5b2/8/8/8/8/2N1pk2/8/4K3 b - - 0 1"]
+
+{ +#125  Black to move. } 1... Bb4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3kpq2/8/8/8/8/2K3Q1/4R3 b - - 0 1"]
+
+{ +#126  Black to move. } 1... Qa2+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6r1/8/8/8/8/4B1k1/8/6K1 b - - 0 1"]
+
+{ +#127  Black to move. } 1... Kf3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4P3/8/8/1K5k/8/3p4/4R3 b - - 0 1"]
+
+{ +#128  Black to move. } 1... dxe1=Q+ { +Promotion and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/3bb2k/8/7K b - - 0 1"]
+
+{ +#129  Black to move. } 1... Be4# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "n6k/8/8/qN5K/8/8/4B3/8 b - - 0 1"]
+
+{ +#130  Black to move. } 1... Nc7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q4/4r3/1k6/8/7Q/8/5N2/5K2 b - - 0 1"]
+
+{ +#131  Black to move. } 1... Re1+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r5/2p5/2n5/2B5/2kN3K/1N6/8/8 b - - 0 1"]
+
+{ +#132 Black to move. } 1... Nxd4 { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/4k3/8/5r2/3N3K/8 b - - 0 1"]
+
+{ +#133  Black to move. } 1... Rf2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5r2/8/2N5/5k2/8/2K5/8 b - - 0 1"]
+
+{ +#134  Black to move. } 1... Rc7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/2p2p2/8/2q5/2P2R2/8/5P2/2R2K2 b - - 0 1"]
+
+{ +#135  Black to move. } 1... Qg5 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q7/8/8/8/8/3N1k2/8/5N1K b - - 0 1"]
+
+{ +#136  Black to move. } 1... Ke2+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1b6/8/8/1K6/1p6/1k4B1/1q5Q/8 b - - 0 1"]
+
+{ +#137  Black to move. } 1... Qxh2 { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7Q/7b/8/8/8/6bK/5k2/8 b - - 0 1"]
+
+{ +#138  Black to move. } 1... Bf5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/5p2/4r3/3p4/2P5/1N1N4/2K5/8 b - - 0 1"]
+
+{ +#139  Black to move. } 1... dxc4 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/8/8/4n3/5p2/4N3/3QKB2 b - - 0 1"]
+
+{ +#140  Black to move. } 1... f2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7K/1q6/8/8/8/8/6k1/R7 b - - 0 1"]
+
+{ +#141  Black to move. } 1... Qb2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3p4/8/5K2/4N3/8/2b3k1/8 b - - 0 1"]
+
+{ +#142  Black to move. } 1... d5 { +Pin. } ( 1... Kf3 { +Pin } ) *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q4/8/7Q/8/5K2/8/3P4/2k5 b - - 0 1"]
+
+{ +#143  Black to move. } 1... Qxd2+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/8/3K4/2p5/1b1P4/3B4/8 b - - 0 1"]
+
+{ +#144  Black to move. } 1... c3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4p3/4b3/8/2P1R1P1/3kpK2/8 b - - 0 1"]
+
+{ +#145  Black to move. } 1... Bxg3+ { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4q3/3Rk3/2K1P3/8/8/8 b - - 0 1"]
+
+{ +#146  Black to move. } 1... Kxe4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5q2/N7/1k6/8/3K4/8/5n2/6Q1 b - - 0 1"]
+
+{ +#147  Black to move. } 1... Qc5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/n4b2/8/p7/R7/K7/8/k7 b - - 0 1"]
+
+{ +#148  Black to move. } 1... Nb5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6B1/4N3/8/5r2/8/4K3/1b6/3k4 b - - 0 1"]
+
+{ +#149 Black to move. } 1... Re5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/kb2b3/8/1K6/2Q5/8/8 b - - 0 1"]
+
+{ +#150  Black to move. } 1... Ba5+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/B7/K1k5/Pp6/8 b - - 0 1"]
+
+{ +#151  Black to move. } 1... b1=N# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/3p4/2p1r3/4P3/2Q1K3/8/8/8 b - - 0 1"]
+
+{ +#152  Black to move. } 1... d5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2b5/2k5/2n5/8/2K5/1QP5/8 b - - 0 1"]
+
+{ +#153  Black to move. } 1... Be5+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k4b1/8/8/8/2p5/1Q6/1K6/8 b - - 0 1"]
+
+{ +#154  Black to move. } 1... cxb3 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3b4/4p3/3QB3/7P/5k1K b - - 0 1"]
+
+{ +#155  Black to move. } 1... exd3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3r4/8/4B3/1k3r2/8/3N4/3K4 b - - 0 1"]
+
+{ +#156  Black to move. } 1... Rf2 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/4K3/4p3/3Pr3/2R5/8/8 b - - 0 1"]
+
+{ +#157  Black to move. } 1... exd4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/3nk3/3p4/3B4/2KP4/8/8 b - - 0 1"]
+
+{ +#158  Black to move. } 1... Nb5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1K6/2p5/8/3Q4/1k3q2/8 b - - 0 1"]
+
+{ +#159  Black to move. } 1... c4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/8/5q2/8/3r4/8/PQ3RP1/K7 b - - 0 1"]
+
+{ +#160  Black to move. } 1... Rd1# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k1r1n2/8/8/8/3N4/3K4/8/3B4 b - - 0 1"]
+
+{ +#161  Black to move. } 1... Ne6 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/r6R/r6b/8/N6k/8/2B4K/8 b - - 0 1"]
+
+{ +#162  Black to move. } 1... Rxh7 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6K1/2B5/pr6/2k5/6P1/8/8 b - - 0 1"]
+
+{ +#163  Black to move. } 1... Rg5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "kr6/8/8/8/8/n7/B7/KR6 b - - 0 1"]
+
+{ +#164  Black to move. } 1... Nc2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2q5/5k2/4b3/3B3p/2Q5/8/4K3/8 b - - 0 1"]
+
+{ +#165  Black to move. } 1... Qxc4+ { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1R3rk1/8/8/8/8/8/6PB/1r3BK1 b - - 0 1"]
+
+{ +#166  Black to move. } 1... Rxf1# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/N2p2b1/8/8/3P2r1/8/K2k2P1/6R1 b - - 0 1"]
+
+{ +#167  Black to move. } 1... Bxd4 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/8/2B5/8/8/4k3/8/2K5 b - - 0 1"]
+
+{ +#168  Black to move. } 1... Rc8 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "K7/2k5/8/R7/2r5/8/8/8 b - - 0 1"]
+
+{ +#169  Black to move. } 1... Kb6 { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p6/2k5/8/4R1n1/8/8/7K b - - 0 1"]
+
+{ +#170  Black to move. } 1... Nf2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p5k/8/8/4n3/5Q2/8/1K6 b - - 0 1"]
+
+{ +#171  Black to move. } 1... Nd2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1R6/1B6/8/K3Pk2/8/1P6/1q6 b - - 0 1"]
+
+{ +#172  Black to move. } 1... Qxe4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/2p3K1/8/4n3/8/2P5/1B6 b - - 0 1"]
+
+{ +#173  Black to move. } 1... Nc3 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5K1k/8/8/5Q2/b2q1R2/8 b - - 0 1"]
+
+{ +#174  Black to move. } 1... Qg5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "b5k1/8/8/8/r5B1/5P2/6K1/8 b - - 0 1"]
+
+{ +#175  Black to move. } 1... Rxg4+ { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3b1k2/5n2/8/8/5K2/8/3Q4 b - - 0 1"]
+
+{ +#176  Black to move. } 1... Bg4+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6p1/8/4N3/5k2/2B5/3K4/b7 b - - 0 1"]
+
+{ +#177  Black to move. } 1... Bxc3+ { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/N1p5/PPP5/K1k5 b - - 0 1"]
+
+{ +#178  Black to move. } 1... cxb2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4r3/4b3/4K1k1/4Q3/8/8 b - - 0 1"]
+
+{ +#179  Black to move. } 1... Bf4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2r3k1/8/2q5/3R4/8/8/Q5K1 b - - 0 1"]
+
+{ +#180  Black to move. } 1... Rd7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/7K/8/5k2/1b2b2B b - - 0 1"]
+
+{ +#181  Black to move. } 1... Kg1+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k6K/8/8/8/8/8/7P/r4bNR b - - 0 1"]
+
+{ +#182 Black to move. } 1... Bg2 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/3b4/8/8/3b4/3N4/3RK3 b - - 0 1"]
+
+{ +#183  Black to move. } 1... Bg3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3p4/2k5/3r4/8/1Q6/8/1K6 b - - 0 1"]
+
+{ +#184  Black to move. } 1... Rb5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r4/8/5p2/4k3/2KP2B1/8/8/3N4 b - - 0 1"]
+
+{ +#185  Black to move. } 1... Rxd4+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/3r4/8/5N2/8/1b5N/8/1K6 b - - 0 1"]
+
+{ +#186  Black to move. } 1... Be6 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r4/3p3K/8/3kpN2/8/3R4/8/8 b - - 0 1"]
+
+{ +#187  Black to move. } 1... Ke4 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1q1n1R2/8/2k1Q3/8/3K4 b - - 0 1"]
+
+{ +#188  Black to move. } 1... Nxe3+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3B4/2n5/1n6/K7/8/k7/8/8 b - - 0 1"]
+
+{ +#189  Black to move. } 1... Nc4# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1r6/8/3B4/1p1N4/8/1k1K4/8 b - - 0 1"]
+
+{ +#190  Black to move. } 1... Rd7 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3n4/8/1k1n1Q2/3R4/3K4 b - - 0 1"]
+
+{ +#191  Black to move. } 1... Nc3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/b7/2p5/1p1p4/2P1P3/3P4/5R2/7K b - - 0 1"]
+
+{ +#192  Black to move. } 1... Bxf2 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4r3/4p3/8/8/4N3/K3B1k1/8 b - - 0 1"]
+
+{ +#193  Black to move. } 1... Kf2 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1Q6/8/3p4/8/2K1P3/k5q1/8/8 b - - 0 1"]
+
+{ +#194  Black to move. } 1... d5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1r6/2b2K2/8/8/8/8/2B2B1k b - - 0 1"]
+
+{ +#195  Black to move. } 1... Rb1 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/b7/8/nk4NB/8/K7 b - - 0 1"]
+
+{ +#196  Black to move. } 1... Bc3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3b4/8/8/k2K2R1/8/8/3n4 b - - 0 1"]
+
+{ +#197  Black to move. } 1... Bxg4 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/8/3b3R/8/1k3P2/8/3K4 b - - 0 1"]
+
+{ +#198  Black to move. } 1... Bxf3+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r3/4k3/4p3/4R3/P3P2b/8/8/N6K b - - 0 1"]
+
+{ +#199  Black to move. } 1... Bf6 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/k7/8/2n5/1r6/K3Q3 b - - 0 1"]
+
+{ +#200  Black to move. } 1... Ra2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7Q/r7/8/8/3b4/8/8/k5K1 w - - 0 1"]
+
+{ +#201  White to move. } 1. Qxd4+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3K2k1/8/B2B4/3r4/8 w - - 0 1"]
+
+{ +#202  White to move. } 1. Bc1 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3k4/8/1n3K2/6Q1/8 w - - 0 1"]
+
+{ +#203  White to move. } 1. Qg8+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1n1K1k2/8/8/8/1P3P2/8/8 w - - 0 1"]
+
+{ +#204  White to move. } 1. b4 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1b1q1k2/8/2K1Q1B1/8/8/8/8/8 w - - 0 1"]
+
+{ +#205  White to move. } 1. Qf7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/1B6/1K6/8/1B6/1b6/1b6/8 w - - 0 1"]
+
+{ +#206  White to move. } 1. Bd6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1P6/k7/p7/K7/8/8/8 w - - 0 1"]
+
+{ +#207  White to move. } 1. b8=R { +Promotion. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3pk3/1b2r3/3Qq3/2R5/1R6/K7/8 w - - 0 1"]
+
+{ +#208  White to move. } 1. Qxe5 { +Overload. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/4q3/QB1k3K/8/8/8/8 w - - 0 1"]
+
+{ +#209  White to move. } 1. Bd7+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "b3k2K/8/8/8/7Q/8/8/8 w - - 0 1"]
+
+{ +#210  White to move. } 1. Qa4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2n1k3/8/b5K1/8/3Q4/8/8 w - - 0 1"]
+
+{ +#211  White to move. } 1. Qa3+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2K5/k7/8/8/8/n7/2R5 w - - 0 1"]
+
+{ +#212  White to move. } 1. Ra1 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3K4/8/5k2/8/1B5n/8/3P4/8 w - - 0 1"]
+
+{ +#213  White to move. } 1. Be7+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/1n1n4/2N1N3/5K2/8/8/8/8 w - - 0 1"]
+
+{ +#214  White to move. } 1. Nc7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4Q3/5K2/8/1p5k/r7/8/4n3 w - - 0 1"]
+
+{ +#215  White to move. } 1. Qxb4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k2K3/8/8/4b3/5R2/4n3/4P3/8 w - - 0 1"]
+
+{ +#216  White to move. } 1. Re4 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2knRK2/8/8/8/8/8/8/8 w - - 0 1"]
+
+{ +#217  White to move. } 1. Ke7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2R5/8/8/8/8/1K1k3b/8/8 w - - 0 1"]
+
+{ +#218  White to move. } 1. Rc3+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r7/1k6/8/8/B7/8/R7/K7 w - - 0 1"]
+
+{ +#219  White to move. } 1. Bc6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3n3N/4K3/5N2/6n1/7k w - - 0 1"]
+
+{ +#220  White to move. } 1. Ng3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/8/2b1K3/3p4/2pNp3/2P1P3/8/8 w - - 0 1"]
+
+{ +#221  White to move. } 1. Nxc6+ { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/8/8/8/4n1K1/8/8/3Q4 w - - 0 1"]
+
+{ +#222  White to move. } 1. Qd5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/8/1N1r4/8/8/1K1B4/8 w - - 0 1"]
+
+{ +#223  White to move. } 1. Nc7+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/4K3/3N1r2/2N5/1b6/k1r5 w - - 0 1"]
+
+{ +#224  White to move. } 1. Nb3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1r2rk2/2KR2R1/8/8/8/8/8/8 w - - 0 1"]
+
+{ +#225  White to move. } 1. Rdf7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/8/8/1K1kb1BR w - - 0 1"]
+
+{ +#226  White to move. } 1. Bf2 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "q7/8/2k5/8/8/8/2K5/2Q5 w - - 0 1"]
+
+{ +#227  White to move. } 1. Qh1+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k1b2/8/8/K2Ppn2/8/8/8/Q7 w - - 0 1"]
+
+{ +#228  White to move. } 1. Qf1 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/8/3N4/2q1p3/8/8/2B1K3 w - - 0 1"]
+
+{ +#229  White to move. } 1. Nb6+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2K5/8/2k5/2B5/8/5pq1/8/2R5 w - - 0 1"]
+
+{ +#230  White to move. } 1. Bf2+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5R2/2k1N1R1/3n1n2/2r1N1K1/5r2/8 w - - 0 1"]
+
+{ +#231  White to move. } 1. Nd3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3b4/8/1p6/8/1r1k1B1R/8/3K4 w - - 0 1"]
+
+{ +#232  White to move. } 1. Be2+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1B6/6r1/8/4K3/8/2P3k1/8/8 w - - 0 1"]
+
+{ +#233  White to move. } 1. Kf6+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1k3b2/1Bp1pP2/2P1K3/2r1N3/8/8 w - - 0 1"]
+
+{ +#234  White to move. } 1. Nd5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2p1k3/3b4/2RK4/1B6/8/8 w - - 0 1"]
+
+{ +#235  White to move. } 1. Rxc6+ { +Undermining. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5qk1/5n2/8/8/8/8/2Q5/1BK5 w - - 0 1"]
+
+{ +#236  White to move. } 1. Qh7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/8/8/2rpr3/3p4/8/RN1K2R1 w - - 0 1"]
+
+{ +#237  White to move. } 1. Nd2 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6R1/8/2k5/8/8/2p3K1/8 w - - 0 1"]
+
+{ +#238  White to move. } 1. Rc7+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5Nqk/6bp/8/8/8/8/8/5K1R w - - 0 1"]
+
+{ +#239  White to move. } 1. Ng6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k4B1n/8/8/8/8/K4N2/8/8 w - - 0 1"]
+
+{ +#240  White to move. } 1. Ne5 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/1n2r2k/8/1B2B2K/8 w - - 0 1"]
+
+{ +#241  White to move. } 1. Bf6# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/8/7B/8/K5rk/8/8/8 w - - 0 1"]
+
+{ +#242  White to move. } 1. Bf4# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/3k4/8/4K3/6N1/5bpB/8 w - - 0 1"]
+
+{ +#243  White to move. } 1. Nh1+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/8/b3p3/8/8/7Q/K7/8 w - - 0 1"]
+
+{ +#244  White to move. } 1. Qxe6+ { +En Prise and Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/R2n1k2/8/8/6b1/3K1N2/8/8 w - - 0 1"]
+
+{ +#245  White to move. } 1. Ne5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p1k/6b1/8/5PPB/8/8/6K1 w - - 0 1"]
+
+{ +#246  White to move. } 1. f5 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1n2k3/5R2/8/8/1B6/1b3K2/8/8 w - - 0 1"]
+
+{ +#247  White to move. } 1. Rf8+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r2k4/8/8/8/8/P2P4/K2Q4/7r w - - 0 1"]
+
+{ +#248  White to move. } 1. Qg2 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/8/4n3/8/8/8/4K1Q1 w - - 0 1"]
+
+{ +#249  White to move. } 1. Qe3 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/3n4/1b6/8/3Q4/8/8/3R2K1 w - - 0 1"]
+
+{ +#250  White to move. } 1. Qxb6+ { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/2b5/8/8/8/6r1/2Q4K/8 b - - 0 1"]
+
+{ +#251  Black to move. } 1... Rc3+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k1p2/4q3/8/4N3/8/4K1B1/8 b - - 0 1"]
+
+{ +#252  Black to move. } 1... f5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r5k1/6p1/8/1N4B1/8/8/6K1/8 b - - 0 1"]
+
+{ +#253  Black to move. } 1... Ra5 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2q5/3n1KB1/2k5/8/8/7Q/8/8 b - - 0 1"]
+
+{ +#254  Black to move. } 1... Ne5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3k4/8/8/N7/KBbn4 b - - 0 1"]
+
+{ +#255  Black to move. } 1... Bb2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4P3/8/r7/8/4K3/8/4k3 b - - 0 1"]
+
+{ +#256  Black to move. } 1... Re5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1k4q1/8/8/8/1KP1PN2/8/8 b - - 0 1"]
+
+{ +#257  Black to move. } 1... Qf7+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/p7/P1p5/8/8/5K1R/6p1/8 b - - 0 1"]
+
+{ +#258  Black to move. } 1... g1=N+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/b5q1/8/4Q3/8/8/7B/K7 b - - 0 1"]
+
+{ +#259  Black to move. } 1... Bd4+ { +X-Ray. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3k4/8/3np3/4r3/1R1K1B2 b - - 0 1"]
+
+{ +#260  Black to move. } 1... Rd2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/5k2/8/1n2RKQ1 b - - 0 1"]
+
+{ +#261  Black to move. } 1... Nd2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6q1/8/4k1b1/8/8/8/K5Q1/8 b - - 0 1"]
+
+{ +#262  Black to move. } 1... Bb1+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/6p1/4KPrk/8/8/5B2 b - - 0 1"]
+
+{ +#263  Black to move. } 1... Rxf4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/8/1rb4R/8/4B3/8/4K3 b - - 0 1"]
+
+{ +#264  Black to move. } 1... Bb4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6R1/6B1/8/8/8/1K4k1/7q b - - 0 1"]
+
+{ +#265  Black to move. } 1... Qh8 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1b6/8/8/8/8/1k5q/1N6/1Q4K1 b - - 0 1"]
+
+{ +#266  Black to move. } 1... Ba7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p6/8/B7/K1k5/Q7/8/8 b - - 0 1"]
+
+{ +#267  Black to move. } 1... b5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/3r4/1B1P1K2/3k4 b - - 0 1"]
+
+{ +#268  Black to move. } 1... Rxd2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/7p/5r1P/8/8/8/3NN3/7K b - - 0 1"]
+
+{ +#269  Black to move. } 1... Rf2 { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2k3K1/2p5/8/8/2R3b1/8 b - - 0 1"]
+
+{ +#270  Black to move. } 1... Be4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/6n1/8/5PPQ/5k1K b - - 0 1"]
+
+{ +#271  Black to move. } 1... Nxf2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/3q4/2R5/K2k4 b - - 0 1"]
+
+{ +#272  Black to move. } 1... Kxc2 { +En Prise. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/8/1P6/2B5/8/8/6q1/2K5 b - - 0 1"]
+
+{ +#273  Black to move. } 1... Qc6 { +Pin. } ( 1... Qg5+ { +Fork. } ) *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/8/R3b3/8/2P5/8/4K3/5n2 b - - 0 1"]
+
+{ +#274  Black to move. } 1... Bxc4+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7P/kb2n1BK/7R/8/8 b - - 0 1"]
+
+{ +#275  Black to move. } 1... Be7# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "Q7/1B5k/8/8/8/8/1r4bK/8 b - - 0 1"]
+
+{ +#276  Black to move. } 1... Bxb7+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3k4/8/2K1pr2/3P4/3B4/8/8 b - - 0 1"]
+
+{ +#277  Black to move. } 1... e4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1k2b2N/6P1/8/4b3/4K3 b - - 0 1"]
+
+{ +#278  Black to move. } 1... Bxg4 { +Trapping. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3K1k2/8/8/3P1p2/1b5N/8/8 b - - 0 1"]
+
+{ +#279  Black to move. } 1... Be6+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4K3/3BRr2/4n3/8/8/8/8/4k3 b - - 0 1"]
+
+{ +#280  Black to move. } 1... Rf8# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5R2/8/5b2/8/8/1k3n2/8/1KR5 b - - 0 1"]
+
+{ +#281  Black to move. } 1... Nd2# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7q/5p2/5k2/8/5pR1/8/8/R5K1 b - - 0 1"]
+
+{ +#282  Black to move. } 1... Kf5 { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3r4/8/1N3b1B/8/3k4/8/8/K7 b - - 0 1"]
+
+{ +#283  Black to move. } 1... Kc5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/7B/8/8/8/8/8/q5NK b - - 0 1"]
+
+{ +#284  Black to move. } 1... Qh8 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3q4/8/R5K1/8/8/B2B2P1/3k4 b - - 0 1"]
+
+{ +#285  Black to move. } 1... Qxd2+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/7b/8/8/8/7n/7B/7K b - - 0 1"]
+
+{ +#286  Black to move. } 1... Be4# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3k3r/8/8/6Pn/3B1R1K b - - 0 1"]
+
+{ +#287  Black to move. } 1... Nf3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2b3Q1/8/4P1p1/4k3/2K5/8/8 b - - 0 1"]
+
+{ +#288  Black to move. } 1... Bxe5+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k2P4/4R3/8/q7/7K/8/3N4 b - - 0 1"]
+
+{ +#289  Black to move. } 1... Qxd7 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7q/8/2k5/7b/8/8/2PR4/2R4K b - - 0 1"]
+
+{ +#290  Black to move. } 1... Qh6 { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3q4/3k4/3P4/8/1K3B2/8/8/8 b - - 0 1"]
+
+{ +#291  Black to move. } 1... Qh4 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/8/K4b1r/8/8/8/3Q4 b - - 0 1"]
+
+{ +#292  Black to move. } 1... Bg4+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/5Q2/3rnK1p/8/8/8/8/8 b - - 0 1"]
+
+{ +#293  Black to move. } 1... Ng5+ { +Discovery. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5b2/1B2kR2/8/8/P7/KN3r2 b - - 0 1"]
+
+{ +#294  Black to move. } 1... Kxf5# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/1p1p4/2r1P3/3R1K2/4N3/8/8/8 b - - 0 1"]
+
+{ +#295  Black to move. } 1... dxe6+ { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2N2K1k/1P4p1/N1b4r/8/8/8/8/8 b - - 0 1"]
+
+{ +#296  Black to move. } 1... Bxb7 { +Fork. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/6B1/3k4/8/n2K4/8/3b4 b - - 0 1"]
+
+{ +#297  Black to move. } 1... Bc2+ { +Skewer. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7b/6rp/8/3PQ3/3K2k1 b - - 0 1"]
+
+{ +#298  Black to move. } 1... Rg5 { +Pin. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1B5r/7k/8/4n3/5R1K b - - 0 1"]
+
+{ +#299  Black to move. } 1... Kg3# { +Checkmate. } *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k2r/8/2n1PKPp/8/8/8/8/8 b k - 0 1"]
+
+{ +#300  Black to move. } 1... O-O# { +Checkmate. } *
+

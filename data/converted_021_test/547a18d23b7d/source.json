@@ -1,0 +1,13 @@
+{
+  "id": 17,
+  "sha256": "547a18d23b7da3b43a5aa541ebaa05b51da9abe32f747b350ad2f0398ed7f8a5",
+  "filename": "koblents.cdb",
+  "origin_path": "vlasov/middle/koblents.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Рассказы о комбинациях",
+    "info": "А.Н.Кобленц",
+    "gameid": "1"
+  }
+}

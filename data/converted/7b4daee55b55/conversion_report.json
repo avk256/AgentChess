@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/brilliant.cdb",
+  "filename": "brilliant.cdb",
+  "sha256": "7b4daee55b55a410847cddaa1941d27d633e683feeca6e7d1bf95696a22418f4",
+  "source_id": 18,
+  "duplicate": false,
+  "games": 25,
+  "chapters": 25,
+  "parsed_statuses": {
+    "THEORY": 13,
+    "LEGAL_MOVES": 12
+  },
+  "exported_json": 25,
+  "exported_fen": 25,
+  "exported_pgn": 25,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 1,
+  "records_with_promotions": 1,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/7b4daee55b55"
+}

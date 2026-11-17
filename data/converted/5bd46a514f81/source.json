@@ -1,0 +1,13 @@
+{
+  "id": 24,
+  "sha256": "5bd46a514f81fcc9c8c26d65c910ced713bd3a73fdffac8b05ca410185f97b3d",
+  "filename": "portish_600.ru.cdb",
+  "origin_path": "vlasov/beginner/portish_600.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "600 окончаний",
+    "info": "Л. Портиш, Б. Шаркози",
+    "gameid": "1"
+  }
+}

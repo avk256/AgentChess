@@ -1,0 +1,232 @@
+{
+  "version": "0.5.5",
+  "dry_run": false,
+  "integrity_check": "ok",
+  "source_records": 18805,
+  "source_files": 33,
+  "exercises": 14343,
+  "hidden_standard_start_book_text": 206,
+  "reclassification": {
+    "dry_run": false,
+    "matching_exercises": 27,
+    "reclassified": 27,
+    "sources": {
+      "king_queen_mate.ru.cdb": 8,
+      "king_rook_mate.ru.cdb": 8,
+      "two_bishops_mate.ru.cdb": 11
+    }
+  },
+  "topic_summary": [
+    {
+      "topic": "відкритий напад",
+      "count": 83,
+      "sources": [
+        {
+          "filename": "discovered.ru.cdb",
+          "count": 83
+        }
+      ]
+    },
+    {
+      "topic": "дебютні пастки",
+      "count": 320,
+      "sources": [
+        {
+          "filename": "10_traps.ru.cdb",
+          "count": 10
+        },
+        {
+          "filename": "win_trap.ru.cdb",
+          "count": 310
+        }
+      ]
+    },
+    {
+      "topic": "дебютні принципи",
+      "count": 141,
+      "sources": [
+        {
+          "filename": "suetin.cdb",
+          "count": 141
+        }
+      ]
+    },
+    {
+      "topic": "ендшпіль",
+      "count": 831,
+      "sources": [
+        {
+          "filename": "Smyslov_endgame.cdb",
+          "count": 64
+        },
+        {
+          "filename": "endings_for_beginners.ru.cdb",
+          "count": 124
+        },
+        {
+          "filename": "king_queen_mate.ru.cdb",
+          "count": 8
+        },
+        {
+          "filename": "king_rook_mate.ru.cdb",
+          "count": 8
+        },
+        {
+          "filename": "portish_600.ru.cdb",
+          "count": 616
+        },
+        {
+          "filename": "two_bishops_mate.ru.cdb",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "topic": "зв’язка",
+      "count": 132,
+      "sources": [
+        {
+          "filename": "pin.ru.cdb",
+          "count": 132
+        }
+      ]
+    },
+    {
+      "topic": "мат",
+      "count": 6353,
+      "sources": [
+        {
+          "filename": "303_checkmates.ru.cdb",
+          "count": 298
+        },
+        {
+          "filename": "Kalinichenko.ru.cdb",
+          "count": 102
+        },
+        {
+          "filename": "Khenkin.ru.cdb",
+          "count": 1
+        },
+        {
+          "filename": "School.ru.cdb",
+          "count": 449
+        },
+        {
+          "filename": "dobr_m2n.ru.cdb",
+          "count": 200
+        },
+        {
+          "filename": "dobr_m2q.ru.cdb",
+          "count": 199
+        },
+        {
+          "filename": "polgar.ru.cdb",
+          "count": 4745
+        },
+        {
+          "filename": "qmoves.ru.cdb",
+          "count": 359
+        }
+      ]
+    },
+    {
+      "topic": "навчальні партії",
+      "count": 12,
+      "sources": [
+        {
+          "filename": "brilliant.cdb",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "topic": "незахищені фігури",
+      "count": 168,
+      "sources": [
+        {
+          "filename": "enprize.ru.cdb",
+          "count": 168
+        }
+      ]
+    },
+    {
+      "topic": "оцінка позиції",
+      "count": 44,
+      "sources": [
+        {
+          "filename": "lysenko.cdb",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "topic": "подвійний удар",
+      "count": 284,
+      "sources": [
+        {
+          "filename": "double_attack.ru.cdb",
+          "count": 284
+        }
+      ]
+    },
+    {
+      "topic": "стратегія та план",
+      "count": 532,
+      "sources": [
+        {
+          "filename": "Romanovsky.cdb",
+          "count": 231
+        },
+        {
+          "filename": "kotov.cdb",
+          "count": 301
+        }
+      ]
+    },
+    {
+      "topic": "тактичні комбінації",
+      "count": 3393,
+      "sources": [
+        {
+          "filename": "303_tactics.ru.cdb",
+          "count": 303
+        },
+        {
+          "filename": "ClaudeKabers.ru.cdb",
+          "count": 767
+        },
+        {
+          "filename": "School2.ru.cdb",
+          "count": 1165
+        },
+        {
+          "filename": "Shumilin.ru.cdb",
+          "count": 680
+        },
+        {
+          "filename": "beginning.ru.cdb",
+          "count": 300
+        },
+        {
+          "filename": "bondarevsky.cdb",
+          "count": 99
+        },
+        {
+          "filename": "koblents.cdb",
+          "count": 79
+        }
+      ]
+    },
+    {
+      "topic": "історичні комбінації",
+      "count": 2050,
+      "sources": [
+        {
+          "filename": "Sukhin_1000.ru.cdb",
+          "count": 2050
+        }
+      ]
+    }
+  ],
+  "selectable_exercises": 14343
+}

@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/polgar.ru.cdb",
+  "filename": "polgar.ru.cdb",
+  "sha256": "158d94e4d8c8f3e30bde2ed9982baf54ef70c2371020ab7221598735d3a0b75d",
+  "source_id": 8,
+  "duplicate": false,
+  "games": 5333,
+  "chapters": 6,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 5332,
+    "INVALID_FEN": 1
+  },
+  "exported_json": 5333,
+  "exported_fen": 5332,
+  "exported_pgn": 5332,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 308,
+  "records_with_promotions": 272,
+  "exercise_candidates": 4745,
+  "ready_exercises": 0,
+  "needs_review": 4745,
+  "errors": 1,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/158d94e4d8c8"
+}

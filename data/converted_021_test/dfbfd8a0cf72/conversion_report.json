@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/dobr_m2n.ru.cdb",
+  "filename": "dobr_m2n.ru.cdb",
+  "sha256": "dfbfd8a0cf72d28cfe5dccb28cf5b4585e39b2eb285921ec98a197ac10293845",
+  "source_id": 20,
+  "duplicate": false,
+  "games": 200,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 200
+  },
+  "exported_json": 200,
+  "exported_fen": 200,
+  "exported_pgn": 200,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 2,
+  "records_with_promotions": 2,
+  "exercise_candidates": 200,
+  "ready_exercises": 0,
+  "needs_review": 200,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/dfbfd8a0cf72"
+}

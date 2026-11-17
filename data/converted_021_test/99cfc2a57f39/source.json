@@ -1,0 +1,12 @@
+{
+  "id": 29,
+  "sha256": "99cfc2a57f395a70a942d41536884a3e7ac90a90890d831bde7a2873ffb24994",
+  "filename": "two_bishops_mate.ru.cdb",
+  "origin_path": "vlasov/beginner/two_bishops_mate.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "title": "Базовые маты: Мат двумя слонами!",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

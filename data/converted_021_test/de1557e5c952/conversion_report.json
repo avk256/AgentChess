@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/beginning.ru.cdb",
+  "filename": "beginning.ru.cdb",
+  "sha256": "de1557e5c9523a1bfdde5768b0e8423fa9e4128724cef3198345f4779f0e74a2",
+  "source_id": 22,
+  "duplicate": false,
+  "games": 300,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 300
+  },
+  "exported_json": 300,
+  "exported_fen": 300,
+  "exported_pgn": 300,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 7,
+  "records_with_promotions": 7,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/de1557e5c952"
+}

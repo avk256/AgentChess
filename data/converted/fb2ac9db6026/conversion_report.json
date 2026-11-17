@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/ClaudeKabers.ru.cdb",
+  "filename": "ClaudeKabers.ru.cdb",
+  "sha256": "fb2ac9db602632dae0b948086c051621b218ed1020a4b4d3ae70e794ae461d69",
+  "source_id": 4,
+  "duplicate": false,
+  "games": 768,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 767,
+    "EMPTY_MOVETEXT": 1
+  },
+  "exported_json": 768,
+  "exported_fen": 768,
+  "exported_pgn": 767,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 67,
+  "records_with_promotions": 51,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/fb2ac9db6026"
+}

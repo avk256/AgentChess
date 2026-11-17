@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/beginner/king_rook_mate.ru.cdb",
+  "filename": "king_rook_mate.ru.cdb",
+  "sha256": "0d74f6bc9568b52ef5ff5ee35bf78987ec38e298f57be2cfda6f1620184042b4",
+  "source_id": 28,
+  "duplicate": false,
+  "games": 8,
+  "chapters": 0,
+  "parsed_statuses": {
+    "THEORY": 2,
+    "LEGAL_MOVES": 2,
+    "EMPTY_MOVETEXT": 4
+  },
+  "exported_json": 8,
+  "exported_fen": 8,
+  "exported_pgn": 4,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 0,
+  "records_with_promotions": 0,
+  "exercise_candidates": 8,
+  "ready_exercises": 0,
+  "needs_review": 8,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/0d74f6bc9568"
+}

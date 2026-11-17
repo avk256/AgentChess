@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/endings_for_beginners.ru.cdb",
+  "filename": "endings_for_beginners.ru.cdb",
+  "sha256": "263f302d4288996715538425bffebea2428c1a0e451967d237f68f0e6bcd2c96",
+  "source_id": 23,
+  "duplicate": false,
+  "games": 124,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 124
+  },
+  "exported_json": 124,
+  "exported_fen": 124,
+  "exported_pgn": 124,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 33,
+  "records_with_promotions": 17,
+  "exercise_candidates": 124,
+  "ready_exercises": 0,
+  "needs_review": 124,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/263f302d4288"
+}

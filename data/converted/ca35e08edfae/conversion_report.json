@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/303_tactics.ru.cdb",
+  "filename": "303_tactics.ru.cdb",
+  "sha256": "ca35e08edfae11c03ffff14bbf17746813d7a7cdacc5b938d324aef64acfbe34",
+  "source_id": 6,
+  "duplicate": false,
+  "games": 303,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 303
+  },
+  "exported_json": 303,
+  "exported_fen": 303,
+  "exported_pgn": 303,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 14,
+  "records_with_promotions": 14,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/ca35e08edfae"
+}

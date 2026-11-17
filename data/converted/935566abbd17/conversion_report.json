@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/pin.ru.cdb",
+  "filename": "pin.ru.cdb",
+  "sha256": "935566abbd17f0a1a76762a83eedf85f37cb1a58a5c2bc627fd6e75b322792eb",
+  "source_id": 32,
+  "duplicate": false,
+  "games": 132,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 132
+  },
+  "exported_json": 132,
+  "exported_fen": 132,
+  "exported_pgn": 132,
+  "elo_records": 132,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 1,
+  "records_with_promotions": 1,
+  "exercise_candidates": 132,
+  "ready_exercises": 0,
+  "needs_review": 132,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/935566abbd17"
+}

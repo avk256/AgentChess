@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/enprize.ru.cdb",
+  "filename": "enprize.ru.cdb",
+  "sha256": "1040e13f3cd7336dca0c39fdf4876d6c65d60570f76055b5e1075c4eb38156bb",
+  "source_id": 31,
+  "duplicate": false,
+  "games": 168,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 168
+  },
+  "exported_json": 168,
+  "exported_fen": 168,
+  "exported_pgn": 168,
+  "elo_records": 168,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 1,
+  "records_with_promotions": 1,
+  "exercise_candidates": 168,
+  "ready_exercises": 0,
+  "needs_review": 168,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/1040e13f3cd7"
+}

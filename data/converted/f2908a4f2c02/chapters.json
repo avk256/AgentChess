@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "gameid": 1,
+    "text": "Part 1. Shatrandja (9th - 15th Centuries)"
+  },
+  {
+    "id": 2,
+    "parent": 0,
+    "gameid": 12,
+    "text": "Part 2. From Lucena to Greco (15th - 17th Centuries)"
+  },
+  {
+    "id": 3,
+    "parent": 0,
+    "gameid": 34,
+    "text": "Part 3. From Stama to Philidor (18th Century)"
+  },
+  {
+    "id": 4,
+    "parent": 0,
+    "gameid": 63,
+    "text": "Part 4. From Nopoleon to Morphy (First half of the 19th Century)"
+  },
+  {
+    "id": 5,
+    "parent": 0,
+    "gameid": 130,
+    "text": "Part 5. Anderssen and Morphy (1851 - 1860)"
+  },
+  {
+    "id": 6,
+    "parent": 0,
+    "gameid": 200,
+    "text": "Part 6. Anderssen and Steinitz (1861 - 1870)"
+  },
+  {
+    "id": 7,
+    "parent": 0,
+    "gameid": 253,
+    "text": "Part 7. Anderssen, Zukertort, Steinitz, Chigorin (1871-1880)"
+  },
+  {
+    "id": 8,
+    "parent": 0,
+    "gameid": 312,
+    "text": "Part 8. Chigorin and Steinitz (1881 - 1890)"
+  },
+  {
+    "id": 9,
+    "parent": 0,
+    "gameid": 395,
+    "text": "Part 9. The second World Champion (1891-1900)"
+  },
+  {
+    "id": 10,
+    "parent": 0,
+    "gameid": 533,
+    "text": "Part 10. Lasker, Capablanca, Alekhine (1901-1920)"
+  },
+  {
+    "id": 11,
+    "parent": 0,
+    "gameid": 650,
+    "text": "Part 11. Capablanca, Alekhine, Euwe (1921-1940)"
+  },
+  {
+    "id": 12,
+    "parent": 0,
+    "gameid": 771,
+    "text": "Part 12. Alekhine, Botvinnik, Tal (1941-1960)"
+  },
+  {
+    "id": 13,
+    "parent": 0,
+    "gameid": 855,
+    "text": "Part 13. The New Champions (1961-1980)"
+  },
+  {
+    "id": 14,
+    "parent": 0,
+    "gameid": 960,
+    "text": "Part 14. The Great Battle: Kasparov-Karpov (1981-2000)"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/middle/lysenko.cdb",
+  "filename": "lysenko.cdb",
+  "sha256": "5533eed2438e5782d581e90eb13c380ff4363c694ba2d3ed76f898b61947ec6c",
+  "source_id": 12,
+  "duplicate": false,
+  "games": 111,
+  "chapters": 12,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 92,
+    "EMPTY_MOVETEXT": 3,
+    "THEORY": 16
+  },
+  "exported_json": 111,
+  "exported_fen": 111,
+  "exported_pgn": 108,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 5,
+  "records_with_promotions": 5,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/5533eed2438e"
+}

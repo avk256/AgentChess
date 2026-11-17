@@ -1,0 +1,2388 @@
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/5K2/8/8/8/8/7R w - - 0 1"]
+
+1. Rd1 Kf8 2. Rd8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4R3/8/8/5K2/7k/8/8/8 w - - 0 1"]
+
+1. Re3 Kh5 2. Rh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/8/8/2K5/8/8/8/2R5 w - - 0 1"]
+
+1. Kb6 Ka8 2. Rc8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/8/5K2/8/8/8/8/4R3 w - - 0 1"]
+
+1. Kg6 Kg8 2. Re8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/8/4K3/4p3/4P3/8/8/2R5 w - - 0 1"]
+
+1. Rg1 Ke8 2. Rg8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/7p/p7/k1K5/7R w - - 0 1"]
+
+1. Rh3 Ka1 2. Rxa3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4pK1k/6R1/8/8/8/8/8 w - - 0 1"]
+
+1. Re6 Kh8 2. Rh6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/8/4K3/4p3/8/8/4P3/2R5 w - - 0 1"]
+
+1. e4 Ke8 2. Rc8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/7Q/8/3K4/8/8/8/8 w - - 0 1"]
+
+1. Kc6 Kd8 2. Qd7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/7Q/8/3K4/8/8/8/8 w - - 0 1"]
+
+1. Ke6 Kf8 2. Qf7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2k5/8/2K5/8/8/8/2Q5/8 w - - 0 1"]
+
+1. Qh7 Kd8 2. Qd7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k2K4/3Q4/8/8/8/8/8/8 w - - 0 1"]
+
+1. Kc7 Ka7 2. Qa4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/3P1p2/2P5/2K5/8/8/4p3/8 w - - 0 1"]
+
+1. Kd6 f6 2. c7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/7p/4K1pk/7p/7P/8/8 w - - 0 1"]
+
+1. Kf5 g4 2. hxg4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/7p/5Kpk/7p/8/7P/8 w - - 0 1"]
+
+1. h3 g4 2. hxg4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "kbK5/pp6/1P6/8/8/8/R7/8 w - - 0 1"]
+
+1. Ra6 bxa6 2. b7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/k1K3Q1/8/8/8/8/8 w - - 0 1"]
+
+1. Qb1 Ka5 2. Qb5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/6QK/8/8/7k w - - 0 1"]
+
+1. Kg3 Kg1 2. Qd1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1Q3K1k/8/8/8/8/8 w - - 0 1"]
+
+1. Qg1 Kh7 2. Qg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6Q1/8/8/3K4/8/8/3k4 w - - 0 1"]
+
+1. Kd3 Kc1 2. Qa1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/k1K1p3/4R3/8/2P5/8 w - - 0 1"]
+
+1. Kc6 Ka6 2. Ra4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4p3/8/k1K5/4R3/8/2P5/8 w - - 0 1"]
+
+1. Re6 Ka4 2. Ra6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/5K2/8/6k1/5p2/7p/5P1P/8 w - - 0 1"]
+
+1. f3 Kf5 2. Rh5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1R6/1K6/8/kp6/8/1P6/1P6/8 w - - 0 1"]
+
+1. Kc6 b4 2. Ra8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/1Q2K3/8/5k2 w - - 0 1"]
+
+1. Qg8 Ke1 2. Qg1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/Q7/4K2k/8/8 w - - 0 1"]
+
+1. Kf2 Kh2 2. Qh4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/8/Q6K/8/8/8/8/8 w - - 0 1"]
+
+1. Qf1 Kh8 2. Qf8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/Q4K1k/8/8 w - - 0 1"]
+
+1. Qd6 Kh4 2. Qh6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/7p/7K/8/8/8/8/B4R2 w - - 0 1"]
+
+1. Bh8 ( 1. Rf6 Kh8 2. Rf8# ) 1... Kxh8 2. Rf8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1Bk5/8/K7/8/8/8/8/3R4 w - - 0 1"]
+
+1. Kb6 Kxb8 2. Rd8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/5Kp1/8/1R5p/5k1B w - - 0 1"]
+
+1. Ke3 g3 2. Rb1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/R7/8/7k/5K1B w - - 0 1"]
+
+1. Ra3 Kxh1 2. Rh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6RK/7R/k7/8/8/8/8/8 w - - 0 1"]
+
+1. Rb8 Ka5 2. Ra7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "K3k3/8/8/8/8/8/R7/7R w - - 0 1"]
+
+1. Ra7 Kf8 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1R5p/R7/7K/P7/k7 w - - 0 1"]
+
+1. Rh4 Kxa2 2. Ra4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k1K5/b7/8/Rp6/1R6/8/P7/8 w - - 0 1"]
+
+1. a4 bxa4 2. Rb8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2K5/8/kp6/1p6/6Q1/1p6/1P6/8 w - - 0 1"]
+
+1. Qb4 Ka7 2. Qa3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2K5/8/1p6/k7/1p4Q1/1p6/1P6/8 w - - 0 1"]
+
+1. Qd7 b5 2. Qa7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/4K3/1p6/kb2Q3 w - - 0 1"]
+
+1. Qd1 Ka2 2. Qa4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1K6/8/1Q6/8/pp6/k7 w - - 0 1"]
+
+1. Qd4 Kb1 2. Qd1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/Q4K1k/8/8/8/6p1/8 w - - 0 1"]
+
+1. Qd3 g1=Q 2. Qh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k7/2Q5/1P6/1P6/1K5p/7P/8 w - - 0 1"]
+
+1. Qc8 Kb6 2. Qb8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/5K2/7k/7p/7Q/8/8 w - - 0 1"]
+
+1. Qc8 h3 2. Qxh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4Q3/8/8/8/6K1/4p3/3b2k1 w - - 0 1"]
+
+1. Qe4 e1=Q+ 2. Qxe1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/p7/k1p5/8/1QK5/8/8 w - - 0 1"]
+
+1. Qb7 c4 2. Qb4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3K4/p7/kP6/8/P2Q4/8/8 w - - 0 1"]
+
+1. Qd4 axb5 2. Qa7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7p/6Pk/5Q2/5K2/8 w - - 0 1"]
+
+1. Qf4 hxg4 2. Qh6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6pk/6pP/4K1Q1/8/8/8/8 w - - 0 1"]
+
+1. Qe7 g5 2. Qxg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/1R6/p7/8/2K5/k7 w - - 0 1"]
+
+1. Ra5 a3 2. Rxa3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/R7/1p6/1Pp5/8/P1K5/k7 w - - 0 1"]
+
+1. a4 c3 2. axb5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/2K5/8/3p4/8/8/1p6/2R5 w - - 0 1"]
+
+1. Rc5 d4 2. Ra5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p6/2R5/8/8/8/2K5/k7 w - - 0 1"]
+
+1. Rc8 b6 2. Ra8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/6R1/1p4K1/b7/1p6/1P6/8/8 w - - 0 1"]
+
+1. Re7 b5 2. Re8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/6R1/6Kn/8/8/8/8/8 w - - 0 1"]
+
+1. Re7 Ng4 2. Re8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6pp/6pk/6p1/6p1/7P/7K/7R w - - 0 1"]
+
+1. Kg3 gxh3 2. Rxh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k1b5/ppK5/5Q2/8/8/8/8/1R6 w - - 0 1"]
+
+1. Qa6 b6 2. Qxc8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/8/8/6p1/8/5p2/5K1P/6Bk w - - 0 1"]
+
+1. h3 g4 2. hxg4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k1K5/p7/n7/8/8/8/8/R5B1 w - - 0 1"]
+
+1. Bb6 axb6 2. Rxa6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/K2p4/8/3P4/3R4/7B/8 w - - 0 1"]
+
+1. Rb3 d5 2. Rb8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/8/K7/3p4/3P4/3R4/7B/8 w - - 0 1"]
+
+1. Rg3 Kb8 2. Rg8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1k6/2p5/2p5/2N5/8/8/6K1/7R w - - 0 1"]
+
+1. Ra1 Kc8 2. Ra8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6R1/8/8/8/8/N1K5/k7/8 w - - 0 1"]
+
+1. Rg1 Kxa3 2. Ra1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/k7/8/N1K5/7R/8 w - - 0 1"]
+
+1. Rh6 Ka4 2. Ra6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3Nk3/6p1/3K2p1/8/8/8/8/R7 w - - 0 1"]
+
+1. Rh1 g5 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/4p2p/4K2B/8/8/8/7p/8 w - - 0 1"]
+
+1. Kf7 e6 2. Bg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3K4/kB6/8/1P4p1/8 w - - 0 1"]
+
+1. Kc4 g1=Q 2. b3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6bk/7p/4pK2/8/8/8/7B/8 w - - 0 1"]
+
+1. Be5 h6 2. Kg6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/5Kpp/7b/1p2B3/1p6/1p6/8/8 w - - 0 1"]
+
+1. Bb2 Bg5 2. Bxg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3k4/5K2/8/8/8/1p5R/1R6/8 w - - 0 1"]
+
+1. Rc3 Kd7 2. Rd2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/6K1/8/5p1p/5p1k/5P1P/6RR w - - 0 1"]
+
+1. Rg4 Kxg4 2. h3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/8/4KR1p/4R1bk w - - 0 1"]
+
+1. Kf1 Bxf2 2. Kxf2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/4K3/8/8/8/4Q2P/4b3 w - - 0 1"]
+
+1. Qe5 Bd2 2. Qh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/4p3/4P3/8/4b3/2K5/Q7/8 w - - 0 1"]
+
+1. Qh2 Bb1 2. Qh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k4r2/1p3b2/1K6/4P3/8/8/4Q3/8 w - - 0 1"]
+
+1. Qf3 Ba2 2. Qxf8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/7b/5Kp1/8/8/8/8/5Q2 w - - 0 1"]
+
+1. Qa1 g5 2. Kf7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4K3/5p2/4k1p1/1Q6/8/3P4/8 w - - 0 1"]
+
+1. d3 g4 2. Qe4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/7K/8/6pk/pQ5p/8/4P3/8 w - - 0 1"]
+
+1. Qa3 h3 2. Qxh3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/2p5/2P5/2K5/kp6/1p6/PP6/Q7 w - - 0 1"]
+
+1. a3 bxa3 2. Qxa3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q5/kp6/8/PK6/8/8/8/8 w - - 0 1"]
+
+1. Kc5 b6+ 2. axb6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6P1/8/8/8/8/2K5/k7 w - - 0 1"]
+
+1. g8=R Ka2 2. Ra8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6P1/8/k1K5/8/8/8/8 w - - 0 1"]
+
+1. g8=Q Ka4 2. Qa2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5K1k/3P3p/7n/8/8/8/8/8 w - - 0 1"]
+
+1. d8=N Ng4 2. Nf7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4B3/6P1/5B1k/8/8/8/8/7K w - - 0 1"]
+
+1. g8=R Kh7 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7p/5Kpk/8/8/1B4N1 w - - 0 1"]
+
+1. Bf5 g3 2. Nf3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7p/5Kpk/8/8/1N4N1 w - - 0 1"]
+
+1. Nd2 g3 2. Ndf3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/5Kpp/8/8/6N1/8/8/2B5 w - - 0 1"]
+
+1. Nh6 g6 2. Bb2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/5p2/8/5K1N/6Bk w - - 0 1"]
+
+1. Nf1 f3 2. Ng3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6k1/8/3Q3K/8/p7/8/1B6 w - - 0 1"]
+
+1. Ba2 Kf6 2. Qg5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7k/7p/4p2p/3pK2P/Q2B4 w - - 0 1"]
+
+1. Qf6 Kg4 2. Kxe3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/5B2/Q1K5/8/pp6/k7 w - - 0 1"]
+
+1. Bb1 Kxb1 2. Qd1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3K2p1/6k1/3p4/6P1/6P1/6p1/B2Q4 w - - 0 1"]
+
+1. Qd4 g1=Q 2. Qxg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k7/N7/2K5/8/6p1/6Q1/8 w - - 0 1"]
+
+1. Kc6 Kxa6 2. Qa2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/6p1/6Q1/7K/8/8/5kN1 w - - 0 1"]
+
+1. Kg3 Ke1 2. Qc1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q5/8/8/8/8/8/6p1/3KNk2 w - - 0 1"]
+
+1. Qc2 g1=Q 2. Qe2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4p3/4Kp2/5QNk/8/8/5P2/8 w - - 0 1"]
+
+1. f4 fxg5 2. Qxg5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5K1k/7p/7n/8/8/7N/8/8 w - - 0 1"]
+
+1. Ng5 Ng4 2. Nf7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/6N1/7p/5K2/7k w - - 0 1"]
+
+1. Kf1 h2 2. Nf2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/7n/7p/5K1k/8/4N1Pn/8/8 w - - 0 1"]
+
+1. Nd5 N7g5 2. Nf6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/4P3/4K3/4b3/4N3/8/4P3/8 w - - 0 1"]
+
+1. e3 Ba1 2. Nd6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/3N4/1pp5/4P3/B1k5/2P2P2/3K4 w - - 0 1"]
+
+1. Kc1 b4 2. Bb2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "b1B5/8/8/2N5/8/8/5K1p/7k w - - 0 1"]
+
+1. Nb7 Bxb7 2. Bxb7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/3K4/2B2p2/B1k5 w - - 0 1"]
+
+1. Kc3 f1=Q 2. Bb2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4p3/4K2k/6pp/7P/B1p5/2B5/8 w - - 0 1"]
+
+1. Kf7 g4 2. Bc1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3P4/8/8/8/7k/8/6RK w - - 0 1"]
+
+1. d8=R Kh4 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6R1/5P2/7k/8/5K2/8/8/8 w - - 0 1"]
+
+1. f8=N Kh5 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5P1k/8/8/8/8/8/6RK w - - 0 1"]
+
+1. f8=R Kh6 2. Rh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/Q4P2/2k5/8/2K5/8/8/8 w - - 0 1"]
+
+1. f8=N Kd6 2. Qc5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4nK1k/6pp/6R1/8/8/8/8/7Q w - - 0 1"]
+
+1. Qh6 Nc7 2. Qxg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2kr4/K1pp4/8/8/8/8/7Q/3R4 w - - 0 1"]
+
+1. Qd6 c6 2. Qb8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3p1p2/4k3/5R2/1Q3P2/5K2 w - - 0 1"]
+
+1. Qf6 d4 2. Qxf5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4Q3/7p/6R1/7k/8/5K2/8/8 w - - 0 1"]
+
+1. Kf4 h6 2. Rg4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3K4/8/3kp3/3P4/3Q4/1P6/8/8 w - - 0 1"]
+
+1. b4 e5 2. Qc5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5Q2/3kp3/1P6/3PKP2/8/8/8/8 w - - 0 1"]
+
+1. Kd4 e6 2. fxe6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q5/8/8/pp6/kP5p/8/K7/8 w - - 0 1"]
+
+1. Qd8 h3 2. Qxa5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6K1/6p1/6r1/5QPk/8/6P1/8 w - - 0 1"]
+
+1. Kh6 Rxg4 2. Qh2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q5/P7/1k6/8/1K6/8/8/8 w - - 0 1"]
+
+1. a8=B Ka7 2. Qb7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/P7/3Q4/1k6/8/1K6/8/8 w - - 0 1"]
+
+1. a8=N Ka5 2. Qb6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6nk/5Pp1/6Q1/8/8/1P6/8/1K6 w - - 0 1"]
+
+1. f8=B Nf6 2. Qxg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6bk/5Pp1/6Q1/8/8/1P6/8/1K6 w - - 0 1"]
+
+1. f8=N Bxb3 2. Qh7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3n2B1/8/8/p1p5/k1K5 w - - 0 1"]
+
+1. Bd2 Nc3 2. Bxc3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/p1p5/k1KP4/8/1P1B4/8 w - - 0 1"]
+
+1. Bc1 cxd4 2. b3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/6n1/8/3Bp3/7p/5K1k w - - 0 1"]
+
+1. Be2 Nf3 2. Bxf3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4K3/5pr1/6k1/6bn/4P1N1/8/8/1B6 w - - 0 1"]
+
+1. e5+ f5 2. exf6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/4p3/4K3/4R3/4Nk2 w - - 0 1"]
+
+1. Rg2 Kxe1 2. Rg1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5K1k/4n2p/7R/8/8/7N/8/8 w - - 0 1"]
+
+1. Nf4 Nd5 2. Ng6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/pK6/5N2/2k1P3/6R1/8 w - - 0 1"]
+
+1. Ka4 Kc4 2. Rc2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/5pPp/5P1P/8/1p6/1R1P4/3K4/1N6 w - - 0 1"]
+
+1. Na3 bxa3 2. Rb8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/5R2/6k1/8/4K2R w K - 0 1"]
+
+1. O-O Kh3 2. R1f3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/1p6/7p/RR2K1k1 w Q - 0 1"]
+
+1. Rb2 h1=Q 2. O-O-O# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "k7/P7/K7/8/8/8/2pp4/R2R4 w - - 0 1"]
+
+1. Rac1 dxc1=Q 2. Rd8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/8/8/8/7b/5KR1/7P/7k w - - 0 1"]
+
+1. Kf2 Bxg3+ 2. hxg3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7p/5P1k/R6P/7K/4N2b w - - 0 1"]
+
+1. Rf3 Bg2 2. Nxg2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/7p/5Kpk/8/8/1R4N1 w - - 0 1"]
+
+1. Rb4 g3 2. Kf5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4p3/R7/4k1p1/4P3/4K1P1/6N1/8 w - - 0 1"]
+
+1. Nf4 g4 2. Nd3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4NRn1/6Pk/8/6K1/8/8 w - - 0 1"]
+
+1. Rf5 Nf4 2. Nxf4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k7/p2B4/P1K5/8/8/7p/7B w - - 0 1"]
+
+1. Kc6 Ka8 2. Kb6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/k7/p1KB4/P7/8/7p/8/7B w - - 0 1"]
+
+1. Bh2 ( 1. Kc7 ) 1... Ka8 2. Kb6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6B1/8/8/3p4/3Pp3/K7/3N4/k7 w - - 0 1"]
+
+1. Bh7 e3 2. Nb3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4K3/1kP5/8/1B6/8/8/7B/8 w - - 0 1"]
+
+1. c8=N Kxc8 2. Ba6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1Kp5/8/kp6/1R6/P7/8/5B2 w - - 0 1"]
+
+1. Kxc7 Ka6 2. Ra4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/8/8/3B4/K1R5/1p6/1k6 w - - 0 1"]
+
+1. Bf6 Ka1 2. Rc1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4B3/8/8/3R1K2/4p3/4k3 w - - 0 1"]
+
+1. Bc4 Kf1 2. Rd1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/3B4/1p3p2/1Pp1p3/2K1R3/3p4/3k4 w - - 0 1"]
+
+1. Bf4 Kc1 2. Re1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/5K2/6p1/6Pb/8/7B/8/7R w - - 0 1"]
+
+1. Bf5 gxf5+ 2. Rxh5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2RB4/8/ppp5/k2p4/Pp1K4/1P6/8/8 w - - 0 1"]
+
+1. Rc7 b5 2. Rxc6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/1Q3B2/p7/kbK5/8 w - - 0 1"]
+
+1. Be5 Ba1 2. Qb1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q5/8/8/8/8/1KR5/1p6/1k6 w - - 0 1"]
+
+1. Qh8 Ka1 2. Rc1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "Q7/8/1K6/4p3/2pk4/5R2/8/8 w - - 0 1"]
+
+1. Kc6 c3 2. Qa4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1K6/3p2R1/4k3/8/4P3/3P4/8/Q7 w - - 0 1"]
+
+1. d4 d6 2. d5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "n6k/7b/Q4Kp1/8/8/8/8/8 w - - 0 1"]
+
+1. Qa1 g5 2. Kf7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p2K3/7B/P1kp4/Q7/8/8/8 w - - 0 1"]
+
+1. Bf8 d4 2. Ke6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "KR6/8/8/8/k7/7r/2P5/1Q2b3 w - - 0 1"]
+
+1. c3 Bd2 2. Qb4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4r2b/1Q6/8/8/p3R3/K7/8/k7 w - - 0 1"]
+
+1. Re5 Bxe5 2. Qh1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "br6/4R3/8/8/4Q3/2p1K3/8/4k3 w - - 0 1"]
+
+1. Rb7 c2 2. Qh1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Q3R1/8/7k/3r4/6R1/3b4/8/6K1 w - - 0 1"]
+
+1. Qf5 Bb1 2. Rh4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5p2/5Q2/8/8/3K4/8/1kN5 w - - 0 1"]
+
+1. Kc3 Ka1 2. Kc2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/8/Qp6/Np6/1k2K3 w - - 0 1"]
+
+1. Qa4 bxa2 2. Qd1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4Q3/8/5K2/8/Np6/1k6 w - - 0 1"]
+
+1. Nb4 Ka1 2. Qa2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4Q3/8/4K3/8/Np6/1k6 w - - 0 1"]
+
+1. Qa6 Ka1 2. Nc3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/kBK5/8/1RP5/2n5/1p6/8 w - - 0 1"]
+
+1. Rb5 b1=Q 2. Ra5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5K1k/6p1/4R1P1/8/8/8/8/1B6 w - - 0 1"]
+
+1. Rf6 gxf6 2. g7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "kb5R/8/K5p1/3p1pP1/2p2P2/p1P5/B2P4/8 w - - 0 1"]
+
+1. d4 cxd3 2. Bxd5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4p3/4p3/4k1P1/8/5K2/2BR4 w - - 0 1"]
+
+1. Rd2 Kf4 2. Rd4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2p2K1p/2P2p1k/3R2p1/6Pp/5P1P/8 w - - 0 1"]
+
+1. f4 gxf3 2. Rh4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/6Q1/4R3/2K2p2/5k2/5b2 w - - 0 1"]
+
+1. Re1 Be2 2. Qg1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5Q2/8/8/7p/6kp/8/8/4K2R w K - 0 1"]
+
+1. O-O h3 2. Qf4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "kb5Q/p7/P7/8/8/1p5R/1P4p1/6K1 w - - 0 1"]
+
+1. Rh1 gxh1=Q+ 2. Qxh1# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1k1B4/8/8/KN1B4/8/8/8 w - - 0 1"]
+
+1. Na6 Kxa6 2. Bc8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/1N6/NpK5/8/kB6 w - - 0 1"]
+
+1. Ba2 b2 2. Nac2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4nB2/8/3P4/2K5/p1B5/k7 w - - 0 1"]
+
+1. Kb3 Nxd4+ 2. Bxd4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1K4N1/3kBP2/8/3B4/8/8/8/8 w - - 0 1"]
+
+1. f8=B Ke8 2. Nf6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7b/7p/7k/5PRp/3B3P/8/4p3/4K3 w - - 0 1"]
+
+1. Rg7 Bxg7 2. Be3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6B1/R7/1p1pb3/1P1k4/1P3P2/3K4/6p1/8 w - - 0 1"]
+
+1. Rf7 g1=Q 2. Rf5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/7B/4p1p1/4B1k1/8/5K1R/8 w - - 0 1"]
+
+1. Rh1 Kf4 2. Rh4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7R/8/8/6p1/4B1k1/8/5K2/2B5 w - - 0 1"]
+
+1. Bh7 Kh5 2. Bf5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/6pp/Q5Bk/8/4b2K/8 w - - 0 1"]
+
+1. Qe8 hxg4 2. Qh8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5b1k/7p/8/7K/8/1B6/Q7 w - - 0 1"]
+
+1. Bh8 h5 2. Qg7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/p1p5/1k6/8/1P6/1K6/4B1Q1 w - - 0 1"]
+
+1. Qa7 a5 2. Qxa5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/kpB5/p7/4Q3/3K4/8/8 w - - 0 1"]
+
+1. Ba8 a4 2. Qxa4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/6br/4Q3/7p/6Nk/4P3/5K2 w - - 0 1"]
+
+1. Nh1 Bb1 2. Nf2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4Q3/8/4N3/4P2p/3K2pr/7k w - - 0 1"]
+
+1. Qc6 g1=Q+ 2. Nf2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/3K4/8/5nP1/5Q1b/5N1k w - - 0 1"]
+
+1. Kd6 Ne1 2. Qxh2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2Qn4/k1N5/2b5/P7/8/6K1 w - - 0 1"]
+
+1. Kh2 Ne4 2. Nb7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/7B/5Q2/6p1/6k1/8/5K2/8 w - - 0 1"]
+
+1. Qh8 Kh5 2. Bf5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/7B/7K/8/6k1/6P1/5PQn/8 w - - 0 1"]
+
+1. Qh1 Nf1 2. Qh5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2Bk2K1/2pPp3/4Q3/8/8/8/8/8 w - - 0 1"]
+
+1. Qe1 c6 2. Qa5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3K4/3pBp2/4k3/4P3/4Q3/8/8/8 w - - 0 1"]
+
+1. Ke8 d6 2. exd6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/4N1pB/4p3/4K3/8/8/8/1Q6 w - - 0 1"]
+
+1. Qb7 g6 2. Nxg6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1N1k4/2pBp3/8/8/2K1Q3/8/8/8 w - - 0 1"]
+
+1. Qe1 c6 2. Qa5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/1B6/8/1kp5/1pN5/1K4Q1/8 w - - 0 1"]
+
+1. Kc1 b2+ 2. Qxb2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/2Q5/3B4/1K6/2P5/Nk6/2R5 w - - 0 1"]
+
+1. Bh1 Kxa2 2. Qg2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "5k2/4pPp1/8/8/8/5R2/5K2/5Q2 w - - 0 1"]
+
+1. Qa1 e6 2. Qa3# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/3K4/8/2R5/4k3/2P5/5Q2/8 w - - 0 1"]
+
+1. Rd5 Kxd5 2. Qd4# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6R1/2pk4/8/8/4QK2/8/8/8 w - - 0 1"]
+
+1. Ke5 c6 2. Qh7# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4R2b/5k2/3K4/4p3/4P2Q/8/8/8 w - - 0 1"]
+
+1. Qg4 Bf6 2. Qg8# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/8/8/3p2Qn/2p1k3/R7/3B3K w - - 0 1"]
+
+1. Rf2 c2 2. Qe2# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "1R6/6pk/4K2p/6p1/6p1/3P2P1/6B1/7Q w - - 0 1"]
+
+1. Ba8 h5 2. Qxh5# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "R7/3p1p2/8/4P3/8/3p2P1/3P4/2K1kbQ1 w - - 0 1"]
+
+1. Re8 d6 2. exd6# *
+
+[Event "AgentChess CDB import"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r6Q/7B/8/8/8/5p2/7B/R4K1k w - - 0 1"]
+
+1. Bc7 f2 2. Qxa8# *
+

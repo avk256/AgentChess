@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/Smyslov_endgame.cdb",
+  "filename": "Smyslov_endgame.cdb",
+  "sha256": "2692e72efebb0e068ebff3386cfe5f86bc43bb30e1f77c5ccc249fb4bb39f1c3",
+  "source_id": 9,
+  "duplicate": false,
+  "games": 75,
+  "chapters": 11,
+  "parsed_statuses": {
+    "THEORY": 11,
+    "LEGAL_MOVES": 64
+  },
+  "exported_json": 75,
+  "exported_fen": 75,
+  "exported_pgn": 75,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 19,
+  "records_with_promotions": 10,
+  "exercise_candidates": 64,
+  "ready_exercises": 0,
+  "needs_review": 64,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/2692e72efebb"
+}

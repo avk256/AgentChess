@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "sha256": "158d94e4d8c8f3e30bde2ed9982baf54ef70c2371020ab7221598735d3a0b75d",
+  "filename": "polgar.ru.cdb",
+  "origin_path": "vlasov/middle/polgar.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "5334 шахматных задач, комбинаций и игр",
+    "info": "Ласло Полгар",
+    "gameid": "1"
+  }
+}

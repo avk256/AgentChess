@@ -1,0 +1,12 @@
+{
+  "id": 28,
+  "sha256": "0d74f6bc9568b52ef5ff5ee35bf78987ec38e298f57be2cfda6f1620184042b4",
+  "filename": "king_rook_mate.ru.cdb",
+  "origin_path": "vlasov/beginner/king_rook_mate.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "title": "Базовые маты: Мат ладьёй и королём!",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

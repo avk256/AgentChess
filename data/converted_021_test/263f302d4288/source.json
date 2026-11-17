@@ -1,0 +1,13 @@
+{
+  "id": 23,
+  "sha256": "263f302d4288996715538425bffebea2428c1a0e451967d237f68f0e6bcd2c96",
+  "filename": "endings_for_beginners.ru.cdb",
+  "origin_path": "vlasov/beginner/endings_for_beginners.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Шахматные окончания для начинающих",
+    "info": "J.H. Blake",
+    "gameid": "1"
+  }
+}

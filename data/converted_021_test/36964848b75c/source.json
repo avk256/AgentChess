@@ -1,0 +1,13 @@
+{
+  "id": 13,
+  "sha256": "36964848b75c832188a299e90b18e5e653fba0c4324930c91efed7726d25b65a",
+  "filename": "qmoves.ru.cdb",
+  "origin_path": "vlasov/middle/qmoves.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Тихие ходы, приводящие к мату!",
+    "info": "Akorps@aol.com",
+    "gameid": "1"
+  }
+}

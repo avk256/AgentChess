@@ -1,0 +1,13 @@
+{
+  "id": 15,
+  "sha256": "e683a59ef78e823d980b9985beea9ed8569a240cc7c75d4612c6439a354e7e20",
+  "filename": "Khenkin.ru.cdb",
+  "origin_path": "vlasov/middle/Khenkin.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Последний шах",
+    "info": "Хенкин Виктор Львович",
+    "gameid": "1"
+  }
+}

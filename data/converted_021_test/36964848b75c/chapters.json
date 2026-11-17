@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "gameid": 1,
+    "text": "Quiet Mate in 2"
+  },
+  {
+    "id": 2,
+    "parent": 0,
+    "gameid": 119,
+    "text": "Mates in at most 3"
+  },
+  {
+    "id": 3,
+    "parent": 0,
+    "gameid": 184,
+    "text": "Mates in at most 4"
+  },
+  {
+    "id": 4,
+    "parent": 0,
+    "gameid": 234,
+    "text": "Mates in at most 5"
+  },
+  {
+    "id": 5,
+    "parent": 0,
+    "gameid": 255,
+    "text": "Mates in at most 6"
+  },
+  {
+    "id": 6,
+    "parent": 0,
+    "gameid": 269,
+    "text": "Mates in at most 7"
+  },
+  {
+    "id": 7,
+    "parent": 0,
+    "gameid": 278,
+    "text": "Mates in at most 8"
+  },
+  {
+    "id": 8,
+    "parent": 0,
+    "gameid": 280,
+    "text": "Mates in at most 9"
+  },
+  {
+    "id": 9,
+    "parent": 0,
+    "gameid": 281,
+    "text": "Complex quiet operations"
+  }
+]

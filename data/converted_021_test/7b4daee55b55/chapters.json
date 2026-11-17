@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "gameid": 1,
+    "text": "1ПАРТИИ БРИЛЛИАНТЫ"
+  },
+  {
+    "id": 2,
+    "parent": 0,
+    "gameid": 2,
+    "text": "РОЖДЕНИЕ ИСТОРИИ"
+  },
+  {
+    "id": 3,
+    "parent": 0,
+    "gameid": 3,
+    "text": "Рекьявик"
+  },
+  {
+    "id": 4,
+    "parent": 0,
+    "gameid": 4,
+    "text": "УБИТЬ ДРАКОНА"
+  },
+  {
+    "id": 5,
+    "parent": 0,
+    "gameid": 5,
+    "text": "Москва"
+  },
+  {
+    "id": 6,
+    "parent": 0,
+    "gameid": 6,
+    "text": "БЕСПОДОБНАЯ ОРИГИНАЛЬНОСТЬ"
+  },
+  {
+    "id": 7,
+    "parent": 0,
+    "gameid": 7,
+    "text": "Вейк-ан-Зее"
+  },
+  {
+    "id": 8,
+    "parent": 0,
+    "gameid": 8,
+    "text": "НАКАЛ ЦЕЙТНОТА"
+  },
+  {
+    "id": 9,
+    "parent": 0,
+    "gameid": 9,
+    "text": "Багио"
+  },
+  {
+    "id": 10,
+    "parent": 0,
+    "gameid": 10,
+    "text": "СОЛНЕЧНЫЙ ДЕНЬ"
+  },
+  {
+    "id": 11,
+    "parent": 0,
+    "gameid": 11,
+    "text": "Лондон"
+  },
+  {
+    "id": 12,
+    "parent": 0,
+    "gameid": 12,
+    "text": "ОЛИМПИЙСКОЕ НАПРЯЖЕНИЕ"
+  },
+  {
+    "id": 13,
+    "parent": 0,
+    "gameid": 13,
+    "text": "Люцерн"
+  },
+  {
+    "id": 14,
+    "parent": 0,
+    "gameid": 14,
+    "text": "ОПЫТНАЯ РУКА"
+  },
+  {
+    "id": 15,
+    "parent": 0,
+    "gameid": 15,
+    "text": "Лондон"
+  },
+  {
+    "id": 16,
+    "parent": 0,
+    "gameid": 16,
+    "text": "ИЗО ВСЕХ СИЛ"
+  },
+  {
+    "id": 17,
+    "parent": 0,
+    "gameid": 17,
+    "text": "Вейк-ан-Зее"
+  },
+  {
+    "id": 18,
+    "parent": 0,
+    "gameid": 18,
+    "text": "МОСКОВСКОЕ ЧУДО"
+  },
+  {
+    "id": 19,
+    "parent": 0,
+    "gameid": 19,
+    "text": "Москва"
+  },
+  {
+    "id": 20,
+    "parent": 0,
+    "gameid": 20,
+    "text": "АЛЯ МОРФИ"
+  },
+  {
+    "id": 21,
+    "parent": 0,
+    "gameid": 21,
+    "text": "Хилверсум"
+  },
+  {
+    "id": 22,
+    "parent": 0,
+    "gameid": 22,
+    "text": "ГРОМ И МОЛНИИ"
+  },
+  {
+    "id": 23,
+    "parent": 0,
+    "gameid": 23,
+    "text": "Лион"
+  },
+  {
+    "id": 24,
+    "parent": 0,
+    "gameid": 24,
+    "text": "РАЗЯЩИЙ УДАР"
+  },
+  {
+    "id": 25,
+    "parent": 0,
+    "gameid": 25,
+    "text": "Брюссель"
+  }
+]

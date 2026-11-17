@@ -1,0 +1,392 @@
+{
+  "total_exercises": 7851,
+  "imported_sources": 33,
+  "used_sources": 18,
+  "unused_sources": 15,
+  "sources": [
+    {
+      "filename": "polgar.ru.cdb",
+      "level": "середній",
+      "games_count": 5333,
+      "exercises": 4745
+    },
+    {
+      "filename": "portish_600.ru.cdb",
+      "level": "початковий",
+      "games_count": 635,
+      "exercises": 616
+    },
+    {
+      "filename": "School.ru.cdb",
+      "level": "початковий",
+      "games_count": 1307,
+      "exercises": 449
+    },
+    {
+      "filename": "qmoves.ru.cdb",
+      "level": "середній",
+      "games_count": 359,
+      "exercises": 359
+    },
+    {
+      "filename": "303_checkmates.ru.cdb",
+      "level": "середній",
+      "games_count": 298,
+      "exercises": 298
+    },
+    {
+      "filename": "double_attack.ru.cdb",
+      "level": "початковий",
+      "games_count": 284,
+      "exercises": 284
+    },
+    {
+      "filename": "dobr_m2n.ru.cdb",
+      "level": "початковий",
+      "games_count": 200,
+      "exercises": 200
+    },
+    {
+      "filename": "dobr_m2q.ru.cdb",
+      "level": "початковий",
+      "games_count": 199,
+      "exercises": 199
+    },
+    {
+      "filename": "enprize.ru.cdb",
+      "level": "початковий",
+      "games_count": 168,
+      "exercises": 168
+    },
+    {
+      "filename": "pin.ru.cdb",
+      "level": "початковий",
+      "games_count": 132,
+      "exercises": 132
+    },
+    {
+      "filename": "endings_for_beginners.ru.cdb",
+      "level": "початковий",
+      "games_count": 124,
+      "exercises": 124
+    },
+    {
+      "filename": "Kalinichenko.ru.cdb",
+      "level": "середній",
+      "games_count": 1354,
+      "exercises": 102
+    },
+    {
+      "filename": "discovered.ru.cdb",
+      "level": "початковий",
+      "games_count": 83,
+      "exercises": 83
+    },
+    {
+      "filename": "Smyslov_endgame.cdb",
+      "level": "середній",
+      "games_count": 75,
+      "exercises": 64
+    },
+    {
+      "filename": "two_bishops_mate.ru.cdb",
+      "level": "початковий",
+      "games_count": 11,
+      "exercises": 11
+    },
+    {
+      "filename": "king_queen_mate.ru.cdb",
+      "level": "початковий",
+      "games_count": 8,
+      "exercises": 8
+    },
+    {
+      "filename": "king_rook_mate.ru.cdb",
+      "level": "початковий",
+      "games_count": 8,
+      "exercises": 8
+    },
+    {
+      "filename": "Khenkin.ru.cdb",
+      "level": "середній",
+      "games_count": 1257,
+      "exercises": 1
+    },
+    {
+      "filename": "10_traps.ru.cdb",
+      "level": "середній",
+      "games_count": 11,
+      "exercises": 0
+    },
+    {
+      "filename": "303_tactics.ru.cdb",
+      "level": "середній",
+      "games_count": 303,
+      "exercises": 0
+    },
+    {
+      "filename": "ClaudeKabers.ru.cdb",
+      "level": "середній",
+      "games_count": 768,
+      "exercises": 0
+    },
+    {
+      "filename": "Romanovsky.cdb",
+      "level": "середній",
+      "games_count": 319,
+      "exercises": 0
+    },
+    {
+      "filename": "School2.ru.cdb",
+      "level": "середній",
+      "games_count": 1165,
+      "exercises": 0
+    },
+    {
+      "filename": "Shumilin.ru.cdb",
+      "level": "середній",
+      "games_count": 680,
+      "exercises": 0
+    },
+    {
+      "filename": "Sukhin_1000.ru.cdb",
+      "level": "середній",
+      "games_count": 2054,
+      "exercises": 0
+    },
+    {
+      "filename": "beginning.ru.cdb",
+      "level": "початковий",
+      "games_count": 300,
+      "exercises": 0
+    },
+    {
+      "filename": "bondarevsky.cdb",
+      "level": "середній",
+      "games_count": 174,
+      "exercises": 0
+    },
+    {
+      "filename": "brilliant.cdb",
+      "level": "середній",
+      "games_count": 25,
+      "exercises": 0
+    },
+    {
+      "filename": "koblents.cdb",
+      "level": "середній",
+      "games_count": 163,
+      "exercises": 0
+    },
+    {
+      "filename": "kotov.cdb",
+      "level": "середній",
+      "games_count": 390,
+      "exercises": 0
+    },
+    {
+      "filename": "lysenko.cdb",
+      "level": "середній",
+      "games_count": 111,
+      "exercises": 0
+    },
+    {
+      "filename": "suetin.cdb",
+      "level": "початковий",
+      "games_count": 197,
+      "exercises": 0
+    },
+    {
+      "filename": "win_trap.ru.cdb",
+      "level": "початковий",
+      "games_count": 310,
+      "exercises": 0
+    }
+  ],
+  "topics": {
+    "мат": {
+      "total": 6353,
+      "zero_ply": 0,
+      "one_ply": 2578,
+      "multi_ply": 3775,
+      "contains_null_marker": 0,
+      "root_alternatives": 34
+    },
+    "ендшпіль": {
+      "total": 804,
+      "zero_ply": 2,
+      "one_ply": 99,
+      "multi_ply": 703,
+      "contains_null_marker": 138,
+      "root_alternatives": 137
+    },
+    "відкритий напад": {
+      "total": 83,
+      "zero_ply": 0,
+      "one_ply": 5,
+      "multi_ply": 78,
+      "contains_null_marker": 0,
+      "root_alternatives": 1
+    },
+    "базові мати": {
+      "total": 27,
+      "zero_ply": 17,
+      "one_ply": 1,
+      "multi_ply": 9,
+      "contains_null_marker": 0,
+      "root_alternatives": 0
+    },
+    "незахищені фігури": {
+      "total": 168,
+      "zero_ply": 0,
+      "one_ply": 126,
+      "multi_ply": 42,
+      "contains_null_marker": 0,
+      "root_alternatives": 0
+    },
+    "зв’язка": {
+      "total": 132,
+      "zero_ply": 0,
+      "one_ply": 18,
+      "multi_ply": 114,
+      "contains_null_marker": 0,
+      "root_alternatives": 2
+    },
+    "подвійний удар": {
+      "total": 284,
+      "zero_ply": 0,
+      "one_ply": 25,
+      "multi_ply": 259,
+      "contains_null_marker": 0,
+      "root_alternatives": 0
+    }
+  },
+  "total_null_marker_exercises": 138,
+  "null_marker_examples": [
+    {
+      "exercise_id": 6557,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 21,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6558,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 22,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6559,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 23,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6564,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 28,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6571,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 35,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6578,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 44,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6579,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 45,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6581,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 47,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6582,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 48,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6583,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 49,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6591,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 59,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6593,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 61,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6595,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 63,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6608,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 77,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6610,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 79,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6628,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 98,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6629,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 99,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6630,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 100,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6638,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 110,
+      "first_null_ply": 1
+    },
+    {
+      "exercise_id": 6642,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 114,
+      "first_null_ply": 1
+    }
+  ],
+  "notes": [
+    "0000 is a PGN/CDB null-move marker, not a legal user chess move.",
+    "Source usage counts include only exercise candidates, not theoretical catalog records.",
+    "Alternative PGN branches require a dedicated viewer; the step-by-step solution presents the mainline only."
+  ]
+}

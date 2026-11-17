@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/qmoves.ru.cdb",
+  "filename": "qmoves.ru.cdb",
+  "sha256": "36964848b75c832188a299e90b18e5e653fba0c4324930c91efed7726d25b65a",
+  "source_id": 13,
+  "duplicate": false,
+  "games": 359,
+  "chapters": 9,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 359
+  },
+  "exported_json": 359,
+  "exported_fen": 359,
+  "exported_pgn": 359,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 59,
+  "records_with_promotions": 56,
+  "exercise_candidates": 359,
+  "ready_exercises": 0,
+  "needs_review": 359,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/36964848b75c"
+}

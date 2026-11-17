@@ -1,0 +1,13 @@
+{
+  "id": 33,
+  "sha256": "fcb7c11e01df9f98c27fd9977f42dc39aaba9ae63942e3b8a5a691d8a3cd23e1",
+  "filename": "double_attack.ru.cdb",
+  "origin_path": "vlasov/beginner/double_attack.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Двойной удар",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

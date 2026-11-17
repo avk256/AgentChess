@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "sha256": "f4d0a8eac3676a076ecf0d0c7848439cded5a115c43270b5152275ceedd5804f",
+  "filename": "bondarevsky.cdb",
+  "origin_path": "vlasov/middle/bondarevsky.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Комбинации в миттельшпиле",
+    "info": "Бондаревский Игорь 3ахарович",
+    "gameid": "1"
+  }
+}

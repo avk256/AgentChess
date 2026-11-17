@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/beginner/king_queen_mate.ru.cdb",
+  "filename": "king_queen_mate.ru.cdb",
+  "sha256": "22b83486145eb43e81f6abd615b5b4a3880c42ac422be52e5f346c7bbe2449ec",
+  "source_id": 27,
+  "duplicate": false,
+  "games": 8,
+  "chapters": 0,
+  "parsed_statuses": {
+    "THEORY": 2,
+    "LEGAL_MOVES": 2,
+    "EMPTY_MOVETEXT": 4
+  },
+  "exported_json": 8,
+  "exported_fen": 8,
+  "exported_pgn": 4,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 0,
+  "records_with_promotions": 0,
+  "exercise_candidates": 8,
+  "ready_exercises": 0,
+  "needs_review": 8,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/22b83486145e"
+}

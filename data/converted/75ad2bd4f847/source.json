@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "sha256": "75ad2bd4f847615f27b8520406ed048e8ef480b0e0f242cf627427833107b5c6",
+  "filename": "School2.ru.cdb",
+  "origin_path": "vlasov/middle/School2.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Сборник шахматных комбинаций - Том II",
+    "info": "Иващенко Сергей Данилович",
+    "gameid": "1"
+  }
+}

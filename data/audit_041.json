@@ -1,0 +1,900 @@
+{
+  "total": 7851,
+  "topics": {
+    "базові мати": {
+      "total": 27,
+      "zero_ply": 17,
+      "source_plies": 197,
+      "legally_replayable": 27,
+      "multi_ply": 9,
+      "one_ply": 1
+    },
+    "відкритий напад": {
+      "total": 83,
+      "multi_ply": 78,
+      "source_plies": 281,
+      "legally_replayable": 83,
+      "one_ply": 5,
+      "multiple_root_variations": 1
+    },
+    "ендшпіль": {
+      "total": 804,
+      "multi_ply": 703,
+      "source_plies": 11013,
+      "legally_replayable": 666,
+      "multiple_root_variations": 137,
+      "one_ply": 99,
+      "not_replayable": 138,
+      "zero_ply": 2
+    },
+    "зв’язка": {
+      "total": 132,
+      "one_ply": 18,
+      "source_plies": 474,
+      "legally_replayable": 132,
+      "multi_ply": 114,
+      "multiple_root_variations": 2
+    },
+    "мат": {
+      "total": 6353,
+      "one_ply": 2578,
+      "source_plies": 18133,
+      "legally_replayable": 6353,
+      "multi_ply": 3775,
+      "multiple_root_variations": 34
+    },
+    "незахищені фігури": {
+      "total": 168,
+      "one_ply": 126,
+      "source_plies": 264,
+      "legally_replayable": 168,
+      "multi_ply": 42
+    },
+    "подвійний удар": {
+      "total": 284,
+      "one_ply": 25,
+      "source_plies": 1060,
+      "legally_replayable": 284,
+      "multi_ply": 259
+    }
+  },
+  "one_ply_samples": {
+    "мат": [
+      {
+        "exercise_id": 1,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 1,
+        "single_move_uci": "h2h6"
+      },
+      {
+        "exercise_id": 2,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 2,
+        "single_move_uci": "d7d6"
+      },
+      {
+        "exercise_id": 3,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 3,
+        "single_move_uci": "e7b4"
+      },
+      {
+        "exercise_id": 4,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 4,
+        "single_move_uci": "e5f3"
+      },
+      {
+        "exercise_id": 5,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 5,
+        "single_move_uci": "e4d6"
+      },
+      {
+        "exercise_id": 6,
+        "source": "Kalinichenko.ru.cdb",
+        "source_record_id": 6,
+        "single_move_uci": "e4d6"
+      }
+    ],
+    "ендшпіль": [
+      {
+        "exercise_id": 6439,
+        "source": "endings_for_beginners.ru.cdb",
+        "source_record_id": 22,
+        "single_move_uci": "a7b8"
+      },
+      {
+        "exercise_id": 6557,
+        "source": "portish_600.ru.cdb",
+        "source_record_id": 21,
+        "single_move_uci": "0000"
+      },
+      {
+        "exercise_id": 6558,
+        "source": "portish_600.ru.cdb",
+        "source_record_id": 22,
+        "single_move_uci": "0000"
+      },
+      {
+        "exercise_id": 6559,
+        "source": "portish_600.ru.cdb",
+        "source_record_id": 23,
+        "single_move_uci": "0000"
+      },
+      {
+        "exercise_id": 6564,
+        "source": "portish_600.ru.cdb",
+        "source_record_id": 28,
+        "single_move_uci": "0000"
+      },
+      {
+        "exercise_id": 6571,
+        "source": "portish_600.ru.cdb",
+        "source_record_id": 35,
+        "single_move_uci": "0000"
+      }
+    ],
+    "відкритий напад": [
+      {
+        "exercise_id": 7159,
+        "source": "discovered.ru.cdb",
+        "source_record_id": 2,
+        "single_move_uci": "e6e7"
+      },
+      {
+        "exercise_id": 7160,
+        "source": "discovered.ru.cdb",
+        "source_record_id": 3,
+        "single_move_uci": "e4d6"
+      },
+      {
+        "exercise_id": 7174,
+        "source": "discovered.ru.cdb",
+        "source_record_id": 17,
+        "single_move_uci": "e4h7"
+      },
+      {
+        "exercise_id": 7216,
+        "source": "discovered.ru.cdb",
+        "source_record_id": 59,
+        "single_move_uci": "f6g4"
+      },
+      {
+        "exercise_id": 7235,
+        "source": "discovered.ru.cdb",
+        "source_record_id": 78,
+        "single_move_uci": "a3a1"
+      }
+    ],
+    "базові мати": [
+      {
+        "exercise_id": 7250,
+        "source": "king_rook_mate.ru.cdb",
+        "source_record_id": 2,
+        "single_move_uci": "b6a6"
+      }
+    ],
+    "незахищені фігури": [
+      {
+        "exercise_id": 7268,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 1,
+        "single_move_uci": "c7c3"
+      },
+      {
+        "exercise_id": 7269,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 2,
+        "single_move_uci": "d1d8"
+      },
+      {
+        "exercise_id": 7270,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 3,
+        "single_move_uci": "h1h2"
+      },
+      {
+        "exercise_id": 7272,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 5,
+        "single_move_uci": "f2e1"
+      },
+      {
+        "exercise_id": 7273,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 6,
+        "single_move_uci": "d5e7"
+      },
+      {
+        "exercise_id": 7275,
+        "source": "enprize.ru.cdb",
+        "source_record_id": 8,
+        "single_move_uci": "e4c2"
+      }
+    ],
+    "зв’язка": [
+      {
+        "exercise_id": 7436,
+        "source": "pin.ru.cdb",
+        "source_record_id": 1,
+        "single_move_uci": "e8e1"
+      },
+      {
+        "exercise_id": 7437,
+        "source": "pin.ru.cdb",
+        "source_record_id": 2,
+        "single_move_uci": "b3e6"
+      },
+      {
+        "exercise_id": 7440,
+        "source": "pin.ru.cdb",
+        "source_record_id": 5,
+        "single_move_uci": "e4f5"
+      },
+      {
+        "exercise_id": 7444,
+        "source": "pin.ru.cdb",
+        "source_record_id": 9,
+        "single_move_uci": "e5h5"
+      },
+      {
+        "exercise_id": 7448,
+        "source": "pin.ru.cdb",
+        "source_record_id": 13,
+        "single_move_uci": "e2e5"
+      },
+      {
+        "exercise_id": 7450,
+        "source": "pin.ru.cdb",
+        "source_record_id": 15,
+        "single_move_uci": "e7e6"
+      }
+    ],
+    "подвійний удар": [
+      {
+        "exercise_id": 7568,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 1,
+        "single_move_uci": "d5e7"
+      },
+      {
+        "exercise_id": 7570,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 3,
+        "single_move_uci": "a5c6"
+      },
+      {
+        "exercise_id": 7571,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 4,
+        "single_move_uci": "d4e6"
+      },
+      {
+        "exercise_id": 7572,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 5,
+        "single_move_uci": "e6c5"
+      },
+      {
+        "exercise_id": 7573,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 6,
+        "single_move_uci": "c5b3"
+      },
+      {
+        "exercise_id": 7575,
+        "source": "double_attack.ru.cdb",
+        "source_record_id": 8,
+        "single_move_uci": "d5e7"
+      }
+    ]
+  },
+  "replay_errors_first_100": [
+    {
+      "exercise_id": 6557,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 21,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6558,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 22,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6559,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 23,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6564,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 28,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6571,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 35,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6578,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 44,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6579,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 45,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6581,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 47,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6582,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 48,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6583,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 49,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6591,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 59,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6593,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 61,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6595,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 63,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6608,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 77,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6610,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 79,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6628,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 98,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6629,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 99,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6630,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 100,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6638,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 110,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6642,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 114,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6678,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 152,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6681,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 155,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6682,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 156,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6689,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 163,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6690,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 164,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6695,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 169,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6706,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 181,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6714,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 189,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6716,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 191,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6725,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 200,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6731,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 206,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6737,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 212,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6740,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 215,
+      "error": "illegal source ply 4: 0000"
+    },
+    {
+      "exercise_id": 6742,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 217,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6744,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 219,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6756,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 231,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6770,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 245,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6771,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 246,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6774,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 249,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6775,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 250,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6783,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 258,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6785,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 260,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6788,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 263,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6790,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 265,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6799,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 274,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6801,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 276,
+      "error": "illegal source ply 5: 0000"
+    },
+    {
+      "exercise_id": 6809,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 284,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6819,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 294,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6832,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 308,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6835,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 311,
+      "error": "illegal source ply 4: 0000"
+    },
+    {
+      "exercise_id": 6838,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 314,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6839,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 315,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6840,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 316,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6841,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 317,
+      "error": "illegal source ply 6: 0000"
+    },
+    {
+      "exercise_id": 6843,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 319,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6844,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 320,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6845,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 321,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6848,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 324,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6850,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 326,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6851,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 327,
+      "error": "illegal source ply 4: 0000"
+    },
+    {
+      "exercise_id": 6852,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 328,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6854,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 330,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6856,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 332,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6858,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 334,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6861,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 337,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6864,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 341,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6865,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 342,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6871,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 348,
+      "error": "illegal source ply 5: 0000"
+    },
+    {
+      "exercise_id": 6872,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 349,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6874,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 351,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6876,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 353,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6877,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 354,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6879,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 356,
+      "error": "illegal source ply 5: 0000"
+    },
+    {
+      "exercise_id": 6883,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 360,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6885,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 362,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6890,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 367,
+      "error": "illegal source ply 4: 0000"
+    },
+    {
+      "exercise_id": 6892,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 369,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6897,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 374,
+      "error": "illegal source ply 4: 0000"
+    },
+    {
+      "exercise_id": 6898,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 375,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6901,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 378,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6902,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 379,
+      "error": "illegal source ply 8: 0000"
+    },
+    {
+      "exercise_id": 6903,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 380,
+      "error": "illegal source ply 6: 0000"
+    },
+    {
+      "exercise_id": 6905,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 382,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6910,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 387,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6911,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 388,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6913,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 390,
+      "error": "illegal source ply 5: 0000"
+    },
+    {
+      "exercise_id": 6916,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 393,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6918,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 395,
+      "error": "illegal source ply 22: 0000"
+    },
+    {
+      "exercise_id": 6919,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 396,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6921,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 398,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6922,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 399,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6923,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 400,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6924,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 401,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6928,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 405,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6933,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 410,
+      "error": "illegal source ply 2: 0000"
+    },
+    {
+      "exercise_id": 6934,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 411,
+      "error": "illegal source ply 13: 0000"
+    },
+    {
+      "exercise_id": 6935,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 412,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6937,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 414,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6943,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 420,
+      "error": "illegal source ply 1: 0000"
+    },
+    {
+      "exercise_id": 6949,
+      "source": "portish_600.ru.cdb",
+      "source_record_id": 426,
+      "error": "illegal source ply 8: 0000"
+    }
+  ],
+  "notes": [
+    "one_ply refers to the AUTHOR mainline, not the absence of alternatives",
+    "legally_replayable is not a proof of tactical motif or optimal play",
+    "mainline only; variations are retained in tree_json, not checked here"
+  ]
+}

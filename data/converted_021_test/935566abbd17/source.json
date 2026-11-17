@@ -1,0 +1,13 @@
+{
+  "id": 32,
+  "sha256": "935566abbd17f0a1a76762a83eedf85f37cb1a58a5c2bc627fd6e75b322792eb",
+  "filename": "pin.ru.cdb",
+  "origin_path": "vlasov/beginner/pin.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Связка",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

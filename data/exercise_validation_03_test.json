@@ -1,0 +1,168 @@
+{
+  "processed": [
+    {
+      "topic": "базові мати",
+      "readiness": "GUIDED",
+      "count": 9
+    },
+    {
+      "topic": "базові мати",
+      "readiness": "READY",
+      "count": 1
+    },
+    {
+      "topic": "базові мати",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 17
+    },
+    {
+      "topic": "відкритий напад",
+      "readiness": "GUIDED",
+      "count": 1
+    },
+    {
+      "topic": "відкритий напад",
+      "readiness": "READY",
+      "count": 82
+    },
+    {
+      "topic": "ендшпіль",
+      "readiness": "GUIDED",
+      "count": 99
+    },
+    {
+      "topic": "ендшпіль",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 1
+    },
+    {
+      "topic": "зв’язка",
+      "readiness": "GUIDED",
+      "count": 6
+    },
+    {
+      "topic": "зв’язка",
+      "readiness": "READY",
+      "count": 94
+    },
+    {
+      "topic": "мат",
+      "readiness": "READY",
+      "count": 100
+    },
+    {
+      "topic": "незахищені фігури",
+      "readiness": "GUIDED",
+      "count": 7
+    },
+    {
+      "topic": "незахищені фігури",
+      "readiness": "READY",
+      "count": 93
+    },
+    {
+      "topic": "подвійний удар",
+      "readiness": "GUIDED",
+      "count": 5
+    },
+    {
+      "topic": "подвійний удар",
+      "readiness": "READY",
+      "count": 95
+    }
+  ],
+  "totals": [
+    {
+      "topic": "базові мати",
+      "readiness": "GUIDED",
+      "count": 9
+    },
+    {
+      "topic": "базові мати",
+      "readiness": "READY",
+      "count": 1
+    },
+    {
+      "topic": "базові мати",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 17
+    },
+    {
+      "topic": "відкритий напад",
+      "readiness": "GUIDED",
+      "count": 1
+    },
+    {
+      "topic": "відкритий напад",
+      "readiness": "READY",
+      "count": 82
+    },
+    {
+      "topic": "ендшпіль",
+      "readiness": "GUIDED",
+      "count": 99
+    },
+    {
+      "topic": "ендшпіль",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 705
+    },
+    {
+      "topic": "зв’язка",
+      "readiness": "GUIDED",
+      "count": 6
+    },
+    {
+      "topic": "зв’язка",
+      "readiness": "READY",
+      "count": 94
+    },
+    {
+      "topic": "зв’язка",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 32
+    },
+    {
+      "topic": "мат",
+      "readiness": "READY",
+      "count": 100
+    },
+    {
+      "topic": "мат",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 6253
+    },
+    {
+      "topic": "незахищені фігури",
+      "readiness": "GUIDED",
+      "count": 7
+    },
+    {
+      "topic": "незахищені фігури",
+      "readiness": "READY",
+      "count": 93
+    },
+    {
+      "topic": "незахищені фігури",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 68
+    },
+    {
+      "topic": "подвійний удар",
+      "readiness": "GUIDED",
+      "count": 5
+    },
+    {
+      "topic": "подвійний удар",
+      "readiness": "READY",
+      "count": 95
+    },
+    {
+      "topic": "подвійний удар",
+      "readiness": "REVIEW_REQUIRED",
+      "count": 184
+    }
+  ],
+  "engine": "/usr/games/stockfish",
+  "note": "READY tactic: agreement with Stockfish on first move; motif from CDB label. GUIDED endgame: source-line study, not verified win."
+}

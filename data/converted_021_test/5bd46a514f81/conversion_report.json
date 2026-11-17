@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/beginner/portish_600.ru.cdb",
+  "filename": "portish_600.ru.cdb",
+  "sha256": "5bd46a514f81fcc9c8c26d65c910ced713bd3a73fdffac8b05ca410185f97b3d",
+  "source_id": 24,
+  "duplicate": false,
+  "games": 635,
+  "chapters": 45,
+  "parsed_statuses": {
+    "THEORY": 20,
+    "LEGAL_MOVES": 614,
+    "EMPTY_MOVETEXT": 1
+  },
+  "exported_json": 635,
+  "exported_fen": 635,
+  "exported_pgn": 634,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 282,
+  "records_with_promotions": 162,
+  "exercise_candidates": 616,
+  "ready_exercises": 0,
+  "needs_review": 616,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/5bd46a514f81"
+}

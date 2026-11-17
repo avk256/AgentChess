@@ -1,0 +1,13 @@
+{
+  "id": 31,
+  "sha256": "1040e13f3cd7336dca0c39fdf4876d6c65d60570f76055b5e1075c4eb38156bb",
+  "filename": "enprize.ru.cdb",
+  "origin_path": "vlasov/beginner/enprize.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Висячие фигуры",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

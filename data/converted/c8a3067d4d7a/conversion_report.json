@@ -1,0 +1,27 @@
+{
+  "file": "vlasov/middle/Romanovsky.cdb",
+  "filename": "Romanovsky.cdb",
+  "sha256": "c8a3067d4d7ab66e0f0da102c454e602d515f080a36f82520ec51ab49f9f1f83",
+  "source_id": 5,
+  "duplicate": false,
+  "games": 319,
+  "chapters": 21,
+  "parsed_statuses": {
+    "THEORY": 75,
+    "LEGAL_MOVES": 231,
+    "EMPTY_MOVETEXT": 13
+  },
+  "exported_json": 319,
+  "exported_fen": 319,
+  "exported_pgn": 306,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 30,
+  "records_with_promotions": 21,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/c8a3067d4d7a"
+}

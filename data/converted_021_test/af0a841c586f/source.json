@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "sha256": "af0a841c586f9641936e0dd41b67b49a5027cc24d61e9c0c2e9bf5f9fe1b304e",
+  "filename": "Shumilin.ru.cdb",
+  "origin_path": "vlasov/middle/Shumilin.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Шахматный задачник",
+    "info": "Шумилин Николай Павлович",
+    "gameid": "1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/Shumilin.ru.cdb",
+  "filename": "Shumilin.ru.cdb",
+  "sha256": "af0a841c586f9641936e0dd41b67b49a5027cc24d61e9c0c2e9bf5f9fe1b304e",
+  "source_id": 14,
+  "duplicate": false,
+  "games": 680,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 680
+  },
+  "exported_json": 680,
+  "exported_fen": 680,
+  "exported_pgn": 680,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 88,
+  "records_with_promotions": 58,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/af0a841c586f"
+}

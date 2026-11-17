@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/kotov.cdb",
+  "filename": "kotov.cdb",
+  "sha256": "d230cbc863493fad127feec1500ac61b89898b2fab50fbf856eb7835298fd684",
+  "source_id": 11,
+  "duplicate": false,
+  "games": 390,
+  "chapters": 104,
+  "parsed_statuses": {
+    "THEORY": 89,
+    "LEGAL_MOVES": 301
+  },
+  "exported_json": 390,
+  "exported_fen": 390,
+  "exported_pgn": 390,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 36,
+  "records_with_promotions": 23,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/d230cbc86349"
+}

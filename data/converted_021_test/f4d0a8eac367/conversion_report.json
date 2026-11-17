@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/bondarevsky.cdb",
+  "filename": "bondarevsky.cdb",
+  "sha256": "f4d0a8eac3676a076ecf0d0c7848439cded5a115c43270b5152275ceedd5804f",
+  "source_id": 1,
+  "duplicate": false,
+  "games": 174,
+  "chapters": 29,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 139,
+    "THEORY": 35
+  },
+  "exported_json": 174,
+  "exported_fen": 174,
+  "exported_pgn": 174,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 3,
+  "records_with_promotions": 3,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/f4d0a8eac367"
+}

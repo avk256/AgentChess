@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/Sukhin_1000.ru.cdb",
+  "filename": "Sukhin_1000.ru.cdb",
+  "sha256": "f2908a4f2c02629b762dc089b64f9f3b97b30830234325033cc80004deb4c493",
+  "source_id": 16,
+  "duplicate": false,
+  "games": 2054,
+  "chapters": 14,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 2050,
+    "THEORY": 4
+  },
+  "exported_json": 2054,
+  "exported_fen": 2054,
+  "exported_pgn": 2054,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 102,
+  "records_with_promotions": 82,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/f2908a4f2c02"
+}

@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/discovered.ru.cdb",
+  "filename": "discovered.ru.cdb",
+  "sha256": "142a005950030593d208cb28256ef34e6740cbdd64fda1d0ad77efb7ddc38839",
+  "source_id": 25,
+  "duplicate": false,
+  "games": 83,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 83
+  },
+  "exported_json": 83,
+  "exported_fen": 83,
+  "exported_pgn": 83,
+  "elo_records": 83,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 0,
+  "records_with_promotions": 0,
+  "exercise_candidates": 83,
+  "ready_exercises": 0,
+  "needs_review": 83,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/142a00595003"
+}

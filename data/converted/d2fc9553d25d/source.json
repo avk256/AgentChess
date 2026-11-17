@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "sha256": "d2fc9553d25d2c14890dcaa663f12ec77b09f6a1dd71445006a83e14e2b63059",
+  "filename": "10_traps.ru.cdb",
+  "origin_path": "vlasov/middle/10_traps.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "title": "10 опаснейших шахматных ловушек",
+    "info": "chess.com",
+    "gameid": "1"
+  }
+}

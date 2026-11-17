@@ -1,0 +1,13 @@
+{
+  "id": 11,
+  "sha256": "d230cbc863493fad127feec1500ac61b89898b2fab50fbf856eb7835298fd684",
+  "filename": "kotov.cdb",
+  "origin_path": "vlasov/middle/kotov.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Как стать гроссмейстером",
+    "info": "Александр Котов",
+    "gameid": "1"
+  }
+}

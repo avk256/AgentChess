@@ -1,0 +1,51 @@
+{
+  "version": "0.5.3",
+  "dry_run": true,
+  "integrity": "ok",
+  "table_counts_before": {
+    "cdb_records": 18805,
+    "cdb_sources": 33,
+    "cdb_exercises": 14343,
+    "users": 1,
+    "games": 1
+  },
+  "table_counts_after": {
+    "cdb_records": 18805,
+    "cdb_sources": 33,
+    "cdb_exercises": 14343,
+    "users": 1,
+    "games": 1
+  },
+  "mate_author_length": {
+    "dry_run": true,
+    "total_mate_exercises": 6353,
+    "changed": 2917,
+    "distribution": {
+      "1": 2585,
+      "2": 2499,
+      "4": 88,
+      "3": 1050,
+      "15": 7,
+      "14": 2,
+      "16": 4,
+      "17": 3,
+      "19": 2,
+      "20": 1,
+      "25": 3,
+      "12": 3,
+      "23": 1,
+      "5": 43,
+      "6": 22,
+      "7": 16,
+      "22": 1,
+      "9": 6,
+      "8": 10,
+      "11": 3,
+      "10": 3,
+      "34": 1
+    },
+    "incomplete_lines": 0,
+    "incomplete_samples": [],
+    "rule": "mate_in = number of attacker moves in complete CDB mainline, not a proof of mate"
+  }
+}

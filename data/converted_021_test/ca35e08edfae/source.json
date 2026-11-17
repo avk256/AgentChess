@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "sha256": "ca35e08edfae11c03ffff14bbf17746813d7a7cdacc5b938d324aef64acfbe34",
+  "filename": "303_tactics.ru.cdb",
+  "origin_path": "vlasov/middle/303_tactics.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "303 интересные тактические задачи",
+    "info": "Wilson, Alberston",
+    "gameid": "1"
+  }
+}

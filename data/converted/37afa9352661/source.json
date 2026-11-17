@@ -1,0 +1,13 @@
+{
+  "id": 10,
+  "sha256": "37afa93526613e97df17d37da94694ca29f4dccf0f4dad5b07c7b2d959d4bfcd",
+  "filename": "303_checkmates.ru.cdb",
+  "origin_path": "vlasov/middle/303_checkmates.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "303 интересных мата",
+    "info": "Wilson, Alberston",
+    "gameid": "1"
+  }
+}

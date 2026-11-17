@@ -1,0 +1,12 @@
+{
+  "id": 27,
+  "sha256": "22b83486145eb43e81f6abd615b5b4a3880c42ac422be52e5f346c7bbe2449ec",
+  "filename": "king_queen_mate.ru.cdb",
+  "origin_path": "vlasov/beginner/king_queen_mate.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "title": "Базовые маты: Мат ферзём и королём!",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

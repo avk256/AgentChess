@@ -1,0 +1,13 @@
+{
+  "id": 26,
+  "sha256": "7854f7f1491c279c236528690434e697cd5e89120fb8026d309a1f9af42a477f",
+  "filename": "win_trap.ru.cdb",
+  "origin_path": "vlasov/beginner/win_trap.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "310 дебютных ловушек",
+    "info": "Ирвин Чернев",
+    "gameid": "1"
+  }
+}

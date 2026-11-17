@@ -1,0 +1,13 @@
+{
+  "id": 30,
+  "sha256": "d6e9db5e544c7c36b3e7f547631ada428ed81a650b6a3a8c80f9f3589eb294b7",
+  "filename": "suetin.cdb",
+  "origin_path": "vlasov/beginner/suetin.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Как играть дебют",
+    "info": "Суэтин Алексей Степанович",
+    "gameid": "1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": 19,
+  "sha256": "eab7af484f24f3cbeecde6a45d2148f2b00777066e90430d0321755141b5fce1",
+  "filename": "dobr_m2q.ru.cdb",
+  "origin_path": "vlasov/beginner/dobr_m2q.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Побеждаем короля. Мат в 2 хода. Ход и мат.",
+    "info": "Павел Добринецкий",
+    "gameid": "1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": 12,
+  "sha256": "5533eed2438e5782d581e90eb13c380ff4363c694ba2d3ed76f898b61947ec6c",
+  "filename": "lysenko.cdb",
+  "origin_path": "vlasov/middle/lysenko.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Оценка позиции",
+    "info": "Лысенко",
+    "gameid": "1"
+  }
+}

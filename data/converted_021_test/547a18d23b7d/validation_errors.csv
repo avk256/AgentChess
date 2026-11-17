@@ -1,0 +1,2 @@
+record_id,origin_index,status,error
+148,147,INVALID_FEN,chess.Board.is_valid() повернув False

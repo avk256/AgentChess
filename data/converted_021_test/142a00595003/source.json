@@ -1,0 +1,13 @@
+{
+  "id": 25,
+  "sha256": "142a005950030593d208cb28256ef34e6740cbdd64fda1d0ad77efb7ddc38839",
+  "filename": "discovered.ru.cdb",
+  "origin_path": "vlasov/beginner/discovered.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Вскрытое нападение",
+    "info": "vlasovsoft",
+    "gameid": "1"
+  }
+}

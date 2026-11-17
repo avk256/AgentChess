@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/School2.ru.cdb",
+  "filename": "School2.ru.cdb",
+  "sha256": "75ad2bd4f847615f27b8520406ed048e8ef480b0e0f242cf627427833107b5c6",
+  "source_id": 3,
+  "duplicate": false,
+  "games": 1165,
+  "chapters": 6,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 1165
+  },
+  "exported_json": 1165,
+  "exported_fen": 1165,
+  "exported_pgn": 1165,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 517,
+  "records_with_promotions": 235,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/75ad2bd4f847"
+}

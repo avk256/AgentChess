@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/beginner/win_trap.ru.cdb",
+  "filename": "win_trap.ru.cdb",
+  "sha256": "7854f7f1491c279c236528690434e697cd5e89120fb8026d309a1f9af42a477f",
+  "source_id": 26,
+  "duplicate": false,
+  "games": 310,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 310
+  },
+  "exported_json": 310,
+  "exported_fen": 310,
+  "exported_pgn": 310,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 7,
+  "records_with_promotions": 7,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/7854f7f1491c"
+}

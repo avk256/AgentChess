@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/Khenkin.ru.cdb",
+  "filename": "Khenkin.ru.cdb",
+  "sha256": "e683a59ef78e823d980b9985beea9ed8569a240cc7c75d4612c6439a354e7e20",
+  "source_id": 15,
+  "duplicate": false,
+  "games": 1257,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 1257
+  },
+  "exported_json": 1257,
+  "exported_fen": 1257,
+  "exported_pgn": 1257,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 68,
+  "records_with_promotions": 47,
+  "exercise_candidates": 1,
+  "ready_exercises": 0,
+  "needs_review": 1,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/e683a59ef78e"
+}

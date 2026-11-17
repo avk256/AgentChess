@@ -1,0 +1,26 @@
+{
+  "file": "vlasov/middle/10_traps.ru.cdb",
+  "filename": "10_traps.ru.cdb",
+  "sha256": "d2fc9553d25d2c14890dcaa663f12ec77b09f6a1dd71445006a83e14e2b63059",
+  "source_id": 2,
+  "duplicate": false,
+  "games": 11,
+  "chapters": 11,
+  "parsed_statuses": {
+    "THEORY": 1,
+    "LEGAL_MOVES": 10
+  },
+  "exported_json": 11,
+  "exported_fen": 11,
+  "exported_pgn": 11,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 1,
+  "records_with_promotions": 1,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/d2fc9553d25d"
+}

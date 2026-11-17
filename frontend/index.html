@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html lang="uk"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>AgentChess MVP 0.5.5 — інтерфейс</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#19344b;background:#edf3f6}*{box-sizing:border-box}body{margin:0}header{padding:16px 25px;background:#173d55;color:#fff}header h1{margin:0;font-size:26px}header p{margin:5px 0 0;color:#d3e3ec}main{max-width:1200px;margin:auto;padding:14px}.card{background:#fff;border-radius:14px;padding:20px;margin:14px 0;box-shadow:0 2px 14px #16405a12}h2{margin:0 0 14px}.layout{display:flex;gap:30px;flex-wrap:wrap;align-items:flex-start}.side{flex:1;min-width:290px;max-width:520px}button,input,select{font:inherit;border-radius:8px;border:1px solid #a6b9c7;padding:10px;max-width:100%}button{background:#205c78;color:white;border:none;cursor:pointer;margin:3px 4px 3px 0}button:hover{background:#16465c}button:disabled{background:#b0bdc5;cursor:default}select{background:#f6f9fc}label{display:block;margin:8px 0}.row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.field{display:flex;flex-direction:column;flex:1;min-width:130px;gap:4px}.field>span{font-weight:600;font-size:14px}.notice{border-radius:9px;background:#e7f0f5;padding:11px 14px;min-height:46px;margin:12px 0}.task{background:#f0f7ee;border-left:4px solid #3e7a5c;padding:12px 14px;margin:10px 0;border-radius:5px}.task strong{display:block;font-size:18px;margin-bottom:6px}.small{font-size:13px;color:#547085}.badge{display:inline-block;background:#e6edf2;border-radius:8px;padding:7px 9px;margin:5px 5px 5px 0}.settings{padding:10px;border-radius:9px;background:#f3f7f9;margin-bottom:14px}.settings .field{min-width:135px} .hidden{display:none!important}pre{white-space:pre-wrap;max-height:240px;overflow:auto;font-size:13px}.count{font-weight:650;padding:6px 0;color:#265d47}.actions{display:flex;flex-wrap:wrap;gap:5px}.caption{font-size:14px;color:#38576a}#authStatus{padding-left:8px}.board-box{width:min(90vw,510px);flex:0 0 auto}.board{width:100%;display:grid;grid-template-columns:repeat(8,minmax(0,1fr));border:5px solid #324553;border-radius:6px;overflow:hidden;--light:#f0dfbd;--dark:#819ca4}.board[data-theme=green]{--light:#f0efd9;--dark:#86a66c}.board[data-theme=blue]{--light:#e2e9f0;--dark:#7698b5}.board[data-theme=walnut]{--light:#edcfaa;--dark:#98603d}.board[data-theme=classic]{--light:#f0dfbd;--dark:#819ca4}.square{position:relative;aspect-ratio:1;display:flex;align-items:center;justify-content:center;cursor:pointer;min-width:0;user-select:none}.square.light{background:var(--light)}.square.dark{background:var(--dark)}.square:focus-visible{outline:3px solid #e4a11c;outline-offset:-3px;z-index:2}.square.selected{box-shadow:inset 0 0 0 4px #eab72b}.piece{font-size:clamp(31px,4.6vw,51px);line-height:1;z-index:1;pointer-events:none}.piece.white{color:#ffffff;-webkit-text-stroke:1.35px #173142;paint-order:stroke fill;filter:drop-shadow(0 1px 1px #173142)}.piece.black{color:#172c3d;text-shadow:0 1px 1px #eee8}.board[data-pieces=contrast] .piece.white{color:#fff;-webkit-text-stroke:1.8px #111;filter:drop-shadow(0 1px 2px #111)}.board[data-pieces=contrast] .piece.black{color:#111;filter:drop-shadow(0 0 1px white);text-shadow:0 0 3px white}.piece.letter{font-family:Arial,sans-serif;font-weight:800;font-size:clamp(18px,2.5vw,31px);height:67%;aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:50%}.piece.letter.white{background:#fff8e5;color:#122f42;border:2px solid #234055;text-shadow:none}.piece.letter.black{background:#233b4b;color:#fff;border:2px solid #e8edea;text-shadow:none}.coordinate{position:absolute;font-size:clamp(9px,1.3vw,13px);font-weight:700;line-height:1;pointer-events:none;opacity:.84}.coord-rank{top:3px;left:4px}.coord-file{right:4px;bottom:3px}.square.light .coordinate{color:#597884}.square.dark .coordinate{color:#faf1db}#boardHelp{margin:8px 0 0}.auth-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.auth-row input{min-width:140px}#password{width:180px}details{margin-top:12px}details summary{cursor:pointer;font-weight:600} .primary{background:#236e54} .primary:hover{background:#18553f}@media(max-width:700px){main{padding:7px}.card{padding:12px}.board-box{width:100%}.layout{gap:15px}.side{max-width:none}.piece{font-size:clamp(25px,8vw,46px)}}
+.progressgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:12px 0}.progresscard{border:1px solid #d5e2e8;border-radius:9px;padding:12px;background:#f8fbfd}.progressbar{height:11px;background:#e0e9ed;border-radius:7px;overflow:hidden;margin:8px 0}.progressfill{height:100%;background:#28745d}.progressmuted{font-size:13px;color:#577181}.sourceCard{border:1px solid #e0e8ed;border-radius:8px;margin:9px 0;padding:11px}.sourceCard button{font-size:13px;padding:6px 10px}.sourceCard details{margin-top:6px}.sourceCard pre{max-height:160px}#sourceMeta{font-size:14px;margin:6px 0;color:#345669}#sourceSolution{white-space:pre-wrap;overflow-wrap:anywhere;background:#f2f6fa;padding:9px;border-radius:8px}
+#solutionPanel{background:#f0f7fd;border:1px solid #c5dbe8;border-radius:9px;padding:12px;margin:9px 0}
+#solutionNav{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+#solutionNav button{min-width:45px}
+.danger{background:#a23c42}.danger:hover{background:#802c32}
+#resetNotice{margin-top:7px}#sourceUsage{white-space:pre-line;max-height:240px;overflow:auto}.smallnote{font-size:13px;color:#465f73}
+
+
+/* Application UI theme only: deliberately do not change board square/piece palettes. */
+html[data-ui-theme="dark"]{color-scheme:dark}
+html[data-ui-theme="dark"] body{background:#101820;color:#e9f0f5}
+html[data-ui-theme="dark"] header{background:#0b2838}
+html[data-ui-theme="dark"] .card{background:#1d2b36;box-shadow:0 2px 14px #0007}
+html[data-ui-theme="dark"] .settings{background:#243845}
+html[data-ui-theme="dark"] input,html[data-ui-theme="dark"] select{background:#293c4b;color:#f1f6f8;border-color:#648094}
+html[data-ui-theme="dark"] .notice,html[data-ui-theme="dark"] .badge{background:#2c4553;color:#f1f6f8}
+html[data-ui-theme="dark"] .task{background:#223e32;color:#e8f9e9;border-color:#52aa7c}
+html[data-ui-theme="dark"] .progresscard,html[data-ui-theme="dark"] .sourceCard{background:#233441;border-color:#466171}
+html[data-ui-theme="dark"] #solutionPanel{background:#213c50;border-color:#48647b}
+html[data-ui-theme="dark"] #sourceSolution{background:#1b3343;color:#f1f6f8}
+html[data-ui-theme="dark"] .small,html[data-ui-theme="dark"] .smallnote,html[data-ui-theme="dark"] .caption,html[data-ui-theme="dark"] #sourceMeta,html[data-ui-theme="dark"] .progressmuted{color:#bbcfde}
+html[data-ui-theme="dark"] .count{color:#a8e5c7}
+html[data-ui-theme="dark"] a{color:#92cffe}
+html[data-ui-theme="dark"] .progressbar{background:#425565}
+html[data-ui-theme="dark"] .progressfill{background:#55ae8b}
+/* Coordinate and piece styles intentionally remain controlled by boardTheme/pieceStyle. */
+#solutionBranches{max-height:310px;overflow:auto;margin:8px 0;border:1px solid #91a8b9;border-radius:8px;padding:8px}
+#solutionBranches ul{padding-left:20px;list-style:none;margin:3px 0}
+#solutionBranches li{margin:2px 0}
+#solutionBranches button{padding:4px 7px;margin:2px;font-size:13px;min-width:42px}
+#solutionBranches .active-variation{outline:2px solid #d1a142}
+#solComments{white-space:pre-wrap;line-height:1.45;margin:7px 0}
+
+
+/* MVP 0.5.5: the left collapsible menu contains all account/trainer settings. */
+main{max-width:1600px}
+.trainer-shell{--drawer-width:282px;display:grid;grid-template-columns:var(--drawer-width) minmax(0,1fr);gap:16px;align-items:start;transition:grid-template-columns .22s ease}
+.trainer-shell.drawer-collapsed{grid-template-columns:0 minmax(0,1fr)}
+.settings-drawer{background:#fff;min-width:0;overflow-x:hidden;border-radius:14px;box-shadow:0 2px 14px #16405a12;position:sticky;top:12px;max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain}
+.trainer-shell.drawer-collapsed .settings-drawer{visibility:hidden;pointer-events:none;overflow:hidden}
+.drawer-header{display:flex;justify-content:space-between;align-items:center;gap:6px;padding:14px 15px;background:#e7f0f5;border-radius:14px 14px 0 0;white-space:nowrap}
+.drawer-close{padding:5px 9px;margin:0;background:transparent;color:#19344b;font-weight:700}
+.drawer-close:hover{background:#ccdce7}
+.drawer-section{padding:12px 15px;border-bottom:1px solid #e1eaf0}
+.drawer-section h3{font-size:16px;margin:0 0 10px}
+.drawer-section .field{width:100%;min-width:0!important;margin:8px 0}
+.drawer-section select,.drawer-section input{width:100%;min-width:0}
+.drawer-section .row{display:block}
+.drawer-section .settings{padding:0;background:transparent;margin:0}
+.drawer-section .auth-row{display:flex;flex-direction:column;align-items:stretch}
+.drawer-section .auth-row input,.drawer-section #password{width:100%;min-width:0}
+.drawer-section .auth-row button{width:100%;margin:2px 0}
+.drawer-section #authStatus{font-size:13px;white-space:normal;overflow-wrap:anywhere}
+.drawer-section #gameOpts input#skill{max-width:100%!important}
+.trainer-workspace{min-width:0}
+.trainer-workspace>.card{margin-top:0}
+.trainer-head{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:15px}
+.trainer-head h2{margin:0}
+.menu-toggle{flex-shrink:0;margin:0;padding:9px 13px}
+.trainer-workspace .layout{gap:20px}
+.trainer-workspace .board-box{width:min(100%,510px)}
+.trainer-workspace .side{min-width:285px;max-width:none;flex:1}
+/* Board feedback is intentionally independent of board/piece themes. */
+.board-frame{border:5px solid transparent;border-radius:12px;box-shadow:0 0 0 1px #8ba0ac55;transition:border-color .18s,box-shadow .18s;max-width:100%;position:relative}
+.board-frame .board{border-width:4px;border-radius:6px}
+.board-frame[data-result="correct"]{border-color:#24af67;box-shadow:0 0 0 3px #24af673d,0 0 22px 5px #24af6773;animation:correct-flash .38s ease-out}
+.board-frame[data-result="wrong"]{border-color:#e23f4b;box-shadow:0 0 0 3px #e23f4b3d,0 0 22px 5px #e23f4b80;animation:wrong-flash .38s ease-out}
+.board-frame[data-result="complete"]{border-color:#a35be7;box-shadow:0 0 0 4px #a35be74a,0 0 28px 8px #a35be795;animation:complete-flash .75s ease-out}
+.board-feedback{font-size:13px;font-weight:650;min-height:1.4em;padding-top:6px}
+.board-frame[data-result="correct"]~.board-feedback{color:#218455}
+.board-frame[data-result="wrong"]~.board-feedback{color:#c22c3c}
+.board-frame[data-result="complete"]~.board-feedback{color:#8d46c3}
+@keyframes correct-flash{from{box-shadow:0 0 0 7px #24af67a0,0 0 36px 12px #24af6788}to{box-shadow:0 0 0 3px #24af673d,0 0 22px 5px #24af6773}}
+@keyframes wrong-flash{from{box-shadow:0 0 0 7px #e23f4ba0,0 0 36px 12px #e23f4b88}to{box-shadow:0 0 0 3px #e23f4b3d,0 0 22px 5px #e23f4b80}}
+@keyframes complete-flash{0%{box-shadow:0 0 0 8px #a35be7aa,0 0 36px 12px #a35be7a0}100%{box-shadow:0 0 0 4px #a35be74a,0 0 28px 8px #a35be795}}
+html[data-ui-theme="dark"] .settings-drawer{background:#1d2b36;color:#e9f0f5}
+html[data-ui-theme="dark"] .drawer-header{background:#293f50}
+html[data-ui-theme="dark"] .drawer-section{border-bottom-color:#435766}
+html[data-ui-theme="dark"] .drawer-close{color:#e9f0f5}
+@media(max-width:1100px){.trainer-shell{--drawer-width:255px}.trainer-workspace .board-box{width:min(100%,440px)}.trainer-workspace .layout{gap:14px}}
+@media(max-width:870px){
+  .trainer-shell,.trainer-shell.drawer-collapsed{display:block}
+  .settings-drawer{position:fixed;left:0;top:0;bottom:0;max-height:none;width:min(85vw,330px);z-index:1002;border-radius:0 14px 14px 0;transform:translateX(0);transition:transform .22s ease,visibility .22s}
+  .trainer-shell.drawer-collapsed .settings-drawer{transform:translateX(-110%);visibility:hidden}
+  .drawer-backdrop{position:fixed;inset:0;background:#0008;z-index:1001}
+  .trainer-shell.drawer-collapsed .drawer-backdrop{display:none}
+  .trainer-workspace .board-box{width:min(100%,510px)}
+}
+@media(prefers-reduced-motion:reduce){.board-frame,.settings-drawer,.trainer-shell{animation:none!important;transition:none!important}}
+
+.game-toolbox,.playback-panel{padding:12px;margin:10px 0;border:1px solid var(--border,#aec2d0);border-radius:10px}
+.game-toolbox{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.game-toolbox .smallnote{flex-basis:100%}
+.playback-panel{background:var(--panel-bg,#e5eff3)}
+.playback-panel .actions{display:flex;align-items:center;gap:10px;margin:10px 0}
+html[data-ui-theme="dark"] .playback-panel{background:#233844;color:#e4edf6}
+.position-comment{margin-top:12px;padding:12px 14px;background:var(--panel-bg,#eaf1f5);border-left:4px solid #328a78;border-radius:8px;white-space:pre-wrap;line-height:1.55;overflow-wrap:anywhere}
+.position-comment p{margin:.5rem 0 0}
+html[data-ui-theme="dark"] .position-comment{background:#253b46;color:#edf5f8}
+
+/* MVP 0.5.10 – pointer drag, moving piece overlay, last move and attacked squares. */
+.board{position:relative;touch-action:none}
+.square{touch-action:none}
+.square.last-from::after,.square.last-to::after{content:"";position:absolute;inset:0;pointer-events:none;background:rgba(255,214,44,.30);z-index:0}
+.square.last-to::after{background:rgba(255,205,27,.41)}
+.square.attacked::before{content:"";position:absolute;inset:34%;border-radius:50%;background:rgba(32,122,208,.47);pointer-events:none;z-index:1}
+.square.attacked.occupied::before{inset:5%;border:4px solid rgba(25,109,198,.72);background:transparent}
+.square .piece{position:relative;z-index:2}
+.piece.drag-source{visibility:hidden}
+.floating-piece{position:fixed;z-index:5000;pointer-events:none;display:flex;align-items:center;justify-content:center;margin:0;user-select:none;will-change:transform,left,top}
+.board.animating{pointer-events:none}
+@media(prefers-reduced-motion:reduce){.floating-piece{transition:none!important}}
+</style></head><body>
+<header><h1>♞ AgentChess · MVP 0.5.10</h1><p>Інтерактивні вправи із шахових збірників CDB</p></header><main><div class="trainer-shell" id="trainerShell"><aside aria-label="Налаштування AgentChess" class="settings-drawer" id="settingsDrawer"><div class="drawer-header"><strong>☰ Налаштування</strong><button aria-label="Закрити налаштування" class="drawer-close" onclick="toggleDrawer(false)" type="button">✕</button></div><section class="drawer-section"><h3>Акаунт</h3><div class="auth-row"><input autocomplete="username" id="username" placeholder="Логін"/><input autocomplete="current-password" id="password" placeholder="Пароль" type="password"/><button onclick="auth('register')">Реєстрація</button><button onclick="auth('login')">Увійти</button><span aria-live="polite" id="authStatus"></span></div></section><section class="drawer-section"><h3>Вигляд тренажера</h3><div class="settings"><div class="row"><label class="field" style="min-width:175px"><span>Тема застосунку</span><select id="uiTheme" onchange="saveUiTheme()"><option value="light">Світла</option><option value="dark">Темна</option></select></label><label class="field"><span>Оформлення дошки</span><select id="boardTheme" onchange="saveAppearance()"><option value="classic">Класична</option><option value="green">Зелена</option><option value="blue">Синя</option><option value="walnut">Дерев'яна</option></select></label>
+<label class="field"><span>Стиль фігур</span><select id="pieceStyle" onchange="saveAppearance()"><option value="classic">Класичні символи</option><option value="contrast">Контрастні символи</option><option value="letters">Літерні позначення</option></select></label>
+<label class="field"><span>Швидкість анімації</span><select id="animationSpeed" onchange="saveMoveOptions()"><option value="0">Без анімації</option><option value="200">Швидка · 0,2 с</option><option value="400">Звичайна · 0,4 с</option><option value="700">Повільна · 0,7 с</option><option value="1000">Дуже повільна · 1 с</option></select></label>
+<label class="field"><span>Підсвітка атакованих полів</span><select id="showAttacks" onchange="saveMoveOptions()"><option value="off">Вимкнено</option><option value="on">Увімкнено</option></select></label>
+<label class="field" style="flex:0 0 auto"><span>Координати</span><select id="coords" onchange="saveAppearance()"><option value="on">Показати</option><option value="off">Сховати</option></select></label></div></div></section><section class="drawer-section"><h3>Шаховий тренажер</h3><div class="row"><label class="field"><span>Тема</span><select id="mode" onchange="$('difficulty').value='';filtersChanged()"><option value="мат">Матові задачі</option><option value="незахищені фігури">Незахищені фігури</option><option value="подвійний удар">Подвійний удар</option><option value="зв’язка">Зв'язка</option><option value="відкритий напад">Відкритий напад</option><option value="ендшпіль">Ендшпіль</option><option value="тактичні комбінації">Тактичні комбінації</option><option value="історичні комбінації">Історичні комбінації</option><option value="дебютні пастки">Дебютні пастки</option><option value="дебютні принципи">Дебютні принципи</option><option value="навчальні партії">Навчальні партії</option><option value="стратегія та план">Стратегія та план</option><option value="оцінка позиції">Оцінка позиції</option><option value="game">Гра зі Stockfish</option></select></label>
+<label class="field" id="mateField"><span>Мат за</span><select id="mateIn" onchange="filtersChanged()"><option value="">Будь-яка довжина</option><option value="1">1 хід</option><option value="2">2 ходи</option><option value="3">3 ходи</option><option value="0">Неповне рішення</option></select></label></div><label class="field" id="difficultyField"><span>Навчальний рівень</span><select id="difficulty" onchange="filtersChanged()"><option value="">Усі рівні</option><option value="1">1 — початковий</option><option value="2">2 — базовий</option><option value="3">3 — середній</option><option value="4">4 — складний</option><option value="5">5 — високий</option></select></label><p class="small" id="levelExplain">Рівень складності визначається окремо за Elo або евристикою CDB. Для матових задач фільтр рахує ходи сторони, що починає, у головній авторській лінії.</p><div class="hidden" id="gameOpts"><label>Stockfish Skill Level <input id="skill" max="20" min="0" style="width:70px" type="number" value="4"/></label><label>Ви граєте нижніми фігурами: <select id="color"><option value="white">Білі</option><option value="black">Чорні</option></select></label><label>Початковий FEN <input id="customFen" placeholder="Необов'язково" style="width:100%"/></label></div></section></aside><div aria-hidden="true" class="drawer-backdrop hidden" id="drawerBackdrop" onclick="toggleDrawer(false)"></div><div class="trainer-workspace"><section class="card"><div class="trainer-head"><button aria-controls="settingsDrawer" aria-expanded="true" class="menu-toggle" id="drawerToggle" onclick="toggleDrawer()" type="button">☰ Меню</button><h2>Шаховий тренажер</h2></div>
+
+<div class="layout"><div class="board-box"><div class="board-frame" data-result="idle" id="boardFrame"><div aria-label="Шахівниця з координатами" class="board" id="board" role="group"></div></div><p class="small" id="boardHelp">Натисніть фігуру та поле або перетягніть фігуру мишею / тачпадом.</p><div id="positionComment" class="position-comment hidden" aria-live="polite"><strong>Коментар автора до позиції</strong><p id="positionCommentText"></p></div><div aria-live="polite" class="board-feedback" id="boardFeedback" role="status"></div></div>
+<div class="side">
+
+
+
+<div aria-live="polite" class="count" id="available">Доступні вправи: увійдіть в акаунт</div>
+<div class="actions"><button class="primary" onclick="start()">▶ Почати / Наступна</button><button disabled="" id="hintBtn" onclick="getHint()">Підказка</button><button disabled="" id="solutionBtn" onclick="showSolution()">Рішення</button><button disabled id="resetCurrentBtn" onclick="resetCurrentExercise()" title="Знову виконати саме цю вправу">↺ Повторити задачу</button><button disabled="" id="playFromBtn" onclick="playFromExercise()">♞ Дограти зі Stockfish</button><button disabled="" id="engineSolveBtn" onclick="solveWithStockfish()">♟ Stockfish розв’язує (обидві сторони)</button><label class="small">Максимум півходів <input id="enginePlies" type="number" min="2" max="80" value="24" style="width:64px"></label><label class="small">Skill Level <input id="exerciseSkill" max="20" min="0" style="width:64px" type="number" value="4"/></label></div>
+<div class="game-toolbox hidden" id="gameToolbox"><button id="flipGameBtn" onclick="flipCurrentGame()" disabled>⇅ Перевернути дошку / змінити сторону</button><button id="historyBtn" onclick="showGameHistory()" disabled>◀ ▶ Переглянути партію</button><span class="smallnote" id="gameSideHint">У грі ви керуєте фігурами знизу. Перевертання змінює вашу сторону, Stockfish грає іншою.</span></div>
+<div class="hidden playback-panel" id="playbackPanel"><strong id="playbackTitle">Перегляд партії</strong><div class="actions"><button onclick="playbackStep(-1)" id="historyPrev">◀</button><span id="historyCounter">0 / 0</span><button onclick="playbackStep(1)" id="historyNext">▶</button><button onclick="closePlayback()">Повернутися</button></div><div class="smallnote" id="historyMove"></div><p id="historyNotice" class="smallnote"></p></div>
+<div class="task"><strong id="turn">Оберіть тему й почніть вправу</strong><span id="goal">Для кожної вправи буде зазначено сторону ходу й мету.</span></div>
+<div class="hidden" id="solutionPanel"><strong>Авторське рішення · покроковий перегляд</strong>
+<p class="smallnote">Усі авторські варіанти. Виберіть продовження в списку або в дереві; стрілки рухають між позиціями.</p>
+<label class="field"><span>Наступна гілка з поточної позиції</span><select id="solChoice" onchange="chooseSolutionBranch()"></select></label>
+<div id="solutionNav"><button aria-label="Попередній хід" id="solPrev" onclick="solutionStep(-1)">◀</button>
+<span id="solCounter">Позиція 0 / 0</span><button aria-label="Наступний хід" id="solNext" onclick="solutionStep(1)">▶</button>
+<button onclick="closeSolution()">Повернутися до вправи</button></div>
+<div class="smallnote" id="solutionMove"></div><div class="smallnote" id="solComments"></div><div class="smallnote" id="solutionNote"></div>
+<details><summary>Усі гілки авторського дерева</summary><div id="solutionBranches"></div></details></div>
+<div aria-live="polite" id="sourceMeta"></div><div aria-live="polite" class="notice" id="message" role="status">Готово до початку.</div><div aria-live="polite" class="hidden" id="sourceSolution"></div>
+<span class="badge" id="tryCount">Невдалих спроб: 0</span><span class="badge" id="stateLabel">Вправа не розпочата</span><p class="small" id="sourceNotice"></p>
+</div></div></section></div></div>
+
+
+<details class="card"><summary>Каталог CDB</summary><p class="small">Пошук вихідних матеріалів (для авторизованих користувачів).</p><label>Тема <select id="catTopic" onchange="onCatalogTopicChange()"><option value="">Усі</option><option value="мат">мат</option><option value="незахищені фігури">незахищені фігури</option><option value="подвійний удар">подвійний удар</option><option value="зв’язка">зв’язка</option><option value="відкритий напад">відкритий напад</option><option value="ендшпіль">ендшпіль</option><option value="тактичні комбінації">тактичні комбінації</option><option value="історичні комбінації">історичні комбінації</option><option value="дебютні пастки">дебютні пастки</option><option value="дебютні принципи">дебютні принципи</option><option value="навчальні партії">навчальні партії</option><option value="стратегія та план">стратегія та план</option><option value="оцінка позиції">оцінка позиції</option></select></label>
+<label>CDB <select id="catSource" onchange="onCatalogSourceChange()" disabled><option value="">Усі джерела теми</option></select></label>
+<label>№ задачі <select id="catNumber" onchange="onCatalogNumberChange()" disabled><option value="">Усі номери</option></select></label>
+<label>Швидкий перехід до № <input id="catNumberInput" type="number" min="1" step="1" placeholder="Наприклад, 3041" onkeydown="if(event.key==='Enter')browse(0)" style="max-width:145px"></label>
+<button onclick="browse(0)">Знайти</button><button onclick="sourceUsage()">Використання CDB</button><div class="smallnote" id="sourceUsage"></div><button onclick="browse(Math.max(0,catOffset-20))">←</button><button onclick="browse(catOffset+20)">→</button> <span id="catCount"></span><div id="catalog"></div></details>
+<details class="card"><summary>Мій прогрес</summary><button onclick="progress()">Оновити</button><button class="danger" onclick="resetProgress()">Скинути статистику та розв’язані задачі</button><p class="smallnote" id="resetNotice">Скидання стосується лише поточного акаунта; каталог CDB не зміниться.</p><div class="progressgrid" id="progress"></div></details>
+<details class="card"><summary>Адміністрування імпорту</summary><p class="small">Для адміністратора: імпорт CDB та перегляд джерел.</p><input accept=".cdb,.gz,.tgz" id="file" type="file"/><button onclick="upload()">Імпортувати CDB</button><button onclick="sources()">Джерела</button><pre id="sources"></pre></details>
+</main><script>
+let playback=null,playbackIndex=0,playbackBefore=null,gameActive=false;
+let moveBusy=false,dragState=null,dragSuppressClick=false,lastBoardMove=null,boardRenderFen=null,moveGeneration=0,solutionPreviousNode=null;
+let token=localStorage.getItem('agentchess_token')||'',fen='start',selected=null,selectedPiece=null,gid=null,session=null,catOffset=0,playerBlack=false,requestKey=0,lastSession=null,solutionData=null,solutionIndex=0,solutionBefore=null,solutionSelected=null;
+const $=id=>document.getElementById(id);
+const glyph={K:'♚',Q:'♛',R:'♜',B:'♝',N:'♞',P:'♟',k:'♚',q:'♛',r:'♜',b:'♝',n:'♞',p:'♟'};
+const letters={K:'K',Q:'Q',R:'R',B:'B',N:'N',P:'P',k:'K',q:'Q',r:'R',b:'B',n:'N',p:'P'};
+const setText=(id,txt)=>$(id).textContent=txt;
+async function api(path,method='GET',data){let r=await fetch('/api'+path,{method,headers:{Authorization:'Bearer '+token,...(data instanceof FormData?{}:{'Content-Type':'application/json'})},body:data?(data instanceof FormData?data:JSON.stringify(data)):undefined});let j=await r.json();if(!r.ok)throw Error(typeof j.detail==='string'?j.detail:JSON.stringify(j.detail));return j}
+function msg(t){setText('message',t)}
+async function auth(kind){try{let a=await api('/auth/'+kind,'POST',{username:$('username').value,password:$('password').value});token=a.token;localStorage.setItem('agentchess_token',token);setText('authStatus','Увійшли: '+a.username);msg('Авторизовано');await loadAvailableTopics();await refreshMateOptions();await updateCount();await refreshCatalogSources()}catch(e){msg(e.message)}}
+function decode(f){let arr=[];let placement=f==='start'?'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR':f.split(' ')[0];for(let row of placement.split('/'))for(let x of row){if(/\d/.test(x))for(let i=0;i<+x;i++)arr.push('');else arr.push(x)}return arr}
+function sideTurn(f){return f==='start'?'w':f.split(' ')[1]||'w'}
+function squareIndex(s){if(!/^[a-h][1-8]$/.test(s))return -1;return (8-Number(s[1]))*8+s.charCodeAt(0)-97}
+function indexSquare(i){return 'abcdefgh'[i%8]+String(8-Math.floor(i/8))}
+function currentPiece(square){return decode(fen)[squareIndex(square)]||''}
+function pieceElement(piece){
+ const el=document.createElement('span');
+ el.className='piece '+(piece===piece.toUpperCase()?'white':'black')+($('pieceStyle').value==='letters'?' letter':'');
+ el.textContent=$('pieceStyle').value==='letters'?letters[piece]:glyph[piece];
+ return el;
+}
+function attackedBy(square,piece,position){
+ const origin=squareIndex(square),r=Math.floor(origin/8),c=origin%8,kind=piece.toLowerCase(),white=piece===piece.toUpperCase(),targets=[];
+ const add=(rr,cc)=>{if(rr>=0&&rr<8&&cc>=0&&cc<8){targets.push(indexSquare(rr*8+cc));return true}return false};
+ if(kind==='p'){add(r+(white?-1:1),c-1);add(r+(white?-1:1),c+1)}
+ else if(kind==='n'){for(const [dr,dc] of [[1,2],[1,-2],[-1,2],[-1,-2],[2,1],[2,-1],[-2,1],[-2,-1]])add(r+dr,c+dc)}
+ else if(kind==='k'){for(let dr=-1;dr<=1;dr++)for(let dc=-1;dc<=1;dc++)if(dr||dc)add(r+dr,c+dc)}
+ else {
+  const directions=[...(kind==='r'||kind==='q'?[[1,0],[-1,0],[0,1],[0,-1]]:[]),...(kind==='b'||kind==='q'?[[1,1],[1,-1],[-1,1],[-1,-1]]:[])];
+  for(const [dr,dc] of directions)for(let step=1;step<=7;step++){
+   const rr=r+dr*step,cc=c+dc*step;
+   if(!add(rr,cc))break;
+   if(position[rr*8+cc])break;
+  }
+ }
+ return targets;
+}
+function syncBoardDecorations(){
+ const attacked=new Set();
+ const pieces=decode(fen);
+ if($('showAttacks').value==='on' && selected && selectedPiece &&
+     (selectedPiece===selectedPiece.toUpperCase())===(sideTurn(fen)==='w')){
+  for(const s of attackedBy(selected,selectedPiece,pieces))attacked.add(s);
+ }
+ for(const d of $('board').querySelectorAll('.square')){
+  const s=d.dataset.square;
+  d.classList.toggle('selected',s===selected);
+  d.classList.toggle('attacked',attacked.has(s));
+  d.classList.toggle('last-from',lastBoardMove?.from===s);
+  d.classList.toggle('last-to',lastBoardMove?.to===s);
+ }
+}
+function render(){
+ const pieces=decode(fen),b=$('board');b.replaceChildren();
+ b.dataset.theme=$('boardTheme').value;b.dataset.pieces=$('pieceStyle').value;
+ const indexes=Array.from({length:64},(_,i)=>playerBlack?63-i:i);
+ for(let index=0;index<64;index++){
+  const i=indexes[index],piece=pieces[i],sq=indexSquare(i);
+  const d=document.createElement('div');d.dataset.square=sq;
+  d.className='square '+((Math.floor(i/8)+i%8)%2?'dark':'light')+(piece?' occupied':'');
+  d.setAttribute('role','button');d.setAttribute('tabindex','0');
+  d.setAttribute('aria-label',sq+(piece?' '+(piece===piece.toUpperCase()?'біла':'чорна')+' фігура':''));
+  if(piece)d.appendChild(pieceElement(piece));
+  if($('coords').value==='on'){
+   if(index%8===0){const lab=document.createElement('span');lab.className='coordinate coord-rank';lab.textContent=sq[1];d.appendChild(lab)}
+   if(index>=56){const lab=document.createElement('span');lab.className='coordinate coord-file';lab.textContent=sq[0];d.appendChild(lab)}
+  }
+  d.onclick=()=>{if(dragSuppressClick){dragSuppressClick=false;return}click(sq,piece,d)};
+  d.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();click(sq,piece,d)}};
+  d.onpointerdown=e=>startDrag(e,sq,piece);
+  b.appendChild(d);
+ }
+ boardRenderFen=fen;syncBoardDecorations();
+}
+function animationDuration(){return Number($('animationSpeed').value)||0}
+function saveMoveOptions(){
+ localStorage.setItem('agentchess_animationSpeed',$('animationSpeed').value);
+ localStorage.setItem('agentchess_showAttacks',$('showAttacks').value);
+ syncBoardDecorations();
+}
+function loadMoveOptions(){
+ const speed=localStorage.getItem('agentchess_animationSpeed')||'400';
+ $('animationSpeed').value=[...$('animationSpeed').options].some(o=>o.value===speed)?speed:'400';
+ $('showAttacks').value=localStorage.getItem('agentchess_showAttacks')==='on'?'on':'off';
+}
+function positionAfterUci(oldFen,code){
+ // Used ONLY for interim animation frames; the authoritative final FEN is from FastAPI.
+ if(!/^[a-h][1-8][a-h][1-8][qrbn]?$/.test(code))return oldFen;
+ const a=decode(oldFen),from=squareIndex(code.slice(0,2)),to=squareIndex(code.slice(2,4)),piece=a[from];
+ if(!piece)return oldFen;
+ const info=oldFen==='start'?['','w','KQkq','-','0','1']:oldFen.split(' ');
+ const turn=info[1]||'w',castling=info[2]||'-';
+ let ep='-',half=Number(info[4]||0)+1,full=Number(info[5]||1);
+ const dest=a[to];
+ a[from]='';a[to]=code.length===5?(turn==='w'?code[4].toUpperCase():code[4]):piece;
+ if(piece.toLowerCase()==='p'){
+  half=0;
+  if(Math.abs(from-to)===16)ep=indexSquare((from+to)/2);
+  if(from%8!==to%8&&!dest){const cap=to+(turn==='w'?8:-8);if(cap>=0&&cap<64)a[cap]=''}
+ }else if(dest)half=0;
+ if(piece.toLowerCase()==='k' && Math.abs(from-to)===2){
+  const kingSide=to>from,rf=kingSide?from+3:from-4,rt=kingSide?from+1:from-1;
+  a[rt]=a[rf];a[rf]='';
+ }
+ let rights=castling==='-'?'':castling;
+ if(piece==='K')rights=rights.replace(/[KQ]/g,'');
+ if(piece==='k')rights=rights.replace(/[kq]/g,'');
+ for(const [idx,letter] of [[63,'K'],[56,'Q'],[7,'k'],[0,'q']])if(from===idx||to===idx)rights=rights.replace(letter,'');
+ if(turn==='b')full++;
+ let placement='';for(let r=0;r<8;r++){
+  let blanks=0;
+  for(let c=0;c<8;c++){const p=a[r*8+c];if(p){if(blanks){placement+=blanks;blanks=0}placement+=p}else blanks++}
+  if(blanks)placement+=blanks;if(r!==7)placement+='/';
+ }
+ return `${placement} ${turn==='w'?'b':'w'} ${rights||'-'} ${ep} ${half} ${full}`;
+}
+function wait(ms){return new Promise(resolve=>setTimeout(resolve,ms))}
+function squareElement(s){return $('board').querySelector('.square[data-square="'+s+'"]')}
+function floatingPiece(piece,rect){
+ const ghost=document.createElement('div');ghost.className='floating-piece';
+ ghost.style.width=rect.width+'px';ghost.style.height=rect.height+'px';
+ ghost.style.left=rect.left+'px';ghost.style.top=rect.top+'px';ghost.appendChild(pieceElement(piece));
+ document.body.appendChild(ghost);return ghost;
+}
+function clearDrag(){
+ if(!dragState)return;
+ try{dragState.source?.querySelector('.piece')?.classList.remove('drag-source')}catch(_e){}
+ dragState.ghost?.remove();dragState=null;
+}
+function cancelAnimation(){moveGeneration++;moveBusy=false;$('board').classList.remove('animating');
+ document.querySelectorAll('.move-animation-ghost').forEach(n=>n.remove());clearDrag()}
+async function animateOne(fromFen,toFen,uci,sequence){
+ if(sequence!==moveGeneration)return;
+ if(!uci||!animationDuration()){
+  fen=toFen;lastBoardMove=uci?{from:uci.slice(0,2),to:uci.slice(2,4)}:null;render();return;
+ }
+ const from=uci.slice(0,2),to=uci.slice(2,4);
+ fen=fromFen;render();
+ const source=squareElement(from),dest=squareElement(to),piece=decode(fromFen)[squareIndex(from)];
+ if(!source||!dest||!piece){fen=toFen;render();return}
+ const src=source.getBoundingClientRect(),dst=dest.getBoundingClientRect(),ghost=floatingPiece(piece,src);
+ ghost.classList.add('move-animation-ghost');source.querySelector('.piece')?.classList.add('drag-source');
+ ghost.style.transition=`transform ${animationDuration()}ms cubic-bezier(.25,.75,.3,1)`;
+ // Castling moves two pieces simultaneously, not just the king.
+ let rookGhost=null,rookFromRect=null,rookToRect=null;
+ if(piece.toLowerCase()==='k'&&Math.abs(squareIndex(from)-squareIndex(to))===2){
+  const reverse=from[0]!=='e'&&to[0]==='e';
+  const kingSide=reverse?from[0]==='g':to[0]==='g';
+  const rank=from[1];
+  const rookFrom=reverse?(kingSide?'f':'d')+rank:(kingSide?'h':'a')+rank;
+  const rookTo=reverse?(kingSide?'h':'a')+rank:(kingSide?'f':'d')+rank;
+  const rf=squareElement(rookFrom),rt=squareElement(rookTo),rook=decode(fromFen)[squareIndex(rookFrom)];
+  if(rf&&rt&&rook){
+   rookFromRect=rf.getBoundingClientRect();rookToRect=rt.getBoundingClientRect();
+   rookGhost=floatingPiece(rook,rookFromRect);rookGhost.classList.add('move-animation-ghost');
+   rookGhost.style.transition=ghost.style.transition;
+   rf.querySelector('.piece')?.classList.add('drag-source');
+  }
+ }
+ await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+ if(sequence!==moveGeneration){ghost.remove();rookGhost?.remove();return}
+ ghost.style.transform=`translate(${dst.left-src.left}px,${dst.top-src.top}px)`;
+ if(rookGhost)rookGhost.style.transform=`translate(${rookToRect.left-rookFromRect.left}px,${rookToRect.top-rookFromRect.top}px)`;
+ await wait(animationDuration()+35);ghost.remove();rookGhost?.remove();
+ if(sequence!==moveGeneration)return;
+ fen=toFen;lastBoardMove={from,to};render();
+}
+async function animateUciSequence(initial,moves,finalFen){
+ const sequence=++moveGeneration;
+ moveBusy=true;$('board').classList.add('animating');
+ try{
+  let position=initial;
+  for(let i=0;i<moves.length;i++){
+   const uci=moves[i];
+   const target=i===moves.length-1?finalFen:positionAfterUci(position,uci);
+   await animateOne(position,target,uci,sequence);
+   if(sequence!==moveGeneration)return;
+   position=target;
+  }
+  if(sequence===moveGeneration){fen=finalFen;render()}
+ }finally{if(sequence===moveGeneration){moveBusy=false;$('board').classList.remove('animating')}}
+}
+function dragAllowed(piece){return !moveBusy&&!playback&&!solutionData&&(session||(gid&&gameActive))&&
+   !!piece&&((piece===piece.toUpperCase())===(sideTurn(fen)==='w'))}
+function startDrag(e,sq,piece){
+ if(e.button!==0||!dragAllowed(piece))return;
+ selected=null;selectedPiece=null;syncBoardDecorations();
+ const source=e.currentTarget,rect=source.getBoundingClientRect();
+ // Wait until pointer actually moves: a normal click should remain a normal click.
+ dragState={pointerId:e.pointerId,from:sq,piece,source,startX:e.clientX,startY:e.clientY,
+   rect,ghost:null,moved:false};
+ source.setPointerCapture?.(e.pointerId);
+}
+function draggingMove(e){
+ const d=dragState;if(!d||d.pointerId!==e.pointerId)return;
+ if(!d.moved && Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<6)return;
+ if(!d.moved){d.moved=true;selected=d.from;selectedPiece=d.piece;syncBoardDecorations();d.ghost=floatingPiece(d.piece,d.rect);d.source.querySelector('.piece')?.classList.add('drag-source')}
+ if(d.ghost){d.ghost.style.left=(e.clientX-d.rect.width/2)+'px';d.ghost.style.top=(e.clientY-d.rect.height/2)+'px'}
+}
+async function settleDraggedVisual(visual,returnHome){
+ if(!visual)return;
+ const {ghost,source,startRect}=visual;
+ if(ghost && returnHome){
+  ghost.style.transition='left 210ms ease-in-out,top 210ms ease-in-out';
+  ghost.style.left=startRect.left+'px';ghost.style.top=startRect.top+'px';
+  await wait(220);
+ }
+ ghost?.remove();source?.querySelector('.piece')?.classList.remove('drag-source');
+}
+async function draggingEnd(e,cancelled=false){
+ const d=dragState;if(!d||d.pointerId!==e.pointerId)return;
+ if(!d.moved){clearDrag();return}
+ dragSuppressClick=true;
+ const target=cancelled?null:document.elementFromPoint(e.clientX,e.clientY)?.closest('.square');
+ const destination=target?.dataset.square||null;
+ const ghost=d.ghost,startRect=d.rect;
+ const landing=destination?squareElement(destination)?.getBoundingClientRect():startRect;
+ if(ghost&&landing){
+  ghost.style.transition='left 145ms ease-out,top 145ms ease-out';
+  ghost.style.left=landing.left+'px';ghost.style.top=landing.top+'px';
+  await wait(155);
+ }
+ const from=d.from,piece=d.piece,visual={ghost,source:d.source,startRect};
+ dragState=null;selected=null;selectedPiece=null;syncBoardDecorations();
+ if(destination&&destination!==from)await performMove(from,destination,piece,visual);
+ else await settleDraggedVisual(visual,true);
+ syncBoardDecorations();
+ setTimeout(()=>{dragSuppressClick=false},100);
+}
+$('board').addEventListener('pointermove',draggingMove);
+$('board').addEventListener('pointerup',e=>draggingEnd(e));
+$('board').addEventListener('pointercancel',e=>draggingEnd(e,true));
+function clearSolution(){solutionPreviousNode=null;solutionData=null;solutionBefore=null;solutionIndex=0;solutionSelected=null;$('solutionPanel').classList.add('hidden');$('solutionBtn').disabled=!lastSession}
+async function showSolution(){
+ if(playback)closePlayback();
+ if(!lastSession)return msg('Спочатку відкрийте вправу');
+ try{
+  if(!solutionData || solutionData.sessionId!==lastSession){
+   const r=await api('/exercises/'+encodeURIComponent(lastSession)+'/tree');
+   solutionBefore={fen,playerBlack,comment:$('positionCommentText').textContent};solutionData={...r,sessionId:lastSession};
+  }
+  solutionIndex=0;solutionSelected=null;$('solutionPanel').classList.remove('hidden');
+  drawVariationTree();renderSolution();
+  msg('Перегляд дерева CDB. Повернення до вправи відновить її стан; спроби не змінюються.');
+ }catch(e){msg(e.message)}
+}
+async function showCatalogTree(recordId){
+ if(playback)closePlayback();
+ try{
+  if(solutionData)closeSolution();
+  const r=await api('/catalog/'+encodeURIComponent(recordId)+'/tree');
+  solutionBefore={fen,playerBlack,comment:$('positionCommentText').textContent};solutionData={...r,sessionId:'catalog-'+recordId};
+  solutionIndex=0;solutionSelected=null;$('solutionPanel').classList.remove('hidden');
+  drawVariationTree();renderSolution();$('solutionPanel').scrollIntoView({behavior:'smooth',block:'center'});
+  msg('Повне дерево варіантів із каталогу CDB. Стрілки та гілки доступні для перегляду.');
+ }catch(e){msg(e.message)}
+}
+function treeNode(id){return solutionData?.nodes?.[Number(id)] || null}
+function chooseSolutionBranch(){solutionSelected=Number($('solChoice').value)}
+function solutionGo(id){
+ if(!solutionData)return;
+ cancelAnimation();
+ solutionPreviousNode=treeNode(solutionIndex);
+ const node=treeNode(id);if(!node)return;
+ solutionIndex=node.id;solutionSelected=null;renderSolution();
+}
+function drawVariationTree(){
+ const root=$('solutionBranches');root.replaceChildren();
+ if(!solutionData)return;
+ const nodes=solutionData.nodes||[];
+ const view=(id,depth)=>{
+  const n=nodes[id], li=document.createElement('li');
+  const b=document.createElement('button');b.textContent=n.label||n.uci||'—';
+  b.title=n.playable?'Переглянути позицію':(n.blocked_reason||'Неможливо відтворити');
+  b.dataset.nodeid=String(n.id);b.onclick=()=>solutionGo(n.id);li.appendChild(b);
+  if(n.children?.length){
+   const ul=document.createElement('ul');
+   n.children.forEach(child=>ul.appendChild(view(child,depth+1)));
+   li.appendChild(ul);
+  }
+  return li;
+ };
+ const list=document.createElement('ul');
+ (nodes[0]?.children||[]).forEach(id=>list.appendChild(view(id,1)));
+ if(!list.children.length)root.textContent='У джерелі немає записаних ходів.';
+ else root.appendChild(list);
+}
+function renderSolution(){
+ if(!solutionData)return;
+ const previousFen=fen;
+ const nodes=solutionData.nodes||[], p=treeNode(solutionIndex);
+ if(!p)return;
+ // For special nodes the board remains at the nearest valid ancestor.
+ let shown=p;while(shown && !shown.fen)shown=treeNode(shown.parent);
+ if(shown?.fen)fen=shown.fen;
+ setText('solCounter',`Позиція ${solutionIndex} · вузлів у дереві: ${nodes.length-1}`);
+ setText('solutionMove',p.label||'Початкова позиція');
+ const parts=[];
+ if(p.starting_comment)parts.push('Перед ходом: '+p.starting_comment);
+ if(p.comment)parts.push('Коментар автора: '+p.comment);
+ if(p.nags?.length)parts.push('Позначки NAG: '+p.nags.join(', '));
+ if(p.blocked_reason)parts.push('⚠ '+p.blocked_reason);
+ setText('solComments',parts.join('\n'));
+ showPositionComment(solutionIndex===0 ? (solutionData.sessionId?.startsWith('catalog-') ? '' : solutionBefore?.comment||'') : [p.starting_comment,p.comment].filter(Boolean).join('\n'));
+ setText('solutionNote',solutionData.note+(solutionData.truncated?' Перегляд обмежено 3500 вузлами.':''));
+ $('solPrev').disabled=p.parent===null;
+ const sel=$('solChoice');sel.replaceChildren();
+ for(const id of p.children||[]){const child=treeNode(id);const opt=document.createElement('option');opt.value=String(id);opt.textContent=child.label+(child.playable?'':' ⚠');sel.appendChild(opt)}
+ if(solutionSelected!==null && (p.children||[]).includes(solutionSelected))sel.value=String(solutionSelected);
+ solutionSelected=sel.options.length?Number(sel.value):null;
+ $('solNext').disabled=!sel.options.length;
+ for(const b of $('solutionBranches').querySelectorAll('button'))b.classList.toggle('active-variation',Number(b.dataset.nodeid)===solutionIndex);
+ const targetFen=fen;
+ if(previousFen!==targetFen && p?.uci && p?.parent!==null &&
+    treeNode(p.parent)?.fen===previousFen && !moveBusy){
+   animateUciSequence(previousFen,[p.uci],targetFen);
+ }else if(previousFen!==targetFen && solutionPreviousNode?.parent===p.id &&
+    solutionPreviousNode?.uci && !moveBusy){
+   const m=solutionPreviousNode.uci;
+   animateUciSequence(previousFen,[m.slice(2,4)+m.slice(0,2)],targetFen);
+ }else render();
+ solutionPreviousNode=null;
+}
+function solutionStep(delta){
+ if(!solutionData)return;
+ const p=treeNode(solutionIndex);
+ if(delta<0 && p?.parent!==null)solutionGo(p.parent);
+ else if(delta>0 && p?.children?.length)solutionGo(solutionSelected ?? p.children[0]);
+}
+function closeSolution(){cancelAnimation();lastBoardMove=null;
+ if(!solutionData)return;
+ const prev=solutionBefore;clearSolution();
+ if(prev){fen=prev.fen;playerBlack=prev.playerBlack;showPositionComment(prev.comment);render()}
+}
+async function resetProgress(){
+ if(!token){msg('Увійдіть в акаунт');return}
+ if(!confirm('Скинути ВСЮ статистику вправ, спроби, позначки розв’язаних задач і партії Stockfish для цього акаунта? Дію не можна скасувати.'))return;
+ let proof=prompt('Для підтвердження введіть СКИНУТИ','');
+ if(proof!=='СКИНУТИ'){msg('Скидання скасовано');return}
+ try{
+  const r=await api('/progress/reset','POST',{confirmation:proof,include_games:true});
+  inactive('Прогрес скинуто для вашого акаунта. Можна починати заново.');
+  clearSolution();setText('tryCount','Невдалих спроб: 0');
+  await progress();await updateCount();
+  setText('resetNotice','Скинуто: '+Object.entries(r.deleted).map(([k,v])=>`${k}: ${v}`).join(' · '));
+ }catch(e){msg(e.message)}
+}
+async function sourceUsage(){
+ try{
+  let r=await api('/exercises/source-usage');
+  setText('sourceUsage',`Задіяно ${r.used_sources} із ${r.imported_sources} імпортованих CDB; вправ: ${r.total_exercises}.\n`+
+  r.sources.map(x=>`${x.filename}: ${x.exercises} вправ / ${x.games_count} записів`).join('\n'));
+ }catch(e){msg(e.message)}
+}
+function saveUiTheme(){const theme=$('uiTheme').value;localStorage.setItem('agentchess_uiTheme',theme);document.documentElement.dataset.uiTheme=theme}
+function loadUiTheme(){const theme=localStorage.getItem('agentchess_uiTheme')==='dark'?'dark':'light';$('uiTheme').value=theme;document.documentElement.dataset.uiTheme=theme}
+function saveAppearance(){for(let id of ['boardTheme','pieceStyle','coords'])localStorage.setItem('agentchess_'+id,$(id).value);render()}
+function loadAppearance(){for(let id of ['boardTheme','pieceStyle','coords']){let s=localStorage.getItem('agentchess_'+id);if(s && [...$(id).options].some(o=>o.value===s))$(id).value=s}}
+function inactive(message){cancelAnimation();lastBoardMove=null;clearPlayback(true);gameActive=false;setBoardFeedback('idle');clearSolution();lastSession=null;$('solutionBtn').disabled=true;session=null;gid=null;lastSession=null;$('resetCurrentBtn').disabled=true;showPositionComment('');$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;refreshGameButtons();$('solutionBtn').disabled=true;$('sourceSolution').classList.add('hidden');setText('sourceSolution','');setText('sourceMeta','');fen='start';selected=null;selectedPiece=null;playerBlack=false;setText('turn','Немає активної вправи');setText('goal','Змініть фільтри або натисніть «Почати».');showPositionComment('');$('resetCurrentBtn').disabled=true;setText('stateLabel','Вправа неактивна');$('hintBtn').disabled=true;msg(message);render()}
+
+let boardFeedbackTimer=null;
+function setBoardFeedback(status='idle'){
+ const frame=$('boardFrame'),label=$('boardFeedback');
+ if(!frame||!label)return;
+ if(boardFeedbackTimer){clearTimeout(boardFeedbackTimer);boardFeedbackTimer=null}
+ frame.dataset.result=status;
+ label.textContent={idle:'',correct:'✓ Правильний хід',wrong:'✕ Неправильний хід',complete:'★ Завдання виконано без помилок'}[status]||'';
+ if(status==='correct'||status==='wrong'){
+   boardFeedbackTimer=setTimeout(()=>{frame.dataset.result='idle';label.textContent='';boardFeedbackTimer=null},status==='wrong'?1150:1050);
+ }
+}
+function toggleDrawer(force){
+ const shell=$('trainerShell'),toggle=$('drawerToggle'),backdrop=$('drawerBackdrop');
+ const isOpen=force===undefined?!shell.classList.contains('drawer-collapsed'):!force;
+ shell.classList.toggle('drawer-collapsed',isOpen);
+ toggle.setAttribute('aria-expanded',String(!isOpen));
+ backdrop.classList.toggle('hidden',isOpen||window.innerWidth>870);
+ localStorage.setItem('agentchess_drawer_open',String(!isOpen));
+}
+function loadDrawer(){
+ const saved=localStorage.getItem('agentchess_drawer_open');
+ const open=saved===null?window.innerWidth>870:saved==='true';
+ toggleDrawer(open);
+}
+window.addEventListener('resize',()=>{
+ const backdrop=$('drawerBackdrop');
+ backdrop.classList.toggle('hidden',window.innerWidth>870||$('trainerShell').classList.contains('drawer-collapsed'));
+});
+
+async function click(s,p,d){
+ if(moveBusy)return;
+ if(playback){msg('Закрийте перегляд партії, щоб грати.');return}
+ if(solutionData){msg('Спочатку натисніть «Повернутися до вправи».');return}
+ if(gid&&!gameActive){msg('Партію завершено; відкрийте історію ходів.');return}
+ if(!session&&!gid){msg('Спочатку натисніть «Почати»');return}
+ if(!selected){
+  if(!p){msg('Оберіть свою фігуру');return}
+  if((p===p.toUpperCase())!==(sideTurn(fen)==='w')){
+   msg('Зараз хід '+(sideTurn(fen)==='w'?'білих':'чорних'));setBoardFeedback('wrong');return;
+  }
+  selected=s;selectedPiece=p;syncBoardDecorations();return;
+ }
+ if(selected===s){selected=null;selectedPiece=null;syncBoardDecorations();return}
+ // Allow switching to another friendly piece without submitting an illegal move.
+ if(p&&(p===p.toUpperCase())===(sideTurn(fen)==='w')){
+  selected=s;selectedPiece=p;syncBoardDecorations();return;
+ }
+ const from=selected,piece=selectedPiece;
+ selected=null;selectedPiece=null;syncBoardDecorations();
+ await performMove(from,s,piece);
+}
+async function performMove(from,to,piece,dragVisual=null){
+ if(moveBusy||(!session&&!gid)||playback||solutionData){await settleDraggedVisual(dragVisual,true);return}
+ let move=from+to;
+ if(piece?.toLowerCase()==='p'&&(to[1]==='8'||to[1]==='1')){
+  const choice=(prompt('Перетворення пішака: q — ферзь, r — тура, b — слон, n — кінь','q')||'q').toLowerCase();
+  move+=['q','r','b','n'].includes(choice)?choice:'q';
+ }
+ const before=fen;
+ moveBusy=true;
+ try{
+  if(session){
+   const r=await api('/exercises/attempt','POST',{session_id:session,move});
+   if(r.correct===false){await settleDraggedVisual(dragVisual,true);dragVisual=null;setBoardFeedback('wrong');setText('tryCount','Невдалих спроб: '+r.attempts);msg(r.message);return}
+   const ucis=[move,...(r.opponent_moves||[]).map(x=>x.uci).filter(Boolean)];
+   if(dragVisual){
+    await settleDraggedVisual(dragVisual,false);dragVisual=null;
+    const ownFen=ucis.length>1?positionAfterUci(before,move):r.fen;
+    fen=ownFen;lastBoardMove={from,to};render();
+    if(ucis.length>1)await animateUciSequence(ownFen,ucis.slice(1),r.fen);
+   }else await animateUciSequence(before,ucis,r.fen);
+   showPositionComment(r.comment);
+   setBoardFeedback(r.finished&&r.correct===true&&r.attempts===0?'complete':r.correct===true?'correct':'idle');
+   setText('tryCount','Невдалих спроб: '+r.attempts);
+   msg(r.message+(r.opponent_moves?.length?' Відповідь суперника: '+r.opponent_moves.map(x=>x.san).join(', '):''));
+   if(r.finished){session=null;$('hintBtn').disabled=true;setText('stateLabel','Завершено');
+    if(r.source_solution_san){setText('sourceSolution','Авторська головна лінія: '+r.source_solution_san);$('sourceSolution').classList.remove('hidden')}progress();
+   }else setText('stateLabel','Виконується');
+  }else if(gid){
+   const r=await api('/games/'+gid+'/moves','POST',{move});
+   const last=r.timeline?.slice(-3)||[];
+   const ucis=last.filter(x=>x.uci).map(x=>x.uci);
+   const gameUcis=ucis.length&&ucis[0]===move?ucis:[move,...(r.reply?[r.reply]:[])];
+   if(dragVisual){
+    await settleDraggedVisual(dragVisual,false);dragVisual=null;
+    const ownFen=gameUcis.length>1?positionAfterUci(before,move):r.fen;
+    fen=ownFen;lastBoardMove={from,to};render();
+    if(gameUcis.length>1)await animateUciSequence(ownFen,gameUcis.slice(1),r.fen);
+   }else await animateUciSequence(before,gameUcis,r.fen);
+   setBoardFeedback('correct');gameActive=r.status==='active';
+   msg('Stockfish: '+(r.reply||'партія завершена')+' · '+r.status);refreshGameButtons();
+   if(!gameActive)openPlayback(r.timeline,'Завершена партія зі Stockfish',null);
+  }
+ }catch(e){await settleDraggedVisual(dragVisual,true);setBoardFeedback('wrong');msg(e.message)}
+ finally{moveBusy=false;syncBoardDecorations()}
+}
+const topicHelp={
+'мат':'Розіграйте авторську матову комбінацію. Кількість ходів сторони, що починає, визначається за головною лінією CDB.',
+'базові мати':'Відпрацюйте матування королем із ферзем, турою чи іншими фігурами.',
+'незахищені фігури':'Знайдіть і використайте незахищену фігуру суперника.',
+'подвійний удар':'Знайдіть хід, що створює дві загрози одночасно.',
+'зв’язка':'Знайдіть зв’язку або використайте обмежену в рухах фігуру.',
+'відкритий напад':'Знайдіть хід, який відкриває напад іншої фігури.',
+'ендшпіль':'Дослідіть закінчення та авторську послідовність ходів.',
+'тактичні комбінації':'Знайдіть авторську тактичну ідею та пройдіть варіант із шахової книги.',
+'історичні комбінації':'Дослідіть комбінацію з історичного джерела та її варіанти.',
+'дебютні пастки':'Вивчіть дебютну пастку, її розгалуження та пояснення автора.',
+'дебютні принципи':'Вивчіть дебютні продовження та принципи з авторського джерела.',
+'навчальні партії':'Розіграйте фрагмент навчальної партії та розгляньте відгалуження.',
+'стратегія та план':'Оцініть стратегічну позицію та авторський план.',
+'оцінка позиції':'Оцініть позицію й дослідіть рекомендації автора.',
+'game':'Зіграйте проти Stockfish із початкової або вказаної позиції.'};
+function showPositionComment(text){
+ const value=String(text||'').trim();
+ setText('positionCommentText',value);
+ $('positionComment').classList.toggle('hidden',!value);
+}
+async function loadAvailableTopics(){
+ if(!token)return;
+ try{
+  const result=await api('/exercises/topic-sources');
+  const totals=new Map(result.topics.map(t=>[t.topic,t.count]));
+  for(const selId of ['mode','catTopic']){
+   const sel=$(selId),prior=sel.value;
+   for(const option of [...sel.options]){
+    if(option.value==='game'||option.value==='')continue;
+    const num=totals.get(option.value)||0;
+    option.hidden=!num; option.disabled=!num;
+    // Keep the canonical topic value separate from the displayed count.
+    // <option> without value= would otherwise submit 'тема (284)' to the API.
+    const canonical=option.dataset.topicValue||option.value.replace(/ \([0-9]+\)$/,'');
+    option.dataset.topicValue=canonical;
+    option.value=canonical;
+    const title=option.dataset.title||option.textContent.replace(/ \([0-9]+\)$/,'');
+    option.dataset.title=title;
+    option.textContent=title+(num?' ('+num+')':'');
+    option.value=canonical;
+   }
+   if(![...sel.options].some(o=>o.value===prior&&!o.disabled)){
+    const next=[...sel.options].find(o=>!o.disabled);
+    if(next)sel.value=next.value;
+   }
+  }
+ }catch(e){console.warn('Не вдалося оновити список тем',e)}
+}
+async function resetCurrentExercise(){cancelAnimation();lastBoardMove=null;
+ if(!lastSession)return msg('Спочатку відкрийте вправу');
+ if(!confirm('Повернути цю задачу до початку та скинути її позначку виконання і спроби? Інші задачі не зміняться.'))return;
+ try{
+  if(solutionData)closeSolution();
+  clearPlayback(true);
+  const r=await api('/exercises/reset-current','POST',{session_id:lastSession});
+  gid=null;gameActive=false;session=r.session_id;lastSession=r.session_id;
+  fen=r.fen;playerBlack=r.side==='black';selected=null;selectedPiece=null;
+  setBoardFeedback('idle');refreshGameButtons();
+  $('hintBtn').disabled=false;$('solutionBtn').disabled=false;
+  $('playFromBtn').disabled=false;$('engineSolveBtn').disabled=false;
+  $('resetCurrentBtn').disabled=false;
+  setText('tryCount','Невдалих спроб: 0');setText('stateLabel','Авторський варіант');
+  setText('turn','Хід '+(playerBlack?'чорних':'білих'));
+  setText('goal',r.goal);showPositionComment(r.comment);
+  setText('sourceSolution','');$('sourceSolution').classList.add('hidden');
+  msg('Задачу скинуто. Розпочинайте авторський варіант знову.');
+  render();progress();
+ }catch(e){msg(e.message)}
+}
+function filtersChanged(){inactive('Оберіть «Почати / Наступна», щоб завантажити задачу.');setText('goal',topicHelp[$('mode').value]||'');setText('turn','Оберіть задачу');let game=$('mode').value==='game';$('gameOpts').classList.toggle('hidden',!game);$('mateField').classList.toggle('hidden',game||$('mode').value!=='мат');$('difficultyField').classList.toggle('hidden',game);$('levelExplain').classList.toggle('hidden',game);if(game){setText('available','Гра зі Stockfish');return}updateCount()}
+function params(){let q=new URLSearchParams({topic:$('mode').value});if($('difficulty').value)q.set('difficulty',$('difficulty').value);if($('mode').value==='мат' && $('mateIn').value!=='')q.set('mate_in',$('mateIn').value);return q}
+async function updateCount(){let key=++requestKey;if(!token){setText('available','Доступні вправи: увійдіть в акаунт');return}if($('mode').value==='game')return;try{let r=await api('/exercises/count?'+params());if(key!==requestKey)return;setText('available',r.total?`Доступно: ${r.total} · за джерелами: ${r.source_based}`:'Для обраного рівня немає вправ — виберіть «Усі рівні».')}catch(e){if(key===requestKey)setText('available','Не вдалося визначити кількість: '+e.message)}}
+async function start(){cancelAnimation();lastBoardMove=null;clearPlayback(true);gameActive=false;setBoardFeedback('idle');clearSolution();session=null;gid=null;refreshGameButtons();lastSession=null;$('resetCurrentBtn').disabled=true;showPositionComment('');$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;$('sourceSolution').classList.add('hidden');setText('sourceSolution','');setText('sourceMeta','');selected=null;selectedPiece=null;setText('tryCount','Невдалих спроб: 0');$('hintBtn').disabled=true;try{if($('mode').value==='game'){let r=await api('/games','POST',{fen:$('customFen').value||null,skill:+$('skill').value,color:$('color').value});gid=r.id;fen=r.fen;playerBlack=r.player_color==='black';gameActive=r.status==='active';refreshGameButtons();setText('turn','Гра зі Stockfish');setText('goal','Ви граєте '+($('color').value==='black'?'чорними':'білими')+'.');setText('sourceNotice','');setText('stateLabel','Партія');msg('Партію розпочато.')}else{let r=await api('/exercises/next?'+params());session=r.session_id;lastSession=r.session_id;$('playFromBtn').disabled=false;$('engineSolveBtn').disabled=false;$('solutionBtn').disabled=false;$('resetCurrentBtn').disabled=false;showPositionComment(r.comment);fen=r.fen;playerBlack=r.side==='black';let side=r.side==='white'?'білих':'чорних';setText('turn','Хід '+side);setText('goal',r.goal);setText('stateLabel',r.mode==='VERIFIED'?'Перевірений перший хід':r.mode==='SOURCE_LINE'?'Авторський варіант':'Вільне тренування');setText('sourceMeta',`Джерело: ${r.source_file || 'невідоме'} · CDB №${r.source_record_id ?? '?'} · ходів атакуючої сторони в авторському рішенні: ${r.source_attacker_moves ?? 'не визначено'} · усього ${r.source_plies ?? 0} півходів`);setText('sourceNotice',r.mode==='VERIFIED'?'Перевірена умова першого ходу; не всі альтернативи та мотиви доведені.':r.mode==='SOURCE_LINE'?'Рішення з шахової книги CDB: ходи звіряються з авторським варіантом.':'У позиції немає готової лінії ходів; система не оцінює правильність ходу.');$('hintBtn').disabled=false;msg('Вправа №'+r.id+' · '+r.topic+(r.source_plies===1?' · У джерелі наведений лише один хід.':''))}render()}catch(e){inactive(e.message)}}
+async function playFromExercise(){clearPlayback(true);setBoardFeedback('idle');if(solutionData)closeSolution();if(!lastSession)return msg('Спочатку відкрийте шахову вправу');try{let r=await api('/games/from-exercise','POST',{session_id:lastSession,skill:+$('exerciseSkill').value,color:playerBlack?'black':'white'});session=null;gid=r.id;fen=r.fen;playerBlack=r.player_color==='black';gameActive=r.status==='active';refreshGameButtons();$('hintBtn').disabled=true;$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;$('solutionBtn').disabled=true;$('resetCurrentBtn').disabled=false;setText('turn','Гра зі Stockfish · хід '+(playerBlack?'чорних':'білих'));setText('goal','Гра зі Stockfish із позиції задачі. Ви граєте '+(playerBlack?'чорними':'білими')+'.');setText('stateLabel','Партія');msg(r.note+' · Зробіть хід фігурами знизу.');render()}catch(e){msg(e.message)}}
+async function getHint(){if(!session)return;try{let r=await api('/exercises/hint','POST',{session_id:session});msg(r.hint)}catch(e){msg(e.message)}}
+async function sources(){try{setText('sources',JSON.stringify(await api('/sources'),null,2))}catch(e){msg(e.message)}}
+async function upload(){let f=$('file').files[0];if(!f)return msg('Оберіть .cdb або .tar.gz');let fd=new FormData();fd.append('file',f);try{let r=await api('/imports','POST',fd);msg(`Імпортовано ${r.new_sources} джерел. Перевірте каталог.`);updateCount()}catch(e){msg(e.message)}}
+let catalogFilterRequest=0;
+function resetSelect(id, caption){
+ const sel=$(id);sel.replaceChildren();
+ const option=document.createElement('option');option.value='';option.textContent=caption;
+ sel.appendChild(option);sel.value='';
+}
+async function refreshCatalogSources(){
+ const seq=++catalogFilterRequest;
+ resetSelect('catSource','Усі джерела теми');resetSelect('catNumber','Усі номери');
+ $('catNumberInput').value='';$('catNumber').disabled=true;
+ if(!token){$('catSource').disabled=true;return}
+ const topic=$('catTopic').value;
+ try{
+  const q=new URLSearchParams();if(topic)q.set('topic',topic);
+  const r=await api('/exercises/catalog/sources?'+q);
+  if(seq!==catalogFilterRequest)return;
+  for(const src of r.sources){
+   const o=document.createElement('option');o.value=String(src.source_id);
+   o.textContent=`${src.filename} (${src.exercises})`;
+   $('catSource').appendChild(o);
+  }
+  $('catSource').disabled=!r.sources.length;
+ }catch(e){if(seq===catalogFilterRequest)setText('catCount','Не вдалося завантажити CDB: '+e.message)}
+}
+async function refreshCatalogNumbers(){
+ const seq=++catalogFilterRequest;
+ resetSelect('catNumber','Усі номери');$('catNumberInput').value='';
+ const topic=$('catTopic').value,source=$('catSource').value;
+ if(!source||!topic){$('catNumber').disabled=true;return}
+ try{
+  const q=new URLSearchParams({topic,source_id:source});
+  const r=await api('/exercises/catalog/numbers?'+q);
+  if(seq!==catalogFilterRequest)return;
+  for(const num of r.numbers){
+   const o=document.createElement('option');o.value=String(num);o.textContent='№'+num;
+   $('catNumber').appendChild(o);
+  }
+  $('catNumber').disabled=!r.numbers.length;
+ }catch(e){if(seq===catalogFilterRequest)setText('catCount','Не вдалося завантажити номери: '+e.message)}
+}
+async function onCatalogTopicChange(){
+ catOffset=0;
+ await refreshCatalogSources();
+ await browse(0);
+}
+async function onCatalogSourceChange(){
+ catOffset=0;
+ await refreshCatalogNumbers();
+ await browse(0);
+}
+function onCatalogNumberChange(){
+ $('catNumberInput').value='';browse(0);
+}
+async function browse(offset=0){
+ try{
+  catOffset=offset;
+  const q=new URLSearchParams({offset:String(offset),limit:'20'});
+  if($('catTopic').value)q.set('topic',$('catTopic').value);
+  if($('catSource').value)q.set('source_id',$('catSource').value);
+  const typed=$('catNumberInput').value.trim();
+  const num=typed||$('catNumber').value;
+  if(num){
+   if(!/^\d+$/.test(num)||Number(num)<1){setText('catCount','Вкажіть коректний номер задачі');return}
+   if(!$('catSource').value){setText('catCount','Для пошуку за номером спочатку виберіть CDB');return}
+   q.set('original_id',num);
+  }
+  // Search training exercises, preserving both chosen CDB and its original task number.
+  const r=await api('/exercises/catalog?'+q);
+  if(r.total&&offset>=r.total){
+   offset=Math.floor((r.total-1)/20)*20;catOffset=offset;q.set('offset',String(offset));
+   const retry=await api('/exercises/catalog?'+q);
+   renderCatalogPage(retry,offset);return;
+  }
+  renderCatalogPage(r,offset);
+ }catch(e){setText('catCount','Помилка каталогу: '+e.message);msg(e.message)}
+}
+function renderCatalogPage(r,offset){
+ setText('catCount',r.total?`${offset+1}–${Math.min(offset+20,r.total)} із ${r.total} записів`:'0 записів для вибраних фільтрів');
+ let box=$('catalog');box.replaceChildren();for(let x of r.items){let card=document.createElement('div');card.className='sourceCard';let title=document.createElement('strong');title.textContent=`${x.filename||'CDB'} · запис №${x.original_id??x.id} · ${x.topic}`;card.appendChild(title);let info=document.createElement('div');info.className='small';info.textContent=`Позиція: ${x.fen||'—'} · рівень: ${x.difficulty??'—'}`;card.appendChild(info);let button=document.createElement('button');button.textContent='Показати авторську відповідь';let answer=document.createElement('pre');answer.className='hidden';button.onclick=async()=>{try{let y=await api('/catalog/'+x.id+'/solution');answer.textContent=`Джерело: ${y.source}, №${y.source_record_id}\nГоловна лінія (${y.plies} півходів): ${y.line_san||'відсутня'}\n\nОригінал CDB: ${y.original_movetext||'—'}\n${y.note}`;answer.classList.remove('hidden')}catch(e){answer.textContent=e.message;answer.classList.remove('hidden')}};let treeButton=document.createElement('button');treeButton.textContent='Переглянути дерево варіантів';
+ treeButton.onclick=()=>showCatalogTree(x.id);
+ card.append(button,treeButton,answer);box.appendChild(card)}}
+async function progress(){try{let r=await api('/progress'),box=$('progress');box.replaceChildren();let topics=new Map();for(let x of r.attempts||[]){topics.set(x.topic,{topic:x.topic,attempts:x.attempts,correct:x.correct||0,started:0,completed:0,mistakes:0})}for(let x of r.exercise_sessions||[]){let o=topics.get(x.topic)||{topic:x.topic,attempts:0,correct:0};Object.assign(o,{started:x.started||0,completed:x.completed||0,mistakes:x.mistakes||0});topics.set(x.topic,o)}if(!topics.size){box.textContent='Спроб ще немає. Почніть тренування.';return}for(let v of topics.values()){let card=document.createElement('div');card.className='progresscard';let title=document.createElement('strong');title.textContent=v.topic;card.appendChild(title);let rate=v.attempts?Math.round(100*v.correct/v.attempts):0;let bar=document.createElement('div');bar.className='progressbar';let fill=document.createElement('div');fill.className='progressfill';fill.style.width=rate+'%';bar.appendChild(fill);let p=document.createElement('div');p.className='progressmuted';p.textContent=`Правильні ходи: ${v.correct}/${v.attempts} (${rate}%) · Завершено: ${v.completed||0}/${v.started||0} · Помилок: ${v.mistakes||0}`;card.append(title,bar,p);box.appendChild(card)}let games=document.createElement('div');games.className='progresscard';games.textContent='Партії зі Stockfish: '+(r.games||[]).reduce((a,x)=>a+x.count,0);box.appendChild(games)}catch(e){msg(e.message)}}
+
+function refreshGameButtons(){
+ $('gameToolbox').classList.toggle('hidden',!gid);
+ $('flipGameBtn').disabled=!gid;
+ $('historyBtn').disabled=!gid;
+}
+function clearPlayback(silent=false){
+ if(!playback)return;
+ const before=playbackBefore;
+ playback=null;playbackIndex=0;playbackBefore=null;
+ $('playbackPanel').classList.add('hidden');
+ if(!silent&&before){fen=before.fen;playerBlack=before.playerBlack;render()}
+}
+function openPlayback(positions,title,warning){
+ if(!Array.isArray(positions)||!positions.length){msg('Немає позицій для перегляду');return}
+ if(solutionData)closeSolution();
+ if(!playback)playbackBefore={fen,playerBlack};
+ playback=positions;playbackIndex=0;
+ setText('playbackTitle',title);
+ setText('historyNotice',warning||'Стрілки показують позиції на кожному півході. Історія не змінюється.');
+ $('playbackPanel').classList.remove('hidden');renderPlayback();
+}
+function renderPlayback(){
+ if(!playback)return;
+ const previousFen=fen;
+ let t=playback[playbackIndex];fen=t.fen;
+ setText('historyCounter',`${playbackIndex} / ${playback.length-1}`);
+ setText('historyMove',t.san||'Початкова позиція');
+ $('historyPrev').disabled=playbackIndex<=0;
+ $('historyNext').disabled=playbackIndex>=playback.length-1;
+ const targetFen=fen;
+ if(previousFen!==targetFen && playbackIndex>0 && playback[playbackIndex-1].fen===previousFen && t.uci && !moveBusy){
+  animateUciSequence(previousFen,[t.uci],targetFen);
+ }else render();
+}
+function playbackStep(direction){
+ if(!playback)return;
+ cancelAnimation();
+ const before=playbackIndex;
+ playbackIndex=Math.max(0,Math.min(playback.length-1,playbackIndex+direction));
+ if(before===playbackIndex)return;
+ const old=playback[before],now=playback[playbackIndex];
+ if(direction<0 && old.uci){
+  const previousFen=fen;fen=now.fen;
+  setText('historyCounter',`${playbackIndex} / ${playback.length-1}`);
+  setText('historyMove',now.san||'Початкова позиція');
+  $('historyPrev').disabled=playbackIndex<=0;
+  $('historyNext').disabled=playbackIndex>=playback.length-1;
+  animateUciSequence(previousFen,[old.uci.slice(2,4)+old.uci.slice(0,2)],now.fen);
+ }else renderPlayback();
+}
+function closePlayback(){cancelAnimation();lastBoardMove=null;clearPlayback(false)}
+async function showGameHistory(){
+ if(!gid)return msg('Спочатку почніть партію');
+ try{
+  const r=await api('/games/'+gid+'/timeline');
+  openPlayback(r.timeline,'Історія партії зі Stockfish',r.status==='active'?'Поверніться до останньої позиції, щоб продовжити партію.':'Партію завершено.');
+ }catch(e){msg(e.message)}
+}
+async function flipCurrentGame(){
+ if(!gid)return msg('Немає партії для перевертання');
+ if(playback)closePlayback();
+ try{
+  let r=await api('/games/'+gid+'/flip','POST',{});
+  playerBlack=r.player_color==='black';fen=r.fen;gameActive=r.status==='active';if($('mode').value==='game')$('color').value=r.player_color;refreshGameButtons();
+  setText('turn','Гра зі Stockfish — ви граєте '+(playerBlack?'чорними':'білими'));
+  msg('Дошку перевернуто. Ви граєте фігурами знизу.'+(r.reply?' Stockfish зробив перший хід.':''));
+  render();
+ }catch(e){msg(e.message)}
+}
+async function solveWithStockfish(){
+ if(!lastSession)return msg('Спочатку відкрийте вправу');
+ if(solutionData)closeSolution();
+ let max=+$('enginePlies').value;
+ if(max<2||max>80)return msg('Допустимо від 2 до 80 півходів');
+ $('engineSolveBtn').disabled=true;
+ msg('Stockfish аналізує позицію, граючи за обидві сторони...');
+ try{
+  let r=await api('/stockfish/solve','POST',{session_id:lastSession,max_plies:max,think_time:0.12});
+  openPlayback(r.timeline,'Рішення Stockfish — обидві сторони',r.warning);
+  msg(`Stockfish виконав ${r.moves.length} півходів. Переглядайте їх кнопками ◀ і ▶.`);
+ }catch(e){msg(e.message)}finally{$('engineSolveBtn').disabled=false}
+}
+async function refreshMateOptions(){
+ if(!token)return;
+ try{
+  const r=await api('/exercises/mate-lengths');
+  let sel=$('mateIn'),old=sel.value;
+  sel.replaceChildren();
+  let opt=document.createElement('option');opt.value='';opt.textContent='Усі авторські рішення';sel.append(opt);
+  for(let item of r.lengths){
+   opt=document.createElement('option');
+   opt.value=item.moves===null?'0':String(item.moves);
+   opt.textContent=item.moves===null?`Неповне рішення (${item.count})`:`${item.moves} ход(и) (${item.count})`;
+   sel.append(opt);
+  }
+  if([...sel.options].some(o=>o.value===old))sel.value=old;
+ }catch(e){console.warn('Не вдалося отримати довжини матових рішень',e)}
+}
+
+loadUiTheme();loadAppearance();loadMoveOptions();loadDrawer();setBoardFeedback('idle');render();filtersChanged();if(token)api('/users/me').then(u=>{setText('authStatus','Увійшли: '+u.username);loadAvailableTopics().then(refreshMateOptions).then(updateCount).then(refreshCatalogSources)}).catch(()=>{token='';localStorage.removeItem('agentchess_token');setText('authStatus','Потрібен повторний вхід')});
+</script></body></html>

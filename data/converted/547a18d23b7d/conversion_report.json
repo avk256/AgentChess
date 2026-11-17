@@ -1,0 +1,28 @@
+{
+  "file": "vlasov/middle/koblents.cdb",
+  "filename": "koblents.cdb",
+  "sha256": "547a18d23b7da3b43a5aa541ebaa05b51da9abe32f747b350ad2f0398ed7f8a5",
+  "source_id": 17,
+  "duplicate": false,
+  "games": 163,
+  "chapters": 30,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 126,
+    "THEORY": 35,
+    "EMPTY_MOVETEXT": 1,
+    "INVALID_FEN": 1
+  },
+  "exported_json": 163,
+  "exported_fen": 162,
+  "exported_pgn": 161,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 8,
+  "records_with_promotions": 6,
+  "exercise_candidates": 0,
+  "ready_exercises": 0,
+  "needs_review": 0,
+  "errors": 1,
+  "parser_available": true,
+  "output_dir": "/home/avk256/kafedra/Chess/chess_agent/AgentChess_MVP_02/data/converted/547a18d23b7d"
+}

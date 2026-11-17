@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "sha256": "c8a3067d4d7ab66e0f0da102c454e602d515f080a36f82520ec51ab49f9f1f83",
+  "filename": "Romanovsky.cdb",
+  "origin_path": "vlasov/middle/Romanovsky.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Миттельшпиль",
+    "info": "Романовский",
+    "gameid": "1"
+  }
+}

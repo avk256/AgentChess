@@ -1,0 +1,13 @@
+{
+  "id": 7,
+  "sha256": "0b8bbfa31bbbd8eb383d067ade2a679aa5803f02d1b01816eee4b1bae0b78d49",
+  "filename": "Kalinichenko.ru.cdb",
+  "origin_path": "vlasov/middle/Kalinichenko.ru.cdb",
+  "params": {
+    "version": "2016.01",
+    "policy": "reg",
+    "title": "Энциклопедия шахматных комбинаций",
+    "info": "Калиниченко",
+    "gameid": "1"
+  }
+}

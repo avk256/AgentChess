@@ -1,0 +1,25 @@
+{
+  "file": "vlasov/middle/303_checkmates.ru.cdb",
+  "filename": "303_checkmates.ru.cdb",
+  "sha256": "37afa93526613e97df17d37da94694ca29f4dccf0f4dad5b07c7b2d959d4bfcd",
+  "source_id": 10,
+  "duplicate": false,
+  "games": 298,
+  "chapters": 0,
+  "parsed_statuses": {
+    "LEGAL_MOVES": 298
+  },
+  "exported_json": 298,
+  "exported_fen": 298,
+  "exported_pgn": 298,
+  "elo_records": 0,
+  "normalizer_version": "0.2.1-promotions-v1",
+  "promotion_replacements": 60,
+  "records_with_promotions": 15,
+  "exercise_candidates": 298,
+  "ready_exercises": 0,
+  "needs_review": 298,
+  "errors": 0,
+  "parser_available": true,
+  "output_dir": "data/converted_021_test/37afa9352661"
+}
