@@ -11,7 +11,7 @@ from passlib.hash import pbkdf2_sha256
 ROOT=Path(__file__).resolve().parent.parent
 DATA=Path(os.environ.get('AGENTCHESS_DATA',str(ROOT/'data'))); DATA.mkdir(parents=True,exist_ok=True)
 DB=DATA/'agentchess.sqlite3'; ENGINE=os.environ.get('STOCKFISH_PATH','/usr/games/stockfish')
-app=FastAPI(title='AgentChess MVP',version='0.5.9')
+app=FastAPI(title='AgentChess MVP',version='0.5.11')
 
 def conn():
  c=sqlite3.connect(DB); c.row_factory=sqlite3.Row; c.execute('PRAGMA foreign_keys=ON'); return c
@@ -62,6 +62,16 @@ def gamestate(r):
  b=chess.Board(r['start_fen']);
  for u in json.loads(r['moves']): b.push_uci(u)
  return b
+
+@app.get('/api/position/status')
+def position_status(fen:str):
+ """Authoritative checkmate status for any board view, independent of CDB metadata."""
+ if fen=='start':fen=chess.STARTING_FEN
+ if len(fen)>120:raise HTTPException(422,'Некоректний FEN')
+ board=board_of(fen)
+ mate=board.is_checkmate()
+ king=board.king(board.turn) if mate else None
+ return {'is_checkmate':mate,'king_square':chess.square_name(king) if king is not None else None}
 
 @app.post('/api/auth/register')
 def register(a:Auth):

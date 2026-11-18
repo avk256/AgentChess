@@ -216,6 +216,13 @@ def make_move(db,user_id,session_id,move_text):
         else:
             expected=json.loads(r['answer_uci'] or '[]') if kind=='VERIFIED' else ([line[index]] if index<len(line) else [])
             correct=move.uci() in expected
+        # A legal checkmate solves a mate exercise even when CDB omits this variation.
+        # This is a rules-based check on the ACTUAL board, not a string match.
+        is_legal_mate=False
+        if r['topic']=='мат':
+            after_move=b.copy();after_move.push(move)
+            is_legal_mate=after_move.is_checkmate()
+            if is_legal_mate:correct=True
         new_errors=r['wrong_attempts']+(1 if correct is False else 0)
         c.execute('''INSERT INTO attempts(user_id,record_id,fen,topic,move,correct,created)
                      VALUES(?,?,?,?,?,?,?)''',
@@ -226,19 +233,21 @@ def make_move(db,user_id,session_id,move_text):
                     'message':('Цей хід відрізняється від авторського варіанта. Спробуйте інший або скористайтеся підказкою.'
                                if kind=='SOURCE_LINE' else 'Спробуйте знайти інший хід.')}
         b.push(move); index+=1
-        if kind=='SOURCE_LINE' and index<len(line):
+        if not is_legal_mate and kind=='SOURCE_LINE' and index<len(line):
             try:
                 auto=chess.Move.from_uci(line[index])
                 if auto in b.legal_moves:
                     moves.append({'uci':auto.uci(),'san':b.san(auto)})
                     b.push(auto);index+=1
             except ValueError:pass
-        finished=kind in ('VERIFIED','EXPLORE') or index>=len(line) or b.is_game_over()
+        finished=is_legal_mate or kind in ('VERIFIED','EXPLORE') or index>=len(line) or b.is_game_over()
         c.execute('''UPDATE exercise_sessions SET current_fen=?,line_index=?,wrong_attempts=?,
                      finished=?,finished_at=? WHERE id=?''',
                   (b.fen(),index,new_errors,int(finished),now() if finished else None,session_id))
-        message=('Хід виконано. Це дослідницька вправа без еталонного рішення.' if kind=='EXPLORE' else
+        message=('Мат підтверджено за правилами шахів (python-chess).' if is_legal_mate else
+                 'Авторську лінію пройдено, але мату в цій позиції немає.' if r['topic']=='мат' and finished and not b.is_checkmate() else
+                 'Хід виконано. Це дослідницька вправа без еталонного рішення.' if kind=='EXPLORE' else
                  'Авторський варіант пройдено.' if kind=='SOURCE_LINE' and finished else
                  'Хід підтверджено.' if kind=='VERIFIED' else 'Продовжуйте авторський варіант.')
         return {'correct':correct,'finished':finished,'fen':b.fen(),'attempts':new_errors,
-                'opponent_moves':moves,'message':message}
+                'opponent_moves':moves,'is_checkmate':b.is_checkmate(),'message':message}
