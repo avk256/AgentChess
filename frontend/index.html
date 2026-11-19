@@ -122,22 +122,43 @@ html[data-ui-theme="dark"] .position-comment{background:#253b46;color:#edf5f8}
 .board-box > .playback-panel .actions button{min-width:45px}
 .square.checkmated{background:#f3a5aa!important;box-shadow:inset 0 0 0 3px #c84453!important}
 .square.checkmated .piece{filter:drop-shadow(0 0 2px #8e2531)}
+
+/* MVP 0.5.14: visual board editor, distinct from actual game state. */
+.position-editor{box-sizing:border-box;width:100%;padding:12px;margin:9px 0;border:1px solid var(--border,#aec2d0);border-radius:10px;background:var(--panel-bg,#e5eff3)}
+.position-editor .editor-actions,.position-editor .editor-settings,.position-editor .editor-palette{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:9px 0}
+.position-editor .editor-palette button{font-size:27px;min-width:40px;min-height:45px;padding:3px 6px;line-height:1}
+.position-editor button[aria-pressed="true"]{outline:3px solid #e4a63a;outline-offset:0}
+.position-editor .editor-settings label{display:flex;gap:5px;align-items:center}
+.position-editor .editor-settings input[type="text"]{max-width:80px}
+.position-editor .editor-fen{width:100%;box-sizing:border-box;min-height:35px;font-size:12px}
+.board.editor-active .square{cursor:crosshair}
+.board.editor-active .square.editor-source{box-shadow:inset 0 0 0 4px #ee9c21}
+.board.editor-active .square:hover{outline:2px solid #ee9c21;outline-offset:-2px}
 </style></head><body>
 <header><h1>♞ AgentChess · MVP 0.5.12</h1><p>Інтерактивні вправи із шахових збірників CDB</p></header><main><div class="trainer-shell" id="trainerShell"><aside aria-label="Налаштування AgentChess" class="settings-drawer" id="settingsDrawer"><div class="drawer-header"><strong>☰ Налаштування</strong><button aria-label="Закрити налаштування" class="drawer-close" onclick="toggleDrawer(false)" type="button">✕</button></div><section class="drawer-section"><h3>Акаунт</h3><div class="auth-row"><input autocomplete="username" id="username" placeholder="Логін"/><input autocomplete="current-password" id="password" placeholder="Пароль" type="password"/><button onclick="auth('register')">Реєстрація</button><button onclick="auth('login')">Увійти</button><span aria-live="polite" id="authStatus"></span></div></section><section class="drawer-section"><h3>Вигляд тренажера</h3><div class="settings"><div class="row"><label class="field" style="min-width:175px"><span>Тема застосунку</span><select id="uiTheme" onchange="saveUiTheme()"><option value="light">Світла</option><option value="dark">Темна</option></select></label><label class="field"><span>Оформлення дошки</span><select id="boardTheme" onchange="saveAppearance()"><option value="classic">Класична</option><option value="green">Зелена</option><option value="blue">Синя</option><option value="walnut">Дерев'яна</option></select></label>
 <label class="field"><span>Стиль фігур</span><select id="pieceStyle" onchange="saveAppearance()"><option value="classic">Класичні символи</option><option value="contrast">Контрастні символи</option><option value="letters">Літерні позначення</option></select></label>
 <label class="field"><span>Швидкість анімації</span><select id="animationSpeed" onchange="saveMoveOptions()"><option value="0">Без анімації</option><option value="200">Швидка · 0,2 с</option><option value="400">Звичайна · 0,4 с</option><option value="700">Повільна · 0,7 с</option><option value="1000">Дуже повільна · 1 с</option></select></label>
 <label class="field"><span>Підсвітка атакованих полів</span><select id="showAttacks" onchange="saveMoveOptions()"><option value="off">Вимкнено</option><option value="on">Увімкнено</option></select></label>
 <label class="field" style="flex:0 0 auto"><span>Координати</span><select id="coords" onchange="saveAppearance()"><option value="on">Показати</option><option value="off">Сховати</option></select></label></div></div></section><section class="drawer-section"><h3>Шаховий тренажер</h3><div class="row"><label class="field"><span>Тема</span><select id="mode" onchange="$('difficulty').value='';filtersChanged()"><option value="мат">Матові задачі</option><option value="незахищені фігури">Незахищені фігури</option><option value="подвійний удар">Подвійний удар</option><option value="зв’язка">Зв'язка</option><option value="відкритий напад">Відкритий напад</option><option value="ендшпіль">Ендшпіль</option><option value="тактичні комбінації">Тактичні комбінації</option><option value="історичні комбінації">Історичні комбінації</option><option value="дебютні пастки">Дебютні пастки</option><option value="дебютні принципи">Дебютні принципи</option><option value="навчальні партії">Навчальні партії</option><option value="стратегія та план">Стратегія та план</option><option value="оцінка позиції">Оцінка позиції</option><option value="game">Гра зі Stockfish</option></select></label>
-<label class="field" id="mateField"><span>Мат за</span><select id="mateIn" onchange="filtersChanged()"><option value="">Будь-яка довжина</option><option value="1">1 хід</option><option value="2">2 ходи</option><option value="3">3 ходи</option><option value="0">Неповне рішення</option></select></label></div><label class="field" id="difficultyField"><span>Навчальний рівень</span><select id="difficulty" onchange="filtersChanged()"><option value="">Усі рівні</option><option value="1">1 — початковий</option><option value="2">2 — базовий</option><option value="3">3 — середній</option><option value="4">4 — складний</option><option value="5">5 — високий</option></select></label><p class="small" id="levelExplain">Рівень складності визначається окремо за Elo або евристикою CDB. Для матових задач фільтр рахує ходи сторони, що починає, у головній авторській лінії.</p><div class="hidden" id="gameOpts"><label>Stockfish Skill Level <input id="skill" max="20" min="0" style="width:70px" type="number" value="4"/></label><label>Ви граєте нижніми фігурами: <select id="color"><option value="white">Білі</option><option value="black">Чорні</option></select></label><label>Початковий FEN <input id="customFen" placeholder="Необов'язково" style="width:100%"/></label></div></section></aside><div aria-hidden="true" class="drawer-backdrop hidden" id="drawerBackdrop" onclick="toggleDrawer(false)"></div><div class="trainer-workspace"><section class="card"><div class="trainer-head"><button aria-controls="settingsDrawer" aria-expanded="true" class="menu-toggle" id="drawerToggle" onclick="toggleDrawer()" type="button">☰ Меню</button><h2>Шаховий тренажер</h2></div>
+<label class="field" id="mateField"><span>Мат за</span><select id="mateIn" onchange="filtersChanged()"><option value="">Будь-яка довжина</option><option value="1">1 хід</option><option value="2">2 ходи</option><option value="3">3 ходи</option><option value="0">Неповне рішення</option></select></label></div><label class="field" id="difficultyField"><span>Навчальний рівень</span><select id="difficulty" onchange="filtersChanged()"><option value="">Усі рівні</option><option value="1">1 — початковий</option><option value="2">2 — базовий</option><option value="3">3 — середній</option><option value="4">4 — складний</option><option value="5">5 — високий</option></select></label><p class="small" id="levelExplain">Рівень складності визначається окремо за Elo або евристикою CDB. Для матових задач фільтр рахує ходи сторони, що починає, у головній авторській лінії.</p><div class="hidden" id="gameOpts"><label>Stockfish Skill Level <input id="skill" max="20" min="0" style="width:70px" type="number" value="4"/></label><label>Ви граєте нижніми фігурами: <select id="color"><option value="white">Білі</option><option value="black">Чорні</option></select></label><button type="button" onclick="togglePositionEditor()">♟ Редактор позиції на дошці</button><label>Початковий FEN <input id="customFen" placeholder="Необов'язково" style="width:100%"/></label></div></section></aside><div aria-hidden="true" class="drawer-backdrop hidden" id="drawerBackdrop" onclick="toggleDrawer(false)"></div><div class="trainer-workspace"><section class="card"><div class="trainer-head"><button aria-controls="settingsDrawer" aria-expanded="true" class="menu-toggle" id="drawerToggle" onclick="toggleDrawer()" type="button">☰ Меню</button><h2>Шаховий тренажер</h2></div>
 
-<div class="layout"><div class="board-box"><div class="board-frame" data-result="idle" id="boardFrame"><div aria-label="Шахівниця з координатами" class="board" id="board" role="group"></div></div><div class="playback-panel" id="playbackPanel"><strong id="playbackTitle">Історія ходів</strong><div class="actions"><button onclick="historyStep(-1)" id="historyPrev" disabled>◀</button><span id="historyCounter">0 / 0</span><button onclick="historyStep(1)" id="historyNext" disabled>▶</button><button id="historyReturn" class="hidden" onclick="closePlayback()">Повернутися до останньої позиції</button></div><div class="smallnote" id="historyMove">Початкова позиція</div><p class="smallnote" id="historyNotice">Після виконання ходів тут буде доступний їх перегляд.</p></div><p class="small" id="boardHelp">Натисніть фігуру та поле або перетягніть фігуру мишею / тачпадом.</p><div id="positionComment" class="position-comment hidden" aria-live="polite"><strong>Коментар автора до позиції</strong><p id="positionCommentText"></p></div><div aria-live="polite" class="board-feedback" id="boardFeedback" role="status"></div></div>
+<div class="layout"><div class="board-box"><div class="board-frame" data-result="idle" id="boardFrame"><div aria-label="Шахівниця з координатами" class="board" id="board" role="group"></div></div><div class="position-editor hidden" id="positionEditor" aria-label="Редактор шахової позиції">
+ <strong>Редагування позиції</strong>
+ <p class="smallnote">Оберіть фігуру і клацніть поле, або оберіть «Перемістити» та двічі клацніть поля. «Стерти» видаляє фігури.</p>
+ <div class="editor-palette" id="editorPalette" aria-label="Палітра шахових фігур"></div>
+ <div class="editor-actions"><button type="button" onclick="selectEditorTool('move')" id="editorMove">⇄ Перемістити</button><button type="button" onclick="selectEditorTool('erase')" id="editorErase">⌫ Стерти</button><button type="button" onclick="editorClear()">Очистити дошку</button><button type="button" onclick="editorReset()">Початкова позиція</button></div>
+ <div class="editor-settings"><label>Черга ходу <select id="editorTurn" onchange="editorOptionsChanged()"><option value="w">Білі</option><option value="b">Чорні</option></select></label><label><input type="checkbox" id="editorK" onchange="editorOptionsChanged()">K</label><label><input type="checkbox" id="editorQ" onchange="editorOptionsChanged()">Q</label><label><input type="checkbox" id="editork" onchange="editorOptionsChanged()">k</label><label><input type="checkbox" id="editorq" onchange="editorOptionsChanged()">q</label><label>En passant <input id="editorEp" type="text" value="-" maxlength="2" onchange="editorOptionsChanged()" aria-label="Поле взяття на проході"></label></div>
+ <label class="smallnote" for="editorFen">FEN (формується автоматично; можна вставити власний):</label><input id="editorFen" class="editor-fen" aria-label="Редагований FEN" spellcheck="false" oninput="editorFenInput()">
+ <p class="smallnote" id="editorStatus" role="status" aria-live="polite">Перед початком партії позицію перевірить python-chess.</p>
+ <div class="editor-actions"><button type="button" onclick="applyEditorPosition()" class="primary">✓ Застосувати й почати партію</button><button type="button" onclick="cancelPositionEditor()">Скасувати</button></div>
+</div><div class="playback-panel" id="playbackPanel"><strong id="playbackTitle">Історія ходів</strong><div class="actions"><button onclick="historyStep(-1)" id="historyPrev" disabled>◀</button><span id="historyCounter">0 / 0</span><button onclick="historyStep(1)" id="historyNext" disabled>▶</button><button id="historyReturn" class="hidden" onclick="closePlayback()">Повернутися до останньої позиції</button></div><div class="smallnote" id="historyMove">Початкова позиція</div><p class="smallnote" id="historyNotice">Після виконання ходів тут буде доступний їх перегляд.</p></div><p class="small" id="boardHelp">Натисніть фігуру та поле або перетягніть фігуру мишею / тачпадом.</p><div id="positionComment" class="position-comment hidden" aria-live="polite"><strong>Коментар автора до позиції</strong><p id="positionCommentText"></p></div><div aria-live="polite" class="board-feedback" id="boardFeedback" role="status"></div></div>
 <div class="side">
 
 
 
 <div aria-live="polite" class="count" id="available">Доступні вправи: увійдіть в акаунт</div>
 <div class="actions"><button class="primary" onclick="start()">▶ Почати / Наступна</button><button disabled="" id="hintBtn" onclick="getHint()">Підказка</button><button disabled="" id="solutionBtn" onclick="showSolution()">Рішення</button><button disabled id="resetCurrentBtn" onclick="resetCurrentExercise()" title="Знову виконати саме цю вправу">↺ Повторити задачу</button><button disabled="" id="playFromBtn" onclick="playFromExercise()">♞ Дограти зі Stockfish</button><button disabled="" id="engineSolveBtn" onclick="solveWithStockfish()">♟ Stockfish розв’язує (обидві сторони)</button><label class="small">Максимум півходів <input id="enginePlies" type="number" min="2" max="80" value="24" style="width:64px"></label><label class="small">Skill Level <input id="exerciseSkill" max="20" min="0" style="width:64px" type="number" value="4"/></label></div>
-<div class="game-toolbox hidden" id="gameToolbox"><button id="flipGameBtn" onclick="flipCurrentGame()" disabled>⇅ Перевернути дошку / змінити сторону</button><button id="historyBtn" onclick="showGameHistory()" disabled>◀ ▶ Переглянути партію</button><span class="smallnote" id="gameSideHint">У грі ви керуєте фігурами знизу. Перевертання змінює вашу сторону, Stockfish грає іншою.</span></div>
+<div class="game-toolbox hidden" id="gameToolbox"><button id="editPositionBtn" type="button" onclick="togglePositionEditor()">♟ Редагувати позицію</button><button id="flipGameBtn" onclick="flipCurrentGame()" disabled>⇅ Перевернути дошку / змінити сторону</button><button id="historyBtn" onclick="showGameHistory()" disabled>◀ ▶ Переглянути партію</button><span class="smallnote" id="gameSideHint">У грі ви керуєте фігурами знизу. Перевертання змінює вашу сторону, Stockfish грає іншою.</span></div>
 
 <div class="task"><strong id="turn">Оберіть тему й почніть вправу</strong><span id="goal">Для кожної вправи буде зазначено сторону ходу й мету.</span></div>
 <div class="hidden" id="solutionPanel"><strong>Авторське рішення · покроковий перегляд</strong>
@@ -162,6 +183,7 @@ html[data-ui-theme="dark"] .position-comment{background:#253b46;color:#edf5f8}
 <details class="card"><summary>Адміністрування імпорту</summary><p class="small">Для адміністратора: імпорт CDB та перегляд джерел.</p><input accept=".cdb,.gz,.tgz" id="file" type="file"/><button onclick="upload()">Імпортувати CDB</button><button onclick="sources()">Джерела</button><pre id="sources"></pre></details>
 </main><script>
 let playback=null,playbackIndex=0,playbackBefore=null,gameActive=false;
+let editorActive=false,editorDraft=null,editorOriginal=null,editorTool="move",editorSource=null,editorPointer=null,editorRevision=0;
 let exerciseTimeline=null,analysisTimeline=null,positionStatusCache=new Map(),positionStatusRequest=0;
 let moveBusy=false,dragState=null,dragSuppressClick=false,lastBoardMove=null,boardRenderFen=null,moveGeneration=0,solutionPreviousNode=null;
 let token=localStorage.getItem('agentchess_token')||'',fen='start',selected=null,selectedPiece=null,gid=null,session=null,catOffset=0,playerBlack=false,requestKey=0,lastSession=null,solutionData=null,solutionIndex=0,solutionBefore=null,solutionSelected=null;
@@ -215,13 +237,13 @@ function syncBoardDecorations(){
  }
 }
 function render(){
- const pieces=decode(fen),b=$('board');b.replaceChildren();
+ const pieces=editorActive?editorDraft.pieces:decode(fen),b=$('board');b.replaceChildren();b.classList.toggle('editor-active',editorActive);
  b.dataset.theme=$('boardTheme').value;b.dataset.pieces=$('pieceStyle').value;
  const indexes=Array.from({length:64},(_,i)=>playerBlack?63-i:i);
  for(let index=0;index<64;index++){
   const i=indexes[index],piece=pieces[i],sq=indexSquare(i);
   const d=document.createElement('div');d.dataset.square=sq;
-  d.className='square '+((Math.floor(i/8)+i%8)%2?'dark':'light')+(piece?' occupied':'');
+  d.className='square '+((Math.floor(i/8)+i%8)%2?'dark':'light')+(piece?' occupied':'')+(editorActive&&editorSource===sq?' editor-source':'');
   d.setAttribute('role','button');d.setAttribute('tabindex','0');
   d.setAttribute('aria-label',sq+(piece?' '+(piece===piece.toUpperCase()?'біла':'чорна')+' фігура':''));
   if(piece)d.appendChild(pieceElement(piece));
@@ -229,12 +251,12 @@ function render(){
    if(index%8===0){const lab=document.createElement('span');lab.className='coordinate coord-rank';lab.textContent=sq[1];d.appendChild(lab)}
    if(index>=56){const lab=document.createElement('span');lab.className='coordinate coord-file';lab.textContent=sq[0];d.appendChild(lab)}
   }
-  d.onclick=()=>{if(dragSuppressClick){dragSuppressClick=false;return}click(sq,piece,d)};
-  d.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();click(sq,piece,d)}};
+  d.onclick=()=>{if(dragSuppressClick){dragSuppressClick=false;return}if(editorActive)editorClick(sq);else click(sq,piece,d)};
+  d.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();if(editorActive)editorClick(sq);else click(sq,piece,d)}};
   d.onpointerdown=e=>startDrag(e,sq,piece);
   b.appendChild(d);
  }
- boardRenderFen=fen;syncBoardDecorations();refreshBoardNavigation();verifyBoardMate(fen);
+ boardRenderFen=fen;if(editorActive){$('board').querySelectorAll('.checkmated').forEach(el=>el.classList.remove('checkmated'));return}syncBoardDecorations();refreshBoardNavigation();verifyBoardMate(fen);
 }
 function animationDuration(){return Number($('animationSpeed').value)||0}
 function saveMoveOptions(){
@@ -351,9 +373,10 @@ async function animateUciSequence(initial,moves,finalFen){
   }
  }
 }
-function dragAllowed(piece){return !moveBusy&&!playback&&!solutionData&&(session||(gid&&gameActive))&&
+function dragAllowed(piece){return !editorActive&&!moveBusy&&!playback&&!solutionData&&(session||(gid&&gameActive))&&
    !!piece&&((piece===piece.toUpperCase())===(sideTurn(fen)==='w'))}
 function startDrag(e,sq,piece){
+ if(editorActive){if(e.button===0&&piece){editorPointer={id:e.pointerId,from:sq,x:e.clientX,y:e.clientY};e.currentTarget.setPointerCapture?.(e.pointerId)}return}
  if(e.button!==0||!dragAllowed(piece))return;
  selected=null;selectedPiece=null;syncBoardDecorations();
  const source=e.currentTarget,rect=source.getBoundingClientRect();
@@ -363,6 +386,7 @@ function startDrag(e,sq,piece){
  source.setPointerCapture?.(e.pointerId);
 }
 function draggingMove(e){
+ if(editorActive)return;
  const d=dragState;if(!d||d.pointerId!==e.pointerId)return;
  if(!d.moved && Math.hypot(e.clientX-d.startX,e.clientY-d.startY)<6)return;
  if(!d.moved){d.moved=true;selected=d.from;selectedPiece=d.piece;syncBoardDecorations();d.ghost=floatingPiece(d.piece,d.rect);d.source.querySelector('.piece')?.classList.add('drag-source')}
@@ -379,6 +403,17 @@ async function settleDraggedVisual(visual,returnHome){
  ghost?.remove();source?.querySelector('.piece')?.classList.remove('drag-source');
 }
 async function draggingEnd(e,cancelled=false){
+ if(editorActive){
+  const d=editorPointer;editorPointer=null;
+  if(d&&d.id===e.pointerId&&!cancelled&&Math.hypot(e.clientX-d.x,e.clientY-d.y)>9){
+   const target=document.elementFromPoint(e.clientX,e.clientY)?.closest('.square');
+   if(target?.dataset.square&&target.dataset.square!==d.from){
+    const moving=editorDraft.pieces[squareIndex(d.from)];
+    if(moving){editorDraft.pieces[squareIndex(d.from)]='';editorDraft.pieces[squareIndex(target.dataset.square)]=moving;editorChanged();dragSuppressClick=true;setTimeout(()=>dragSuppressClick=false,100)}
+   }
+  }
+  return;
+ }
  const d=dragState;if(!d||d.pointerId!==e.pointerId)return;
  if(!d.moved){clearDrag();return}
  dragSuppressClick=true;
@@ -559,6 +594,7 @@ window.addEventListener('resize',()=>{
 });
 
 async function click(s,p,d){
+ if(editorActive){editorClick(s);return}
  if(moveBusy)return;
  if(playback){msg('Закрийте перегляд партії, щоб грати.');return}
  if(solutionData){msg('Спочатку натисніть «Повернутися до вправи».');return}
@@ -700,10 +736,114 @@ async function resetCurrentExercise(){analysisTimeline=null;exerciseTimeline=nul
   render();progress();
  }catch(e){msg(e.message)}
 }
-function filtersChanged(){inactive('Оберіть «Почати / Наступна», щоб завантажити задачу.');setText('goal',topicHelp[$('mode').value]||'');setText('turn','Оберіть задачу');let game=$('mode').value==='game';$('gameOpts').classList.toggle('hidden',!game);$('mateField').classList.toggle('hidden',game||$('mode').value!=='мат');$('difficultyField').classList.toggle('hidden',game);$('levelExplain').classList.toggle('hidden',game);if(game){setText('available','Гра зі Stockfish');return}updateCount()}
+// MVP 0.5.14: edit a DRAFT position, never mutate an existing game before validation.
+const EDITOR_START='rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
+function parseEditorFen(value){
+ const parts=(value==='start'?EDITOR_START:value).trim().split(/\s+/);
+ if(parts.length!==6)throw Error('FEN повинен містити 6 полів');
+ const ranks=parts[0].split('/');
+ if(ranks.length!==8)throw Error('FEN повинен містити 8 горизонталей');
+ const pieces=[];
+ for(const rank of ranks){let count=0;for(const ch of rank){if(/[1-8]/.test(ch)){for(let j=0;j<Number(ch);j++)pieces.push('');count+=Number(ch)}else if(/[prnbqkPRNBQK]/.test(ch)){pieces.push(ch);count++}else throw Error('Некоректний символ фігури')}if(count!==8)throw Error('Кожна горизонталь повинна містити 8 полів')}
+ if(!['w','b'].includes(parts[1]))throw Error('Неправильна черга ходу');
+ if(!/^(?:-|[KQkq]{1,4})$/.test(parts[2])||new Set(parts[2]).size!==parts[2].length)throw Error('Некоректні права рокіровки');
+ if(!/^(?:-|[a-h][36])$/.test(parts[3]))throw Error('Некоректне поле en passant');
+ if(!/^\d+$/.test(parts[4])||!/^\d+$/.test(parts[5])||Number(parts[5])<1)throw Error('Некоректний номер ходу');
+ return {pieces,turn:parts[1],castle:parts[2],ep:parts[3],half:Number(parts[4]),full:Number(parts[5])};
+}
+function makeEditorFen(d){
+ let rows=[];for(let r=0;r<8;r++){let row='',empty=0;for(let c=0;c<8;c++){const piece=d.pieces[r*8+c];if(piece){if(empty){row+=empty;empty=0}row+=piece}else empty++}if(empty)row+=empty;rows.push(row)}
+ return rows.join('/')+' '+d.turn+' '+(d.castle||'-')+' '+(d.ep||'-')+' '+d.half+' '+d.full;
+}
+function editorSetStatus(text,error=false){const el=$('editorStatus');el.textContent=text;el.style.color=error?'#c84453':''}
+function editorSyncOptions(){
+ $('editorTurn').value=editorDraft.turn;
+ for(const key of ['K','Q','k','q'])$('editor'+key).checked=editorDraft.castle.includes(key);
+ $('editorEp').value=editorDraft.ep;
+ $('editorFen').value=makeEditorFen(editorDraft);
+}
+function editorPaletteRender(){
+ const palette=$('editorPalette');palette.replaceChildren();
+ for(const code of 'KQRBNPkqrbnp'){
+  const btn=document.createElement('button');btn.type='button';btn.setAttribute('aria-label',(code===code.toUpperCase()?'Біла ':'Чорна ')+letters[code]);
+  btn.textContent=glyph[code];btn.className=code===code.toUpperCase()?'editor-white':'editor-black';
+  btn.style.color=code===code.toUpperCase()?'#f7f7f7':'#111';btn.style.textShadow=code===code.toUpperCase()?'0 1px 2px #111, 1px 0 2px #111':'0 1px 1px #aaa';
+  btn.setAttribute('aria-pressed',String(editorTool===code));btn.onclick=()=>selectEditorTool(code);palette.appendChild(btn);
+ }
+ for(const [id,tool] of [['editorMove','move'],['editorErase','erase']])$(id).setAttribute('aria-pressed',String(editorTool===tool));
+}
+function selectEditorTool(tool){editorTool=tool;editorSource=null;editorPaletteRender();render()}
+function togglePositionEditor(){if(editorActive){cancelPositionEditor();return}openPositionEditor()}
+function openPositionEditor(){
+ if($('mode').value!=='game'){msg('Редактор доступний у режимі «Гра зі Stockfish»');return}
+ if(moveBusy){msg('Дочекайтеся завершення ходу');return}
+ editorOriginal={fen,playerBlack,gid,gameActive};
+ try{editorDraft=parseEditorFen(($('customFen').value||fen||'start'))}catch(e){editorDraft=parseEditorFen(fen||'start')}
+ editorActive=true;editorRevision++;editorTool='move';editorSource=null;selected=null;selectedPiece=null;playerBlack=$('color').value==='black';cancelAnimation();
+ $('positionEditor').classList.remove('hidden');$('editPositionBtn').textContent='✕ Закрити редактор';
+ editorSyncOptions();editorPaletteRender();editorSetStatus('Позиція змінюється лише в редакторі. Наявна партія не змінюється до початку нової.');render();
+}
+function editorChanged(){
+ editorRevision++;editorDraft.castle='-';editorDraft.ep='-';editorDraft.half=0;editorSource=null;
+ editorSyncOptions();editorSetStatus('Зміни не збережено. Права рокіровки та en passant скинуто: за потреби встановіть вручну.');render();
+}
+function editorClick(sq){
+ if(!editorActive)return;
+ const i=squareIndex(sq);
+ if(editorTool==='erase'){editorDraft.pieces[i]='';editorChanged();return}
+ if(editorTool==='move'){
+  if(editorSource){const orig=squareIndex(editorSource);if(orig!==i){editorDraft.pieces[i]=editorDraft.pieces[orig];editorDraft.pieces[orig]='';editorChanged()}else{editorSource=null;render()}return}
+  if(editorDraft.pieces[i]){editorSource=sq;render()}else editorSetStatus('Спочатку оберіть фігуру для переміщення');
+  return;
+ }
+ editorDraft.pieces[i]=editorTool;editorChanged();
+}
+function editorOptionsChanged(){
+ editorDraft.turn=$('editorTurn').value;
+ editorDraft.castle=['K','Q','k','q'].filter(k=>$('editor'+k).checked).join('')||'-';
+ editorDraft.ep=$('editorEp').value.trim()||'-';
+ editorRevision++;editorSyncOptions();editorSetStatus('Чергу ходу та спеціальні права оновлено.');
+}
+function editorFenInput(){
+ try{editorDraft=parseEditorFen($('editorFen').value);editorRevision++;editorSource=null;editorSyncOptions();editorSetStatus('FEN зчитано. Перед грою перевірить сервер.');render()}
+ catch(e){editorSetStatus(e.message,true)}
+}
+function editorClear(){editorDraft.pieces=Array(64).fill('');editorChanged()}
+function editorReset(){editorDraft=parseEditorFen(EDITOR_START);editorRevision++;editorSource=null;editorSyncOptions();editorSetStatus('Початкова шахова позиція');render()}
+function cancelPositionEditor(){
+ if(!editorActive)return;
+ editorActive=false;editorRevision++;editorSource=null;editorPointer=null;
+ $('positionEditor').classList.add('hidden');$('editPositionBtn').textContent='♟ Редагувати позицію';
+ if(editorOriginal){fen=editorOriginal.fen;playerBlack=editorOriginal.playerBlack}
+ editorDraft=null;editorOriginal=null;render();
+}
+async function applyEditorPosition(){
+ if(!editorActive)return;
+ const revision=editorRevision;
+ let draft,editedFen;
+ try{draft=parseEditorFen($('editorFen').value);editedFen=makeEditorFen(draft)}
+ catch(e){editorSetStatus(e.message,true);return}
+ editorSetStatus('Перевірка шахової позиції...');
+ try{
+  const check=await api('/position/validate','POST',{fen:editedFen});
+  if(!editorActive||revision!==editorRevision)return;
+  // Start a NEW game only after successful validation, leaving the old game untouched on failure.
+  const game=await api('/games','POST',{fen:check.fen,skill:+$('skill').value,color:$('color').value});
+  if(!editorActive||revision!==editorRevision)return;
+  editorActive=false;editorRevision++;editorDraft=null;editorOriginal=null;editorSource=null;
+  $('positionEditor').classList.add('hidden');$('editPositionBtn').textContent='♟ Редагувати позицію';
+  analysisTimeline=null;exerciseTimeline=null;cancelAnimation();clearPlayback(true);clearSolution();session=null;lastSession=null;
+  gid=game.id;fen=game.fen;playerBlack=game.player_color==='black';gameActive=game.status==='active';
+  selected=null;selectedPiece=null;lastBoardMove=null;$('customFen').value=check.fen;
+  $('hintBtn').disabled=true;$('solutionBtn').disabled=true;$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;
+  refreshGameButtons();setText('turn','Гра зі Stockfish');setText('goal','Ви граєте '+(playerBlack?'чорними':'білими')+'.');setText('stateLabel','Партія');
+  msg('Нова партія почалася зі створеної позиції.');render();
+ }catch(e){if(editorActive)editorSetStatus('Неможливо розпочати: '+e.message,true)}
+}
+function filtersChanged(){if(editorActive)cancelPositionEditor();inactive('Оберіть «Почати / Наступна», щоб завантажити задачу.');setText('goal',topicHelp[$('mode').value]||'');setText('turn','Оберіть задачу');let game=$('mode').value==='game';$('gameOpts').classList.toggle('hidden',!game);$('mateField').classList.toggle('hidden',game||$('mode').value!=='мат');$('difficultyField').classList.toggle('hidden',game);$('levelExplain').classList.toggle('hidden',game);if(game){setText('available','Гра зі Stockfish');return}updateCount()}
 function params(){let q=new URLSearchParams({topic:$('mode').value});if($('difficulty').value)q.set('difficulty',$('difficulty').value);if($('mode').value==='мат' && $('mateIn').value!=='')q.set('mate_in',$('mateIn').value);return q}
 async function updateCount(){let key=++requestKey;if(!token){setText('available','Доступні вправи: увійдіть в акаунт');return}if($('mode').value==='game')return;try{let r=await api('/exercises/count?'+params());if(key!==requestKey)return;setText('available',r.total?`Доступно: ${r.total} · за джерелами: ${r.source_based}`:'Для обраного рівня немає вправ — виберіть «Усі рівні».')}catch(e){if(key===requestKey)setText('available','Не вдалося визначити кількість: '+e.message)}}
-async function start(){analysisTimeline=null;exerciseTimeline=null;cancelAnimation();lastBoardMove=null;clearPlayback(true);gameActive=false;setBoardFeedback('idle');clearSolution();session=null;gid=null;refreshGameButtons();lastSession=null;$('resetCurrentBtn').disabled=true;showPositionComment('');$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;$('sourceSolution').classList.add('hidden');setText('sourceSolution','');setText('sourceMeta','');selected=null;selectedPiece=null;setText('tryCount','Невдалих спроб: 0');$('hintBtn').disabled=true;try{if($('mode').value==='game'){let r=await api('/games','POST',{fen:$('customFen').value||null,skill:+$('skill').value,color:$('color').value});gid=r.id;fen=r.fen;playerBlack=r.player_color==='black';gameActive=r.status==='active';refreshGameButtons();setText('turn','Гра зі Stockfish');setText('goal','Ви граєте '+($('color').value==='black'?'чорними':'білими')+'.');setText('sourceNotice','');setText('stateLabel','Партія');msg('Партію розпочато.')}else{let r=await api('/exercises/next?'+params());session=r.session_id;lastSession=r.session_id;$('playFromBtn').disabled=false;$('engineSolveBtn').disabled=false;$('solutionBtn').disabled=false;$('resetCurrentBtn').disabled=false;showPositionComment(r.comment);fen=r.fen;exerciseTimeline=[{fen:r.fen,uci:null,san:'Початкова позиція'}];playerBlack=r.side==='black';let side=r.side==='white'?'білих':'чорних';setText('turn','Хід '+side);setText('goal',r.goal);setText('stateLabel',r.mode==='VERIFIED'?'Перевірений перший хід':r.mode==='SOURCE_LINE'?'Авторський варіант':'Вільне тренування');setText('sourceMeta',`Джерело: ${r.source_file || 'невідоме'} · CDB №${r.source_record_id ?? '?'} · ходів атакуючої сторони в авторському рішенні: ${r.source_attacker_moves ?? 'не визначено'} · усього ${r.source_plies ?? 0} півходів`);setText('sourceNotice',r.mode==='VERIFIED'?'Перевірена умова першого ходу; не всі альтернативи та мотиви доведені.':r.mode==='SOURCE_LINE'?'Рішення з шахової книги CDB: ходи звіряються з авторським варіантом.':'У позиції немає готової лінії ходів; система не оцінює правильність ходу.');$('hintBtn').disabled=false;msg('Вправа №'+r.id+' · '+r.topic+(r.source_plies===1?' · У джерелі наведений лише один хід.':''))}render()}catch(e){inactive(e.message)}}
+async function start(){if(editorActive){await applyEditorPosition();return}analysisTimeline=null;exerciseTimeline=null;cancelAnimation();lastBoardMove=null;clearPlayback(true);gameActive=false;setBoardFeedback('idle');clearSolution();session=null;gid=null;refreshGameButtons();lastSession=null;$('resetCurrentBtn').disabled=true;showPositionComment('');$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;$('sourceSolution').classList.add('hidden');setText('sourceSolution','');setText('sourceMeta','');selected=null;selectedPiece=null;setText('tryCount','Невдалих спроб: 0');$('hintBtn').disabled=true;try{if($('mode').value==='game'){let r=await api('/games','POST',{fen:$('customFen').value||null,skill:+$('skill').value,color:$('color').value});gid=r.id;fen=r.fen;playerBlack=r.player_color==='black';gameActive=r.status==='active';refreshGameButtons();setText('turn','Гра зі Stockfish');setText('goal','Ви граєте '+($('color').value==='black'?'чорними':'білими')+'.');setText('sourceNotice','');setText('stateLabel','Партія');msg('Партію розпочато.')}else{let r=await api('/exercises/next?'+params());session=r.session_id;lastSession=r.session_id;$('playFromBtn').disabled=false;$('engineSolveBtn').disabled=false;$('solutionBtn').disabled=false;$('resetCurrentBtn').disabled=false;showPositionComment(r.comment);fen=r.fen;exerciseTimeline=[{fen:r.fen,uci:null,san:'Початкова позиція'}];playerBlack=r.side==='black';let side=r.side==='white'?'білих':'чорних';setText('turn','Хід '+side);setText('goal',r.goal);setText('stateLabel',r.mode==='VERIFIED'?'Перевірений перший хід':r.mode==='SOURCE_LINE'?'Авторський варіант':'Вільне тренування');setText('sourceMeta',`Джерело: ${r.source_file || 'невідоме'} · CDB №${r.source_record_id ?? '?'} · ходів атакуючої сторони в авторському рішенні: ${r.source_attacker_moves ?? 'не визначено'} · усього ${r.source_plies ?? 0} півходів`);setText('sourceNotice',r.mode==='VERIFIED'?'Перевірена умова першого ходу; не всі альтернативи та мотиви доведені.':r.mode==='SOURCE_LINE'?'Рішення з шахової книги CDB: ходи звіряються з авторським варіантом.':'У позиції немає готової лінії ходів; система не оцінює правильність ходу.');$('hintBtn').disabled=false;msg('Вправа №'+r.id+' · '+r.topic+(r.source_plies===1?' · У джерелі наведений лише один хід.':''))}render()}catch(e){inactive(e.message)}}
 async function playFromExercise(){analysisTimeline=null;exerciseTimeline=null;clearPlayback(true);setBoardFeedback('idle');if(solutionData)closeSolution();if(!lastSession)return msg('Спочатку відкрийте шахову вправу');try{let r=await api('/games/from-exercise','POST',{session_id:lastSession,skill:+$('exerciseSkill').value,color:playerBlack?'black':'white'});session=null;gid=r.id;fen=r.fen;playerBlack=r.player_color==='black';gameActive=r.status==='active';refreshGameButtons();$('hintBtn').disabled=true;$('playFromBtn').disabled=true;$('engineSolveBtn').disabled=true;$('solutionBtn').disabled=true;$('resetCurrentBtn').disabled=false;setText('turn','Гра зі Stockfish · хід '+(playerBlack?'чорних':'білих'));setText('goal','Гра зі Stockfish із позиції задачі. Ви граєте '+(playerBlack?'чорними':'білими')+'.');setText('stateLabel','Партія');msg(r.note+' · Зробіть хід фігурами знизу.');render()}catch(e){msg(e.message)}}
 async function getHint(){if(!session)return;try{let r=await api('/exercises/hint','POST',{session_id:session});msg(r.hint)}catch(e){msg(e.message)}}
 async function sources(){try{setText('sources',JSON.stringify(await api('/sources'),null,2))}catch(e){msg(e.message)}}
@@ -865,7 +1005,7 @@ function refreshBoardNavigation(){
  setText('historyNotice',gid?'Натисніть ◀ для перегляду ходів партії.':count?'Натисніть ◀ для перегляду попередніх ходів.':'Після виконання ходів тут буде доступний їх перегляд.');
 }
 async function historyStep(delta){
- if(moveBusy)return;
+ if(editorActive||moveBusy)return;
  if(playback){playbackStep(delta);return}
  if(delta>=0)return;
  if(gid){
@@ -894,6 +1034,7 @@ function applyMateDecoration(shownFen,result){
  }
 }
 async function showGameHistory(){
+ if(editorActive)return msg('Спочатку завершіть редагування позиції');
  if(!gid)return msg('Спочатку почніть партію');
  try{
   const r=await api('/games/'+gid+'/timeline');
@@ -901,6 +1042,7 @@ async function showGameHistory(){
  }catch(e){msg(e.message)}
 }
 async function flipCurrentGame(){
+ if(editorActive)return msg('Спочатку завершіть редагування позиції');
  if(!gid)return msg('Немає партії для перевертання');
  if(playback)closePlayback();
  try{
@@ -944,5 +1086,6 @@ async function refreshMateOptions(){
  }catch(e){console.warn('Не вдалося отримати довжини матових рішень',e)}
 }
 
+$('color').addEventListener('change',()=>{if(editorActive){playerBlack=$('color').value==='black';render()}});
 loadUiTheme();loadAppearance();loadMoveOptions();loadDrawer();setBoardFeedback('idle');render();filtersChanged();if(token)api('/users/me').then(u=>{setText('authStatus','Увійшли: '+u.username);loadAvailableTopics().then(refreshMateOptions).then(updateCount).then(refreshCatalogSources)}).catch(()=>{token='';localStorage.removeItem('agentchess_token');setText('authStatus','Потрібен повторний вхід')});
 </script></body></html>

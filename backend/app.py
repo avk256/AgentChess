@@ -381,6 +381,18 @@ def game_from_exercise(a:GameFromExercise,authorization:str|None=Header(None)):
  result=_start_game(u['id'],board,a.skill,color)
  return {**result,'color':color,'from_exercise':a.session_id,'note':note}
 
+class PositionValidation(BaseModel):
+ fen:str
+
+@app.post('/api/position/validate')
+def validate_position(a:PositionValidation,authorization:str|None=Header(None)):
+ """Validate an edited position using python-chess before creating a game."""
+ user(authorization)
+ if len(a.fen)>120:raise HTTPException(422,'Занадто довгий FEN')
+ board=board_of(a.fen)
+ if board.is_game_over(claim_draw=True):raise HTTPException(409,'Позиція вже завершена за правилами шахів')
+ return {'fen':board.fen(),'turn':'white' if board.turn else 'black'}
+
 @app.post('/api/games')
 def new_game(a:NewGame,authorization:str|None=Header(None)):
  u=user(authorization)
